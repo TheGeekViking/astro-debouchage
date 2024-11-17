@@ -1,11 +1,29 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import { serviceDetails } from "../data/serviceDetails";
 import Carousel from "../components/Carousel.astro";
 import FAQ from "../components/FAQ.astro";
 import ServicesGrid from "../components/ServicesGrid.astro";
+
+const { slug } = Astro.params;
+
+const service = serviceDetails[slug as keyof typeof serviceDetails];
+
+if (!service) {
+  // Redirect to 404 if service doesn't exist
+  return Astro.redirect("/404");
+}
+
+export async function getStaticPaths() {
+  return [
+    { params: { slug: "debouchage-drain" } },
+    { params: { slug: "debouchage-tuyaux" } },
+    { params: { slug: "debouchage-toilette" } },
+  ];
+}
 ---
 
-<MainLayout title="Débouchage de Drain | Urgence 24/7">
+<MainLayout title={service.title}>
   <div class="bg-blue-50">
     <div
       class="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14"
