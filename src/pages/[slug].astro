@@ -17,8 +17,13 @@ if (!service) {
 export async function getStaticPaths() {
   return [
     { params: { slug: "debouchage-drain" } },
-    { params: { slug: "debouchage-tuyaux" } },
     { params: { slug: "debouchage-toilette" } },
+    { params: { slug: "debouchage-evier-cuisine" } },
+    { params: { slug: "debouchage-bain-douche" } },
+    { params: { slug: "debouchage-lavabo" } },
+    { params: { slug: "nettoyage-drain-hydro-pression" } },
+    { params: { slug: "nettoyage-drain-garage" } },
+    { params: { slug: "inspection-camera" } },
   ];
 }
 ---
@@ -40,16 +45,13 @@ export async function getStaticPaths() {
           <h1
             class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto"
           >
-            Service d'urgence de débouchage de drain
+            {service.MainTitle}
           </h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p
               class="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8"
             >
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
-              Qui irure qui lorem cupidatat commodo.
+              {service.firstDescription}
             </p>
             <div class="mt-10 flex items-center gap-x-6">
               <a
@@ -92,74 +94,39 @@ export async function getStaticPaths() {
             <p
               class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
             >
-              A better workflow
+              {service.secondTitle}
             </p>
             <p class="mt-6 text-lg/8 text-gray-600">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              {service.secondDescription}
             </p>
             <dl
               class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"
             >
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg
-                    class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                    version="1.1"
-                    viewBox="0 0 1200 1200"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m600 1125c-289.5 0-525-235.5-525-525s235.5-525 525-525 525 235.5 525 525-235.5 525-525 525zm0-975c-248.26 0-450 201.74-450 450s201.74 450 450 450 450-201.74 450-450-201.74-450-450-450zm-32.25 674.63c10.125-1.5 19.5-7.125 25.5-15.75l262.5-375c12-16.875 7.875-40.5-9.375-52.125-16.875-12-40.5-7.875-52.125 9.375l-239.63 342.37-156.37-124.87c-16.125-13.125-39.75-10.125-52.875 6-12.75 16.125-10.125 39.75 6 52.875l187.5 150c6.75 5.25 15 8.25 23.25 8.25 1.875 0 3.375 0 5.25-0.375z"
-                      fill="#0092d5"></path>
-                  </svg>
-                  Push to deploy.
-                </dt>
-                <dd class="inline">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
-                </dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg
-                    class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                    version="1.1"
-                    viewBox="0 0 1200 1200"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m600 1125c-289.5 0-525-235.5-525-525s235.5-525 525-525 525 235.5 525 525-235.5 525-525 525zm0-975c-248.26 0-450 201.74-450 450s201.74 450 450 450 450-201.74 450-450-201.74-450-450-450zm-32.25 674.63c10.125-1.5 19.5-7.125 25.5-15.75l262.5-375c12-16.875 7.875-40.5-9.375-52.125-16.875-12-40.5-7.875-52.125 9.375l-239.63 342.37-156.37-124.87c-16.125-13.125-39.75-10.125-52.875 6-12.75 16.125-10.125 39.75 6 52.875l187.5 150c6.75 5.25 15 8.25 23.25 8.25 1.875 0 3.375 0 5.25-0.375z"
-                      fill="#0092d5"></path>
-                  </svg>
-                  SSL certificates.
-                </dt>
-                <dd class="inline">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo.
-                </dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg
-                    class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                    version="1.1"
-                    viewBox="0 0 1200 1200"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m600 1125c-289.5 0-525-235.5-525-525s235.5-525 525-525 525 235.5 525 525-235.5 525-525 525zm0-975c-248.26 0-450 201.74-450 450s201.74 450 450 450 450-201.74 450-450-201.74-450-450-450zm-32.25 674.63c10.125-1.5 19.5-7.125 25.5-15.75l262.5-375c12-16.875 7.875-40.5-9.375-52.125-16.875-12-40.5-7.875-52.125 9.375l-239.63 342.37-156.37-124.87c-16.125-13.125-39.75-10.125-52.875 6-12.75 16.125-10.125 39.75 6 52.875l187.5 150c6.75 5.25 15 8.25 23.25 8.25 1.875 0 3.375 0 5.25-0.375z"
-                      fill="#0092d5"></path>
-                  </svg>
-                  Database backups.
-                </dt>
-                <dd class="inline">
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.
-                </dd>
-              </div>
+              {
+                service.details.map((detail) => (
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg
+                        class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+                        version="1.1"
+                        viewBox="0 0 1200 1200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m600 1125c-289.5 0-525-235.5-525-525s235.5-525 525-525 525 235.5 525 525-235.5 525-525 525zm0-975c-248.26 0-450 201.74-450 450s201.74 450 450 450 450-201.74 450-450-201.74-450-450-450zm-32.25 674.63c10.125-1.5 19.5-7.125 25.5-15.75l262.5-375c12-16.875 7.875-40.5-9.375-52.125-16.875-12-40.5-7.875-52.125 9.375l-239.63 342.37-156.37-124.87c-16.125-13.125-39.75-10.125-52.875 6-12.75 16.125-10.125 39.75 6 52.875l187.5 150c6.75 5.25 15 8.25 23.25 8.25 1.875 0 3.375 0 5.25-0.375z"
+                          fill="#0092d5"
+                        />
+                      </svg>
+                      {detail.title}
+                    </dt>
+                    <dd class="inline">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Maiores impedit perferendis suscipit eaque, iste dolor
+                      cupiditate blanditiis ratione.
+                    </dd>
+                  </div>
+                ))
+              }
             </dl>
           </div>
         </div>
@@ -202,25 +169,14 @@ export async function getStaticPaths() {
             <p class="text-base/7 font-semibold text-blue-500">
               Company values
             </p>
-            <h1
+            <h2
               class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
             >
-              On a mission to empower remote teams
-            </h1>
+              {service.thirdTitle}
+            </h2>
             <div class="max-w-xl">
               <p class="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
-              </p>
-              <p class="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                {service.thirdDescription}
               </p>
             </div>
           </div>
