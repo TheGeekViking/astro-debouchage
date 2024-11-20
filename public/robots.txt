@@ -1,1 +1,4 @@
-Sitemap: https://debouchagesolutions.ca/sitemap.xml
+User-agent: *
+Disallow: /submit
+
+Sitemap: https://debouchagesolutions.ca/sitemap-index.xml
