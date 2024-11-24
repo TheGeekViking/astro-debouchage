@@ -1,5 +1,6 @@
 // src/data/serviceDetails.ts
 export const serviceDetails = {
+  // Debouchage drain
   "debouchage-drain": {
     title: "Débouchage de Drain | Service 24/7",
     MainTitle: "Service de débouchage de drain",
@@ -26,8 +27,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  //debouchage toilette
   "debouchage-toilette": {
     title: "Débouchage de Toilette | Service 24/7",
     MainTitle: "Service de débouchage de toilette",
@@ -55,8 +57,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  //debouchage evier de cuisine
   "debouchage-evier-cuisine": {
     title: "Débouchage d'évier de cuisine | Service 24/7",
     MainTitle: "Service de débouchage d'évier de cuisine",
@@ -84,8 +87,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  // debouchage bain et douche
   "debouchage-bain-douche": {
     title: "Débouchage de bain et douche | Service 24/7",
     MainTitle: "Service de débouchage de bain et douche",
@@ -114,8 +118,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  // debouchage lavabo
   "debouchage-lavabo": {
     title: "Débouchage de lavabo | Service 24/7",
     MainTitle: "Service de débouchage de lavabo",
@@ -143,8 +148,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  // nettoyage drain hydro pression
   "nettoyage-drain-hydro-pression": {
     title: "Nettoyage à hydro-pression | Service 24/7",
     MainTitle: "Service de nettoyage à hydro-pression",
@@ -172,8 +178,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  // nettoyage drain de garage
   "nettoyage-drain-garage": {
     title: "Nettoyage de drain de garage | Service 24/7",
     MainTitle: "Service de nettoyage de drain de garage",
@@ -202,8 +209,9 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
+  // inpsection camera
   "inspection-camera": {
     title: "Inspection par caméra | Service 24/7",
     MainTitle: "Service d'inspection par caméra",
@@ -231,6 +239,6 @@ export const serviceDetails = {
     ],
     thirdTitle: "Le drain va deboucher",
     thirdDescription:
-      "We provide emergency drain unclogging services 24/7.<br/> We provide emergency drain unclogging services 24/7.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
 };
