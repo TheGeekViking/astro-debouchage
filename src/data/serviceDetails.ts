@@ -2,27 +2,29 @@
 export const serviceDetails = {
   // Debouchage drain
   "debouchage-drain": {
-    title: "Débouchage de Drain | Service 24/7",
-    MainTitle: "Service de débouchage de drain",
-    firstDescription: "We provide emergency drain unclogging services 24/7.",
+    title: "Débouchage de Drain | Urgence 24/7",
+    MainTitle: "Service d'urgence de débouchage de drain",
+    firstDescription:
+      "Lorsqu’un drain est bouché, chaque minute compte. C’est pourquoi nos plombiers vous offrent un service d’urgence de débouchage de drain abordable, rapide et disponible 24h/7.",
     imgUrl1: "/images/drain.jpg",
-    secondTitle: "Le drain va deboucher",
-    secondDescription: "We provide emergency drain unclogging services 24/7.",
+    secondTitle: "Des solutions efficaces pour vos drains bouchés",
+    secondDescription:
+      "Nous savons comment un drain bloqué peut perturber votre quotidien. Nos experts sont prêt à vous servir rapidement.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Service d'urgence 24h/7.",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Disponible en tout temps, il nous fera un plaisir de vous offrir une intervention rapide avec de l'équipement moderne pour vos problèmes de drain.",
       },
       {
-        title: "SSL certificates.",
+        title: "Expérience avec tous les types de drains.",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Que ce soit un drain d'évier, baignoires, douches ou canalisations principales, nos plombiers possèdent l'expertise requise pour débloquer tous les types de drains rapidement et efficacement.",
       },
       {
-        title: "Database backups.",
+        title: "Prévention des blocages potentiels.",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "En plus de régler vos problèmes de drains, nos experts vous conseilleront sur les meilleurs méthodes d'entretien pour éviter des futurs blocages et garder vos canalisations en parfait état.",
       },
     ],
     thirdTitle: "Le drain va deboucher",

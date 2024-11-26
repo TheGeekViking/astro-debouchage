@@ -88,14 +88,14 @@ export async function getStaticPaths() {
       >
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-base/7 font-semibold text-blue-500">
-              Deploy faster
-            </h2>
-            <p
+            <span class="text-base/7 font-semibold text-blue-500">
+              Tranquillité d'esprit
+            </span>
+            <h2
               class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
             >
               {service.secondTitle}
-            </p>
+            </h2>
             <p class="mt-6 text-lg/8 text-gray-600">
               {service.secondDescription}
             </p>
@@ -138,57 +138,31 @@ export async function getStaticPaths() {
   </div>
 
   <!-- third section -->
-  <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="bg-white">
+    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="relative isolate overflow-hidden bg-blue-100 px-6 py-24 text-center sm:rounded-3xl sm:px-16"
       >
-        <div class="lg:pr-4">
-          <div
-            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
+        <h2
+          class="text-balance text-4xl font-semibold tracking-tight text-blue-950 sm:text-5xl"
+        >
+          Ne tardez pas à prendre rendez-vous
+        </h2>
+        <p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-blue-900">
+          Nous sommes là pour vous aidez avec vos problèmes de drains afin que
+          vous puissiez reprendre votre tranquilité d'esprit et confort.
+        </p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a
+            href="tel:4505420991"
+            class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 bg-blue-500 px-6 py-2 text-lg font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+            >450-542-0991</a
           >
-            <img
-              class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
-              src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
-              alt=""
-            />
-            <div class="absolute inset-0 bg-gray-400 mix-blend-multiply"></div>
-            <div
-              class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl"
-              aria-hidden="true"
-            >
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="text-base/7 text-gray-700 lg:max-w-lg">
-            <p class="text-base/7 font-semibold text-blue-500">
-              Company values
-            </p>
-            <h2
-              class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
-            >
-              {service.thirdTitle}
-            </h2>
-            <div class="max-w-xl">
-              <p class="mt-8">
-                {service.thirdDescription}
-              </p>
-            </div>
-          </div>
-
-          <div class="mt-10 flex items-center gap-x-6">
-            <a
-              href="tel:4505420991"
-              class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 bg-blue-500 px-6 py-2 text-lg font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
-              >450-542-0991</a
-            >
-            <a
-              href="#contact"
-              class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 border border-blue-500 px-6 py-2.5 text-lg font-semibold leading-6 text-blue-950 index-z hover:bg-blue-500 hover:text-white"
-              >Soumission Gratuite <span aria-hidden="true">→</span></a
-            >
-          </div>
+          <a
+            href="#contact"
+            class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 border border-blue-500 px-6 py-2.5 text-lg font-semibold leading-6 text-blue-950 index-z hover:bg-blue-500 hover:text-white"
+            >Soumission Gratuite <span aria-hidden="true">→</span></a
+          >
         </div>
       </div>
     </div>
