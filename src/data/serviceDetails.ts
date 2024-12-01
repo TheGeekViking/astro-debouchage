@@ -8,6 +8,7 @@ export const serviceDetails = {
       "Lorsqu’un drain est bouché, chaque minute compte. C’est pourquoi nos plombiers vous offrent un service d’urgence de débouchage de drain abordable, rapide et disponible 24h/7.",
     imgUrl1: "/images/drain.jpg",
     secondTitle: "Des solutions efficaces pour vos drains bouchés",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
       "Nous savons comment un drain bloqué peut perturber votre quotidien. Nos experts sont prêt à vous servir rapidement.",
     details: [
@@ -27,9 +28,10 @@ export const serviceDetails = {
           "En plus de régler vos problèmes de drains, nos experts vous conseilleront sur les meilleurs méthodes d'entretien pour éviter des futurs blocages et garder vos canalisations en parfait état.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
+    thirdTitle: "Quel sont les avantages de choisir Débouchage Solutions?",
+    thirdSubTitle: "Confiance",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chez Débouchage Solutions, nous voulons rendre le processus simple et efficace. Avec un service disponible 24h/7, vous n'avez qu'à nous appeler afin de prendre rendez-nous. Une fois que nos experts auront inspectés vos problèmes de drain, ils pourront procéder au débouchage grâce à des outils professionnels et finir le travaille avec des conseils afin que vous puissiez prévenir de futur problèmes de drain.",
   },
   //debouchage toilette
   "debouchage-toilette": {
@@ -39,6 +41,7 @@ export const serviceDetails = {
       "Expert toilet unclogging services for your home or business.",
     imgUrl1: "/images/saint-jean.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription: "We provide emergency toilet unclogging services 24/7.",
     details: [
       {
@@ -58,6 +61,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -69,6 +73,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription: "We provide emergency sink unclogging services 24/7.",
     details: [
       {
@@ -88,6 +93,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -99,6 +105,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
       "We provide emergency bath and shower unclogging services 24/7.",
     details: [
@@ -119,6 +126,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -130,6 +138,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription: "We provide emergency pipes unclogging services 24/7.",
     details: [
       {
@@ -149,6 +158,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -160,6 +170,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription: "We provide emergency hydro-jet cleaning services 24/7.",
     details: [
       {
@@ -179,6 +190,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -190,6 +202,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
       "We provide emergency garage drain unclogging services 24/7.",
     details: [
@@ -210,6 +223,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -221,6 +235,7 @@ export const serviceDetails = {
       "Expert pipe unclogging services for your home or business.",
     imgUrl1: "/images/sainte-julie.jpg",
     secondTitle: "Le drain va deboucher",
+    secondSubTitle: "Tranquilité d'esprit",
     secondDescription: "We provide camera inspection services 24/7.",
     details: [
       {
@@ -240,6 +255,7 @@ export const serviceDetails = {
       },
     ],
     thirdTitle: "Le drain va deboucher",
+    thirdSubTitle: "",
     thirdDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
