@@ -1,9 +1,11 @@
 ---
 interface Props {
   title: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
-const { title } = Astro.props;
+const { title, metaTitle, metaDescription } = Astro.props;
 import "@fontsource/roboto";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
@@ -13,7 +15,10 @@ import Navbar from "../components/Navbar.astro";
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta
+      name="description"
+      content={metaDescription || "Default description"}
+    />
     <meta name="viewport" content="width=device-width" />
     <!-- Google Tag Manager -->
     <script is:inline>
@@ -31,7 +36,8 @@ import Navbar from "../components/Navbar.astro";
     <!-- End Google Tag Manager -->
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{metaTitle || title}</title>
+    <slot name="head" />
   </head>
   <body class="tracking-wide">
     <!-- Google Tag Manager (noscript) -->

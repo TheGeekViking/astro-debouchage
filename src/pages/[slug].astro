@@ -17,20 +17,15 @@ if (!service) {
 }
 
 export async function getStaticPaths() {
-  return [
-    { params: { slug: "debouchage-drain" } },
-    { params: { slug: "debouchage-toilette" } },
-    { params: { slug: "debouchage-evier-cuisine" } },
-    { params: { slug: "debouchage-bain-douche" } },
-    { params: { slug: "debouchage-lavabo" } },
-    { params: { slug: "nettoyage-drain-hydro-pression" } },
-    { params: { slug: "nettoyage-drain-garage" } },
-    { params: { slug: "inspection-camera" } },
-  ];
+  return Object.keys(serviceDetails).map((key) => ({ params: { slug: key } }));
 }
 ---
 
-<MainLayout title={service.title}>
+<MainLayout
+  title={service.title}
+  metaTitle={service.title}
+  metaDescription={service.metaDescription}
+>
   <div class="bg-blue-50">
     <div
       class="relative isolate overflow-hidden bg-gradient-to-b from-blue-100/20 pt-14"

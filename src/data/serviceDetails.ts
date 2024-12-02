@@ -3,6 +3,8 @@ export const serviceDetails = {
   // Debouchage drain
   "debouchage-drain": {
     title: "Débouchage de Drain | Urgence 24/7",
+    metaDescription:
+      "Problème de drain bouché? Plombiers disponible 24h/7 pour service d'urgence rapide et efficace. Appelez maintenant pour une intervention immédiate!",
     MainTitle: "Service d'urgence de débouchage de drain",
     firstDescription:
       "Lorsqu’un drain est bouché, chaque minute compte. C’est pourquoi nos plombiers vous offrent un service d’urgence de débouchage de drain abordable, rapide et disponible 24h/7.",
@@ -36,6 +38,8 @@ export const serviceDetails = {
   //debouchage toilette
   "debouchage-toilette": {
     title: "Débouchage de Toilette | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de débouchage de toilette",
     firstDescription:
       "Expert toilet unclogging services for your home or business.",
@@ -68,6 +72,8 @@ export const serviceDetails = {
   //debouchage evier de cuisine
   "debouchage-evier-cuisine": {
     title: "Débouchage d'évier de cuisine | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de débouchage d'évier de cuisine",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
@@ -100,6 +106,8 @@ export const serviceDetails = {
   // debouchage bain et douche
   "debouchage-bain-douche": {
     title: "Débouchage de bain et douche | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de débouchage de bain et douche",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
@@ -133,6 +141,8 @@ export const serviceDetails = {
   // debouchage lavabo
   "debouchage-lavabo": {
     title: "Débouchage de lavabo | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de débouchage de lavabo",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
@@ -165,6 +175,8 @@ export const serviceDetails = {
   // nettoyage drain hydro pression
   "nettoyage-drain-hydro-pression": {
     title: "Nettoyage à hydro-pression | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de nettoyage à hydro-pression",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
@@ -197,6 +209,8 @@ export const serviceDetails = {
   // nettoyage drain de garage
   "nettoyage-drain-garage": {
     title: "Nettoyage de drain de garage | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service de nettoyage de drain de garage",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
@@ -230,6 +244,8 @@ export const serviceDetails = {
   // inpsection camera
   "inspection-camera": {
     title: "Inspection par caméra | Service 24/7",
+    metaDescription:
+      "Get 24/7 emergency drain unclogging services in your area.",
     MainTitle: "Service d'inspection par caméra",
     firstDescription:
       "Expert pipe unclogging services for your home or business.",
