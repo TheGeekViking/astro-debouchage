@@ -37,37 +37,38 @@ export const serviceDetails = {
   },
   //debouchage toilette
   "debouchage-toilette": {
-    title: "Débouchage de Toilette | Service 24/7",
+    title: "Débouchage de Toilette | Urgence 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
-    MainTitle: "Service de débouchage de toilette",
+      "Toilette bouché? Plombiers disponible 24h/7 pour service d'urgence rapide et efficace. Appelez maintenant pour une intervention immédiate!",
+    MainTitle: "Service d'urgence de débouchage de toilette",
     firstDescription:
-      "Expert toilet unclogging services for your home or business.",
+      "Une toilette bloquée peut devenir rapidement une situation d'urgence. Grâce à nos plombiers expérimentés, l'intervention sera rapide et efficace, tout en offrant un service 24h/7.",
     imgUrl1: "/images/saint-jean.jpg",
-    secondTitle: "Le drain va deboucher",
-    secondSubTitle: "Tranquilité d'esprit",
-    secondDescription: "We provide emergency toilet unclogging services 24/7.",
+    secondTitle: "Intervention rapide pour votre toilette bouchée",
+    secondSubTitle: "Fiabilité",
+    secondDescription:
+      "On vous garanti un service fiable, efficace et disponible à tout moment.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Intervention rapide et garantie",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Nous comprenons l'urgence que vous vivez avec vos problèmes de toilette bouché. Nous nous engageons à rétablir le bon fonctionnement de votre toilette.",
       },
       {
-        title: "SSL certificates.",
+        title: "Équipement moderne à la fine pointe",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Nos plombiers travaillent avec des outils modernes comme des furets électriques et pompes haute pression pour un débouchage de toilette assuré.",
       },
       {
-        title: "Database backups.",
+        title: "Prévention et conseil",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Après chaque intervention, nous prenons un moment pour vous conseiller afin que vous puissiez prévenir des futurs débordements.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle: "Pourquoi choisir Débouchage Solutions pour vos urgences?",
+    thirdSubTitle: "Courtoisie",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chez Débouchage Solutions, nous sommes au courant qu'une toilette bouchée peut être une grande source de stresse. C'est pourquoi nos experts mettent un point d'honneur à intervenir avec courtoisie et respect, même dans des situations urgentes. Prenez rendez-vous dès maintenant, pour que nous puissions rétablir votre confort.",
   },
   //debouchage evier de cuisine
   "debouchage-evier-cuisine": {
