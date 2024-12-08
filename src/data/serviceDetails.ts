@@ -52,10 +52,10 @@ export const serviceDetails = {
       {
         title: "Intervention rapide et garantie",
         description:
-          "Nous comprenons l'urgence que vous vivez avec vos problèmes de toilette bouché. Nous nous engageons à rétablir le bon fonctionnement de votre toilette.",
+          "Nous comprenons l'urgence que vous vivez avec vos problèmes de toilette qui déborde. Nous nous engageons à rétablir le bon fonctionnement de votre toilette.",
       },
       {
-        title: "Équipement moderne à la fine pointe",
+        title: "Équipement moderne",
         description:
           "Nos plombiers travaillent avec des outils modernes comme des furets électriques et pompes haute pression pour un débouchage de toilette assuré.",
       },
@@ -72,72 +72,74 @@ export const serviceDetails = {
   },
   //debouchage evier de cuisine
   "debouchage-evier-cuisine": {
-    title: "Débouchage d'évier de cuisine | Service 24/7",
+    title: "Débouchage d'évier de cuisine | Urgence 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
-    MainTitle: "Service de débouchage d'évier de cuisine",
+      "Service d'urgence 24h/7 pour débouchage d'évier de cuisine bouché. Contactez-nous maintenant pour une intervention rapide!",
+    MainTitle: "Service d'urgence pour débouchage d'évier de cuisine",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Besoin d'une intervention immédiate pour votre évier de cuisine bloqué? Heureusement, notre équipe de plombier est disponible 24h/7 pour sauver votre journée.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
-    secondSubTitle: "Tranquilité d'esprit",
-    secondDescription: "We provide emergency sink unclogging services 24/7.",
+    secondTitle: "Comment allons nous déboucher votre évier de cuisine?",
+    secondSubTitle: "Efficacité",
+    secondDescription:
+      "Que ce soit dû à des graisses accumulées, des résidus alimentaires ou d'autre obstructions plus complexes, rien ne nous intimide.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Diagnostic efficace",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Nous allons rapidement identifier la cause du bouchon dans votre évier de cuisine et procéder en conséquence.",
       },
       {
-        title: "SSL certificates.",
+        title: "Outils à la fine pointe.",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Avec nos outils avancés, comme les furets électriques et pompes haute pression, nous garantissons un débouchage impécable de votre évier de cuisine.",
       },
       {
-        title: "Database backups.",
+        title: "Consultation.",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Une fois l'intervention terminée, nous vous conseillons sur les meilleurs pratiques afin d'éviter une autre obstruction de votre évier.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle:
+      "Pourquoi faire confiance à nos experts pour le débouchage votre évier de cuisine?",
+    thirdSubTitle: "Professionnalisme",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Nous savons parfaitement qu'un évier bouché peut perturber votre quotidien, et c'est pourquoi résoudre votre problème d'évier est notre priorité. Avec un service 24h/7, nous offrons des interventions réalisées avec soin, professionnalisme et le souci de résoudre durablement vos problème d'évier bloqué.",
   },
   // debouchage bain et douche
   "debouchage-bain-douche": {
-    title: "Débouchage de bain et douche | Service 24/7",
+    title: "Débouchage de bain et douche | Urgence 24/7",
     metaDescription:
       "Get 24/7 emergency drain unclogging services in your area.",
-    MainTitle: "Service de débouchage de bain et douche",
+    MainTitle: "Service d'urgence de débouchage de bain et douche",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Votre baignoire ou douche est bouché? Ne tardez pas à nous contacter pour une intervention d'urgence rapide, grâce à une équipe de plombiers disponibles 24h/7.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
-    secondSubTitle: "Tranquilité d'esprit",
+    secondTitle: "Comment on s'y prend pour déboucher votre bain ou douche?",
+    secondSubTitle: "Rapidité",
     secondDescription:
-      "We provide emergency bath and shower unclogging services 24/7.",
+      "Qu'il s'agit de cheveux, de résidus de savon ou d'obstruction complexes, rien ne nous arrêtera.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Inspection avant intervention.",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Nous identifions efficacement la cause du blocage de votre baignoire ou douche et procédons adéquatement à l'intervention.",
       },
       {
-        title: "SSL certificates.",
+        title: "Outils modernes de qualité supérieur.",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Nos outils spécialisés nous permettent de déboucher vos bains et douches sans endommager vos canalisations.",
       },
       {
-        title: "Database backups.",
+        title: "Conseils pratiques d'entretien.",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Une fois que l'intervention est terminé, nous restons à votre disposition pour vous conseiller afin de prévenir des futurs blocages.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle: "Faites confiance à notre expertise pour vos urgences",
+    thirdSubTitle: "Satisfaction",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chez Débouchage Solutions Inc, votre satisfaction est notre priorité. Avec notre service rapide 24h/7 de débouchage de bain et douche, chaque urgence est traité avec le soucis de votre sécurité et bien-être.",
   },
   // debouchage lavabo
   "debouchage-lavabo": {
