@@ -110,7 +110,7 @@ export const serviceDetails = {
   "debouchage-bain-douche": {
     title: "Débouchage de bain et douche | Urgence 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
+      "Douche ou bain bouché? Plombiers qualifiés disponible 24h/7 pour intervention d'urgence. Contactez-nous dès maintenant.",
     MainTitle: "Service d'urgence de débouchage de bain et douche",
     firstDescription:
       "Votre baignoire ou douche est bouché? Ne tardez pas à nous contacter pour une intervention d'urgence rapide, grâce à une équipe de plombiers disponibles 24h/7.",
