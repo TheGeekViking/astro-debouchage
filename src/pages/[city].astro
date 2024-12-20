@@ -1,0 +1,176 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { cityDetails } from "../data/cityDetails";
+import ServicesGrid from "../components/ServicesGrid.astro";
+import CTA from "../components/CTA.astro";
+import FAQ from "../components/FAQ.astro";
+import Carousel from "../components/Carousel.astro";
+import ContactForm from "../components/ContactForm.astro";
+
+const { city } = Astro.params;
+
+// Get city details from the cityDetails object
+const cityData = cityDetails[city as keyof typeof cityDetails];
+
+if (!cityData) {
+  // Redirect to 404 if the city does not exist
+  return Astro.redirect("/404");
+}
+
+export async function getStaticPaths() {
+  return Object.keys(cityDetails).map((key) => ({ params: { city: key } }));
+}
+---
+
+<MainLayout title={cityData.title}>
+  <div class="relative isolate overflow-hidden pt-14">
+    <img
+      src="images/montreal.jpg"
+      alt=""
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+    />
+    <div
+      class="absolute inset-0 -z-10 bg-gradient-to-r from-blue-950 to-blue-700 opacity-90"
+    >
+    </div>
+
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 max-[440px]:px-6">
+      <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div class="relative px-3 py-1 text-2xl leading-6 text-blue-100">
+          Problème de tuyaux ou de drains?
+        </div>
+      </div>
+      <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          {cityData.mainTitle}
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-300">
+          {cityData.description}
+        </p>
+        <div
+          class="mt-10 flex gap-4 max-[440px]:flex-col items-center justify-center"
+        >
+          <a
+            href="tel:4505420991"
+            class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 bg-blue-500 px-6 py-2 text-lg font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+            >450-542-0991</a
+          >
+          <a
+            href="#contact"
+            class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 border border-blue-500 px-6 py-2.5 text-lg font-semibold leading-6 text-white hover:bg-blue-500"
+            >Soumission Gratuite <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <ServicesGrid />
+  <div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div
+        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+      >
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <span class="text-base/7 font-semibold text-blue-500"
+              >{cityData.secondSubTitle}</span
+            >
+            <h2
+              class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-blue-900 sm:text-5xl"
+            >
+              {cityData.secondTitle}
+            </h2>
+            <p class="mt-6 text-lg/8 text-gray-600">
+              {cityData.secondDescription}
+            </p>
+            <dl
+              class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"
+            >
+              {
+                cityData.details.map((detail) => (
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-blue-950">
+                      <svg
+                        class="absolute left-1 top-1 h-5 w-5 text-blue-600"
+                        version="1.1"
+                        viewBox="0 0 1200 1200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m600 1125c-289.5 0-525-235.5-525-525s235.5-525 525-525 525 235.5 525 525-235.5 525-525 525zm0-975c-248.26 0-450 201.74-450 450s201.74 450 450 450 450-201.74 450-450-201.74-450-450-450zm-32.25 674.63c10.125-1.5 19.5-7.125 25.5-15.75l262.5-375c12-16.875 7.875-40.5-9.375-52.125-16.875-12-40.5-7.875-52.125 9.375l-239.63 342.37-156.37-124.87c-16.125-13.125-39.75-10.125-52.875 6-12.75 16.125-10.125 39.75 6 52.875l187.5 150c6.75 5.25 15 8.25 23.25 8.25 1.875 0 3.375 0 5.25-0.375z"
+                          fill="#0092d5"
+                        />
+                      </svg>
+                      {detail.title}
+                    </dt>
+                    <dd class="inline">{detail.description}</dd>
+                  </div>
+                ))
+              }
+            </dl>
+          </div>
+        </div>
+        <img
+          src="../images/hero-img.jpg"
+          alt="Product screenshot"
+          class="w-[48rem] lg:max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+          width="2432"
+          height="1442"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div
+        class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+      >
+        <div class="lg:pr-4 order-2 lg:order-1">
+          <div
+            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
+          >
+            <img
+              class="absolute inset-0 size-full object-cover brightness-125 saturate-0"
+              src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+              alt=""
+            />
+            <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+          </div>
+        </div>
+        <div class="order-1 lg:order-2">
+          <div class="text-base/7 text-gray-700 lg:max-w-lg">
+            <p class="text-base/7 font-semibold text-blue-600">
+              {cityData.thirdSubTitle}
+            </p>
+            <h2
+              class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-blue-900 sm:text-5xl"
+            >
+              {cityData.thirdTitle}
+            </h2>
+            <div class="max-w-xl">
+              <p class="mt-6">{cityData.thirdDescription}</p>
+            </div>
+          </div>
+
+          <div class="mt-10 flex items-center gap-x-6">
+            <a
+              href="tel:4505420991"
+              class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 bg-blue-500 px-6 py-2 text-lg font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+              >450-542-0991</a
+            >
+            <a
+              href="/contactPage"
+              class="max-[440px]:w-full rounded-md transition ease-in-out delay-100 border border-blue-500 px-6 py-2.5 text-lg font-semibold leading-6 text-blue-950 index-z hover:bg-blue-500 hover:text-white"
+              >Soumission Gratuite <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <FAQ />
+  <CTA />
+  <Carousel />
+  <ContactForm />
+</MainLayout>

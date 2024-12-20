@@ -11,6 +11,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
   site: "https://yourdomain.com",
-  output: "hybrid",
+  output: "server",
   adapter: netlify(),
 });

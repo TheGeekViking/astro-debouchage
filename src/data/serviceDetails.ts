@@ -143,37 +143,38 @@ export const serviceDetails = {
   },
   // debouchage lavabo
   "debouchage-lavabo": {
-    title: "Débouchage de lavabo | Service 24/7",
+    title: "Débouchage de lavabo | Urgence 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
-    MainTitle: "Service de débouchage de lavabo",
+      "Votre lavabo est bouché? Faites appel à une équipe de plombiers qualifiée pour un débouchage rapide et efficace. Disponible 24h/7, contactez-nous dès maintenant pour une intervention immédiate.",
+    MainTitle: "Service d'urgence de débouchage de lavabo",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Votre lavabo est bloqué? Pas de soucis. Avec notre service de débouchage de lavabo, disponible 24h/7, nos plombiers sont prêts à intervenir avec des solutions efficaces pour restaurer votre confort rapidement.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
-    secondSubTitle: "Tranquilité d'esprit",
-    secondDescription: "We provide emergency pipes unclogging services 24/7.",
+    secondTitle: "Ce qui est inclus dans notre service de débouchage de lavabo",
+    secondSubTitle: "Expertise",
+    secondDescription:
+      "Nos plombiers savent exactement quoi faire dans le cas d'un débouchage de lavabo. Même quand c'est causé par des cheveux, résidus de savon ou d'autres obstructions.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Solutions pour chaque blocage.",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Chaque intervention est adaptée à la cause du problème, garatissant des solutions sur-mesure et rapide.",
       },
       {
-        title: "SSL certificates.",
+        title: "Des pratiques respectueuses.",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Nous nous assurons que nos méthodes soient conçues pour préserver l'intégrité de vos canalisations tout en éliminant les blocages.",
       },
       {
-        title: "Database backups.",
+        title: "Une équipe disponible 24h/7.",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Notre équipe de plombiers est toujours disponible à toute heure pour répondre à vos urgences avec efficacité.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle: "Faites Confiance à Nos Experts chez Débouchage Solutions",
+    thirdSubTitle: "Transparence",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Choisir notre équipe pour un débouchage de lavabo, c'est opter pour une équipe de plombiers dévouée à votre satisfaction. Nous intervenons rapidement et efficacements, en prenant soin de vos installations et en vous offrant des conseils pratiques pour prévenir des futurs blocages.",
   },
   // nettoyage drain hydro pression
   "nettoyage-drain-hydro-pression": {
