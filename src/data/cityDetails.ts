@@ -1,6 +1,8 @@
 export const cityDetails = {
   montreal: {
     title: "Débouchage Montreal | Urgence 24/7",
+    metaDescription:
+      "Service d'urgence de débouchage à Montréal: drains, lavabos, toilettes et plus. Intervention rapide 24h/7 avec des plombiers qualifiés. Satisfaction garantie!",
     cardTitle: "Débouchage Montreal",
     mainTitle: "Service de débouchage à Montreal",
     description:
