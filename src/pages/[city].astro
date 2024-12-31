@@ -29,7 +29,7 @@ export async function getStaticPaths() {
 >
   <div class="relative isolate overflow-hidden pt-14">
     <img
-      src="../images/montreal.jpg"
+      src={cityData.cardImgUrl}
       alt=""
       class="absolute inset-0 -z-10 h-full w-full object-cover"
     />
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
         <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
           {cityData.mainTitle}
         </h1>
-        <p class="mt-6 text-lg leading-8 text-gray-300">
+        <p class="mt-6 text-lg/8 leading-8 text-gray-300">
           {cityData.description}
         </p>
         <div
@@ -93,7 +93,7 @@ export async function getStaticPaths() {
               {
                 cityData.details.map((detail) => (
                   <div class="relative pl-9">
-                    <dt class="inline font-semibold text-blue-950">
+                    <dt class="inline font-semibold text-blue-950 text-lg/8">
                       <svg
                         class="absolute left-1 top-1 h-5 w-5 text-blue-600"
                         version="1.1"
@@ -107,7 +107,7 @@ export async function getStaticPaths() {
                       </svg>
                       {detail.title}
                     </dt>
-                    <dd class="inline">{detail.description}</dd>
+                    <dd class="inline text-lg/8">{detail.description}</dd>
                   </div>
                 ))
               }
@@ -153,7 +153,7 @@ export async function getStaticPaths() {
               {cityData.thirdTitle}
             </h2>
             <div class="max-w-xl">
-              <p class="mt-6">{cityData.thirdDescription}</p>
+              <p class="mt-6 text-lg/8">{cityData.thirdDescription}</p>
             </div>
           </div>
 
