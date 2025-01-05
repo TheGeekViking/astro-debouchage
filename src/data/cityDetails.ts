@@ -187,5 +187,120 @@ export const cityDetails = {
     thirdDescription:
       "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
   },
+  // Saint-Hyacinthe
+  "saint-hyacinthe": {
+    title: "Débouchage Hyacinthe | Urgence 24/7",
+    metaDescription:
+      "Service de débouchage à Saint-Constant. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
+    cardTitle: "Débouchage Saint-Hyacinthe",
+    cardImgUrl: "../images/saint-hyacinthe.jpg",
+    mainTitle: "Service de débouchage à Saint-Hyacinthe",
+    description:
+      "Besoin d’un débouchage à Saint-Hyacinthe? Plombiers locaux disponibles 24h/7 pour drains, canalisations et urgences de plomberie. Service rapide et solutions durables. Contactez-nous!",
+    imgUrl: "../images/saint-hyacinthe.jpg",
+    secondSubTitle: "Engagement Local",
+    secondTitle: "Des Solutions Fiables pour Vos Urgences à Saint-Constant",
+    secondDescription:
+      "À Saint-Constant, nous comprenons l’importance d’une intervention rapide et adaptée. Nos plombiers locaux offrent des solutions personnalisées pour répondre efficacement à tous vos besoins en débouchage. Avec une approche axée sur la qualité et des équipements de pointe, nous garantissons des résultats qui durent.",
+    details: [
+      {
+        title: "Solutions Sur-Mesure",
+        description:
+          "Chaque situation est unique, c’est pourquoi nous adaptons nos méthodes à vos besoins spécifiques, assurant un débouchage efficace et durable.",
+      },
+      {
+        title: "Expertise Locale Inégalée",
+        description:
+          "Basés à Saint-Constant, nos plombiers connaissent parfaitement les infrastructures locales, vous garantissant un service rapide et précis.",
+      },
+      {
+        title: "Engagement pour Votre Satisfaction",
+        description:
+          "Votre satisfaction est notre priorité. Nous nous assurons que chaque intervention soit réalisée avec soin et professionnalisme.",
+      },
+    ],
+    thirdSubTitle: "Expertise",
+    thirdTitle:
+      "Votre Partenaire de Confiance à Saint-Constant pour un Service de Qualité",
+    thirdDescription:
+      "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
+  },
+  // Saint-Jean-sur-Richelieu
+  "saint-saint-sur-richelieu": {
+    title: "Débouchage Saint-Jean-sur-Richelieu | Urgence 24/7",
+    metaDescription:
+      "Service de débouchage à Saint-Jean-sur-Richelieu. Plombiers locaux disponibles 24h/7 pour drains, lavabos, et canalisations bouchées. Interventions rapides et solutions fiables. Appelez-nous dès maintenant!",
+    cardTitle: "Débouchage Saint-Jean-sur-Richelieu",
+    cardImgUrl: "../images/saint-jean.jpg",
+    mainTitle: "Service d'urgence de Débouchage à Saint-Jean-sur-Richelieu",
+    description:
+      "À Saint-Jean-sur-Richelieu, nous offrons un service de débouchage rapide et fiable pour répondre à toutes vos urgences. Que ce soit pour un drain bloqué, une canalisation obstruée, ou des travaux de plomberie d’urgence, nos plombiers locaux sont disponibles 24h/7 pour intervenir avec professionnalisme et efficacité. Faites confiance à notre équipe pour des solutions durables adaptées à vos besoins.",
+    imgUrl: "../images/saint-jean.jpg",
+    secondSubTitle: "Engagement Local",
+    secondTitle: "Un Service Fiable et Rapide à Saint-Jean-sur-Richelieu",
+    secondDescription:
+      "Nos plombiers locaux à Saint-Jean-sur-Richelieu offrent bien plus qu’un simple débouchage. Grâce à notre expertise et à des outils modernes, nous garantissons des solutions rapides et adaptées à chaque situation. Peu importe l’ampleur du problème, vous pouvez compter sur notre engagement pour une intervention professionnelle.",
+    details: [
+      {
+        title: "Expertise Plomberie Locale",
+        description:
+          "Nos plombiers connaissent les particularités des infrastructures de Saint-Jean-sur-Richelieu, vous assurant un service adapté à vos besoins.",
+      },
+      {
+        title: "Intervention Rapide et Flexible",
+        description:
+          "Nous sommes disponibles 24h/7 pour intervenir à tout moment, même en cas d’urgence imprévue.",
+      },
+      {
+        title: "Résultats Garantis et Durables",
+        description:
+          "Chaque intervention est réalisée avec soin pour garantir des solutions fiables qui préviennent de futurs problèmes.",
+      },
+    ],
+    thirdSubTitle: "Expertise",
+    thirdTitle:
+      "Pourquoi Nous Sommes Votre Meilleur Choix à Saint-Jean-sur-Richelieu",
+    thirdDescription:
+      "Chez Débouchage Solutions, nous comprenons que chaque urgence de plomberie est stressante. C’est pourquoi nous mettons l’accent sur un service client exceptionnel et des interventions rapides. Avec des plombiers expérimentés et des outils modernes, nous offrons un débouchage efficace et des solutions durables. Faites confiance à notre équipe locale pour résoudre vos problèmes de manière professionnelle et sans tracas.",
+  },
+  // Saint-Lambert
+  "saint-lambert": {
+    title: "Débouchage Saint-Lambert | Urgence 24/7",
+    metaDescription:
+      "Service de débouchage à Saint-Jean-sur-Richelieu. Plombiers locaux disponibles 24h/7 pour drains, lavabos, et canalisations bouchées. Interventions rapides et solutions fiables. Appelez-nous dès maintenant!",
+    cardTitle: "Débouchage Saint-Lambert",
+    cardImgUrl: "../images/saint-lambert.jpg",
+    mainTitle: "Service d'urgence de Débouchage à Saint-Lambert",
+    description:
+      "À Saint-Jean-sur-Richelieu, nous offrons un service de débouchage rapide et fiable pour répondre à toutes vos urgences. Que ce soit pour un drain bloqué, une canalisation obstruée, ou des travaux de plomberie d’urgence, nos plombiers locaux sont disponibles 24h/7 pour intervenir avec professionnalisme et efficacité. Faites confiance à notre équipe pour des solutions durables adaptées à vos besoins.",
+    imgUrl: "../images/saint-lambert.jpg",
+    secondSubTitle: "Engagement Local",
+    secondTitle: "Un Service Fiable et Rapide à Saint-Jean-sur-Richelieu",
+    secondDescription:
+      "Nos plombiers locaux à Saint-Jean-sur-Richelieu offrent bien plus qu’un simple débouchage. Grâce à notre expertise et à des outils modernes, nous garantissons des solutions rapides et adaptées à chaque situation. Peu importe l’ampleur du problème, vous pouvez compter sur notre engagement pour une intervention professionnelle.",
+    details: [
+      {
+        title: "Expertise Plomberie Locale",
+        description:
+          "Nos plombiers connaissent les particularités des infrastructures de Saint-Jean-sur-Richelieu, vous assurant un service adapté à vos besoins.",
+      },
+      {
+        title: "Intervention Rapide et Flexible",
+        description:
+          "Nous sommes disponibles 24h/7 pour intervenir à tout moment, même en cas d’urgence imprévue.",
+      },
+      {
+        title: "Résultats Garantis et Durables",
+        description:
+          "Chaque intervention est réalisée avec soin pour garantir des solutions fiables qui préviennent de futurs problèmes.",
+      },
+    ],
+    thirdSubTitle: "Expertise",
+    thirdTitle:
+      "Pourquoi Nous Sommes Votre Meilleur Choix à Saint-Jean-sur-Richelieu",
+    thirdDescription:
+      "Chez Débouchage Solutions, nous comprenons que chaque urgence de plomberie est stressante. C’est pourquoi nous mettons l’accent sur un service client exceptionnel et des interventions rapides. Avec des plombiers expérimentés et des outils modernes, nous offrons un débouchage efficace et des solutions durables. Faites confiance à notre équipe locale pour résoudre vos problèmes de manière professionnelle et sans tracas.",
+  },
+
   // Add more cities here
 };
