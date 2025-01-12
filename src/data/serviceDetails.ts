@@ -180,103 +180,108 @@ export const serviceDetails = {
   "nettoyage-drain-hydro-pression": {
     title: "Nettoyage à hydro-pression | Service 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
+      "Service de nettoyage à hydro-pression rapide et fiable. Disponible 24h/7 pour drains obstrués et entretien préventif. Interventions écoresponsables et adaptées aux besoins résidentiels et commerciaux. Appelez dès maintenant!",
     MainTitle: "Service de nettoyage à hydro-pression",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Notre service de nettoyage à hydro-pression offre des solutions rapides et efficaces pour vos besoins résidentiels et commerciaux. Que ce soit pour des drains obstrués ou un entretien préventif, nos plombiers qualifiés interviennent avec des équipements modernes pour garantir des résultats durables. Disponible 24h/7, nous assurons des interventions professionnelles adaptées à chaque situation, pour une plomberie en parfait état.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
+    secondTitle: "Les Avantages du Nettoyage à Hydro-Pression",
     secondSubTitle: "Tranquilité d'esprit",
-    secondDescription: "We provide emergency hydro-jet cleaning services 24/7.",
+    secondDescription:
+      "Notre procédé de nettoyage à hydro-pression est conçu pour répondre aux besoins spécifiques des résidents et entreprises, en offrant une méthode efficace, sécurisée et respectueuse de l’environnement. Avec nos équipements modernes, vos canalisations retrouvent leur pleine fonctionnalité.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Puissance et Efficacité",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Le nettoyage à hydro-pression élimine les blocages les plus tenaces en un temps record, assurant un fonctionnement optimal de vos canalisations.",
       },
       {
-        title: "SSL certificates.",
+        title: "Sécurité pour Vos Installations",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Nos techniques sont non-invasives, respectant vos équipements tout en garantissant des résultats durables.",
       },
       {
-        title: "Database backups.",
+        title: "Solution Écoresponsable",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Cette méthode utilise uniquement de l’eau sous haute pression, évitant le recours à des produits chimiques nocifs.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle:
+      "Pourquoi Faire Confiance à Notre Service de Nettoyage à Hydro-Pression?",
+    thirdSubTitle: "Durabilité",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Nos années d’expérience et notre expertise en nettoyage à hydro-pression nous permettent de fournir des résultats rapides, précis et durables. Nous utilisons des équipements modernes et des méthodes écoresponsables pour assurer la sécurité de vos installations tout en répondant à vos besoins spécifiques. Disponible 24h/7, notre équipe s’engage à offrir un service professionnel et personnalisé, que ce soit pour une urgence ou un entretien préventif. Faites confiance à des plombiers qualifiés qui mettent votre satisfaction au cœur de chaque intervention.",
   },
   // nettoyage drain de garage
   "nettoyage-drain-garage": {
     title: "Nettoyage de drain de garage | Service 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
+      "Service de nettoyage de drain de garage rapide et professionnel. Disponible 24h/7 pour urgences et entretien préventif. Interventions fiables avec équipements modernes. Appelez dès maintenant pour des solutions durables!",
     MainTitle: "Service de nettoyage de drain de garage",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Un drain de garage obstrué peut rapidement devenir un problème majeur. C’est pourquoi notre équipe de plombiers qualifiés propose un service rapide et efficace pour le nettoyage de vos drains. Que ce soit pour une urgence ou un entretien préventif, nous utilisons des équipements modernes pour garantir des résultats durables. Disponible 24h/7, notre service s’adapte aux besoins des propriétaires résidentiels, offrant des solutions fiables et personnalisées.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
+    secondTitle:
+      "Les Avantages de Notre Service de Nettoyage de Drain de Garage",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
-      "We provide emergency garage drain unclogging services 24/7.",
+      "Nos plombiers locaux offrent un nettoyage efficace pour vos drains de garage, combinant expertise et outils modernes. Que ce soit pour déboucher un drain obstrué ou prévenir les futurs problèmes, nos solutions sont adaptées à vos besoins spécifiques, garantissant une plomberie fiable et durable.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Intervention Rapide et Disponible 24h/7",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Nous sommes prêts à intervenir à tout moment pour résoudre vos urgences de drains obstrués rapidement et efficacement.",
       },
       {
-        title: "SSL certificates.",
+        title: "Solutions Préventives et Fiables",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "En plus de déboucher, nous proposons des services d’entretien préventif pour éviter les accumulations et prolonger la durée de vie de vos drains.",
       },
       {
-        title: "Database backups.",
+        title: "Équipements de Pointe et Expertise",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "Grâce à des techniques modernes, nous garantissons des résultats précis tout en respectant vos installations.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle: "Pourquoi Choisir Nos Services pour Vos Drains de Garage?",
+    thirdSubTitle: "Fiabilité",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Nous comprenons l’importance d’un drain de garage fonctionnel pour éviter les inondations et préserver vos espaces. Avec des années d’expérience et des équipements de pointe, notre équipe s’engage à fournir un service rapide, fiable et adapté à vos besoins. Disponible 24h/7, nous intervenons pour les urgences comme pour l’entretien préventif, afin de garantir votre tranquillité d’esprit. Faites confiance à des plombiers qualifiés qui priorisent votre satisfaction et la durabilité de vos installations.",
   },
   // inpsection camera
   "inspection-camera": {
     title: "Inspection par caméra | Service 24/7",
     metaDescription:
-      "Get 24/7 emergency drain unclogging services in your area.",
+      "Service d’inspection par caméra pour canalisations bouchées et entretien préventif. Plombiers disponibles 24h/7 pour un diagnostic précis et interventions fiables. Contactez-nous dès aujourd’hui !",
     MainTitle: "Service d'inspection par caméra",
     firstDescription:
-      "Expert pipe unclogging services for your home or business.",
+      "Notre service d’inspection par caméra est la solution idéale pour diagnostiquer rapidement et précisément les canalisations bouchées ou effectuer un entretien préventif des drains. Grâce à des équipements modernes, nos plombiers qualifiés interviennent pour offrir le meilleur service d’inspection pour plomberie, que ce soit pour un problème urgent ou une maintenance planifiée. Disponible 24h/7, nous vous garantissons des résultats fiables et un excellent rapport qualité-prix pour vos besoins en plomberie.",
     imgUrl1: "/images/sainte-julie.jpg",
-    secondTitle: "Le drain va deboucher",
+    secondTitle: "Les Avantages de Notre Service d’Inspection par Caméra",
     secondSubTitle: "Tranquilité d'esprit",
-    secondDescription: "We provide camera inspection services 24/7.",
+    secondDescription:
+      "Nos plombiers spécialisés utilisent des technologies de pointe pour effectuer des inspections par caméra efficaces et fiables. Ce service permet de localiser rapidement les problèmes dans vos canalisations bouchées et de prévenir les obstructions futures, tout en minimisant les interventions inutiles.",
     details: [
       {
-        title: "Push to deploy.",
+        title: "Diagnostic Précis et Rapide",
         description:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+          "Grâce à des caméras haute définition, nous identifions les blocages et dommages avec une précision inégalée.",
       },
       {
-        title: "SSL certificates.",
+        title: "Prévention des Problèmes à Long Terme",
         description:
-          "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+          "Notre service aide à anticiper les obstructions et à protéger vos drains avec un entretien préventif adapté.",
       },
       {
-        title: "Database backups.",
+        title: "Intervention Non-Invasive et Fiable",
         description:
-          "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+          "L’inspection par caméra permet d’évaluer vos canalisations sans travaux destructifs, réduisant ainsi les coûts et les désagréments.",
       },
     ],
-    thirdTitle: "Le drain va deboucher",
-    thirdSubTitle: "",
+    thirdTitle:
+      "Pourquoi Faire Confiance à Notre Service d’Inspection par Caméra?",
+    thirdSubTitle: "Fiabilité",
     thirdDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chez nous, l’expertise rencontre la technologie pour offrir un service d’inspection par caméra fiable et efficace. Nos plombiers qualifiés s’appuient sur des équipements de pointe pour diagnostiquer rapidement et avec précision vos canalisations bouchées. Que ce soit pour une urgence ou un entretien préventif, nous priorisons votre satisfaction et la protection de vos installations. Avec notre disponibilité 24h/7, vous bénéficiez d’une assistance rapide et adaptée à vos besoins, à chaque intervention.",
   },
 };
