@@ -1,46 +1,162 @@
+---
+import { Image } from "astro:assets";
+import logo from "../images/logo.svg";
+---
+
+<footer class="bg-white">
+  <div
+    class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32 border-t-2"
+  >
+    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <Image src={logo} alt="Logo" width={215} height={215} />
+      <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div>
+            <h3 class="text-base font-semibold text-blue-950">Principal</h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Villes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Contactez-nous</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-base font-semibold text-blue-950">Services</h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Débouchage de drain</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Débouchage de toilette</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Débouchage d'évier de cuisine</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Débouchage de bain et de douche</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Débouchage de lavabo</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Nettoyage de drain à hydro-pression</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Nettoyage de drain de garage</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-base text-blue-950 hover:text-blue-500"
+                  >Inspection par caméra</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-base font-semibold text-blue-950">Villes</h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li>
+                <a
+                  href="/montreal"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Montréal</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/richelieu"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Richelieu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-basile-le-grand"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Basile-le-Grand</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-bruno-de-montarville"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Bruno-de-Montarville</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-constant"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Constant</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-hyacinthe"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Hyacinthe</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-saint-sur-richelieu"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Jean-sur-Richelieu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/saint-lambert"
+                  class="text-base text-blue-950 hover:text-blue-500"
+                  >Saint-Lambert</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/villes"
+                  class="text-base text-blue-950 hover:text-blue-500">Autre</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <footer class="bg-blue-950">
-  <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-14 lg:px-8">
-    <nav
-      class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
-      aria-label="Footer"
-    >
-      <div class="pb-6">
-        <a
-          href="#home"
-          class="text-base leading-6 text-blue-200 hover:text-blue-500"
-          >Accueil</a
-        >
-      </div>
-      <div class="pb-6">
-        <a
-          href="#services"
-          class="text-base leading-6 text-blue-200 hover:text-blue-500"
-          >Services</a
-        >
-      </div>
-      <div class="pb-6">
-        <a
-          href="#faq"
-          class="text-base leading-6 text-blue-200 hover:text-blue-500">FAQ</a
-        >
-      </div>
-      <div class="pb-6">
-        <a
-          href="#villes"
-          class="text-base leading-6 text-blue-200 hover:text-blue-500"
-          >Villes</a
-        >
-      </div>
-      <div class="pb-6">
-        <a
-          href="#contact"
-          class="text-base leading-6 text-blue-200 hover:text-blue-500"
-          >Contact</a
-        >
-      </div>
-    </nav>
-    <p class="mt-10 text-center text-base leading-5 text-gray-400">
-      &copy; 2024 Débouchage Solutions Inc. Tous droits réservé.
+  <div
+    class="mx-auto max-w-7xl px-6 py-12 lg:flex lg:items-center lg:justify-between lg:px-8"
+  >
+    <p class="mt-2 text-center text-base text-gray-400 md:order-1 md:mt-0">
+      &copy; 2025 Débouchage Solutions Inc. À tout droit réservé
     </p>
   </div>
 </footer>
