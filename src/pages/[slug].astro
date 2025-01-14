@@ -64,7 +64,7 @@ export async function getStaticPaths() {
             </div>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+            src={service.imgUrl1}
             alt=""
             class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
           />
@@ -124,7 +124,7 @@ export async function getStaticPaths() {
           </div>
         </div>
         <img
-          src="../images/hero-img.jpg"
+          src={service.imgUrl2}
           alt="Product screenshot"
           class="w-[48rem] lg:max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
           width="2432"
@@ -140,16 +140,23 @@ export async function getStaticPaths() {
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <div class="lg:pr-4 order-2 lg:order-1">
-          <div
-            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
+          <!-- <div
+            class="relative overflow-hidden rounded-3xl px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
           >
             <img
               class="absolute inset-0 size-full object-cover brightness-125 saturate-0"
-              src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+              src={service.imgUrl3}
               alt=""
             />
-            <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
-          </div>
+            <div class="absolute inset-0 bg-gray-400 mix-blend-multiply"></div>
+          </div> -->
+          <img
+            src={service.imgUrl3}
+            alt="Product screenshot"
+            class="w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            width="2432"
+            height="1442"
+          />
         </div>
         <div class="order-1 lg:order-2">
           <div class="text-base/7 text-gray-700 lg:max-w-lg">

@@ -4,11 +4,11 @@ export const cityDetails = {
     metaDescription:
       "Service d'urgence de débouchage à Montréal: drains, lavabos, toilettes et plus. Intervention rapide 24h/7 avec des plombiers qualifiés. Satisfaction garantie!",
     cardTitle: "Débouchage Montreal",
-    cardImgUrl: "../images/montreal.jpg",
+    cardImgUrl: "../images/cities/montreal.jpg",
     mainTitle: "Service de débouchage à Montreal",
     description:
       "Besoin d'un service d'urgence de débouchage à Montréal? Notre équipe de plombiers offrent un service d'intervention, disponible 24h/7, pour toute vos urgences de plomberie. Peu importe que le lavabo soit bouché, un drain obstrué ou le besoin d'un nettoyage de drain, nous intervenons partout sur l'île de Montréal.",
-    imgUrl: "../images/montreal.jpg",
+    imgUrl: "../images/cities/montreal.jpg",
     secondSubTitle: "Disponibilité",
     secondTitle: "Service d'urgence rapide à Montréal, 24h/7",
     secondDescription:
@@ -41,11 +41,11 @@ export const cityDetails = {
     metaDescription:
       "Besoin d’un débouchage à Richelieu? Nos plombiers qualifiés interviennent rapidement 24h/7 pour résoudre vos urgences de drains et canalisations bouchés. Appelez dès maintenant!",
     cardTitle: "Débouchage Richelieu",
-    cardImgUrl: "../images/richelieu.jpg",
+    cardImgUrl: "../images/cities/richelieu.jpg",
     mainTitle: "Service de débouchage à Richelieu",
     description:
       "Besoin d’un plombier local pour un débouchage à Richelieu ? Nous offrons un service d’urgence 24h/7, idéal pour résoudre rapidement vos problèmes de plomberie. Avec une équipe experte et des outils modernes, nous intervenons rapidement pour garantir des solutions fiables et durables dans toute la région de Richelieu.",
-    imgUrl: "../images/richelieu.jpg",
+    imgUrl: "../images/cities/richelieu.jpg",
     secondSubTitle: "Disponibilité",
     secondTitle: "Débouchage d’Urgence Rapide à Richelieu, Disponible 24h/7",
     secondDescription:
@@ -78,11 +78,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Basile-le-Grand. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Contactez-nous dès maintenant!",
     cardTitle: "Débouchage Saint-Basile-le-Grand",
-    cardImgUrl: "../images/saint-basile.jfif",
+    cardImgUrl: "../images/cities/saint-basile.jfif",
     mainTitle: "Service de débouchage à Saint-Basile-le-Grand",
     description:
       "À Saint-Basile-le-Grand, notre équipe de plombiers qualifiés offre un service rapide et fiable pour tous vos besoins de débouchage. Que ce soit pour un drain obstrué, un lavabo bouché ou une urgence de plomberie, nous intervenons 24h/7 avec des solutions durables et efficaces. Appelez dès aujourd’hui pour une assistance immédiate dans votre région.",
-    imgUrl: "../images/saint-basile.jfif",
+    imgUrl: "../images/cities/saint-basile.jfif",
     secondSubTitle: "Disponibilité",
     secondTitle:
       "Des Solutions de Débouchage Personnalisées pour Saint-Basile-le-Grand",
@@ -117,11 +117,11 @@ export const cityDetails = {
     metaDescription:
       "Débouchage professionnel à Saint-Bruno-de-Montarville. Plombiers d’urgence disponibles 24h/7 pour drains, lavabos, et canalisations bouchés. Service rapide, durable et adapté à vos besoins!",
     cardTitle: "Débouchage Saint-Bruno-de-Montarville",
-    cardImgUrl: "../images/saint-bruno.jpg",
+    cardImgUrl: "../images/cities/saint-bruno.jpg",
     mainTitle: "Service de débouchage à Saint-Bruno-de-Montarville",
     description:
       "À Saint-Bruno-de-Montarville, nous savons que les urgences de plomberie ne peuvent pas attendre. C’est pourquoi notre équipe de plombiers d’urgence est disponible 24h/7 pour intervenir rapidement et efficacement. Que vous ayez un drain obstrué, une canalisation bouchée ou un lavabo bloqué, nous utilisons des techniques modernes pour garantir des résultats durables et un service adapté à vos besoins. Faites appel à nos experts locaux dès aujourd’hui pour une intervention rapide et sans tracas.",
-    imgUrl: "../images/saint-bruno.jpg",
+    imgUrl: "../images/cities/saint-bruno.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle:
       "Un Service de Débouchage Adapté aux Besoins de Saint-Bruno-de-Montarville",
@@ -155,11 +155,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Constant. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
     cardTitle: "Débouchage Saint-Constant",
-    cardImgUrl: "../images/saint-constant.jpg",
+    cardImgUrl: "../images/cities/saint-constant.jpg",
     mainTitle: "Service de débouchage à Saint-Constant",
     description:
       "À Saint-Constant, notre équipe de plombiers locaux spécialisés est disponible 24h/7 pour intervenir rapidement en cas d’urgence. Nous offrons un service de débouchage professionnel adapté à tous vos besoins, que ce soit pour un drain bloqué, une canalisation obstruée ou une réparation urgente. Faites confiance à nos experts pour des solutions fiables, durables et réalisées avec soin dans votre région.",
-    imgUrl: "../images/saint-constant.jpg",
+    imgUrl: "../images/cities/saint-constant.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions Fiables pour Vos Urgences à Saint-Constant",
     secondDescription:
@@ -193,11 +193,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Constant. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
     cardTitle: "Débouchage Saint-Hyacinthe",
-    cardImgUrl: "../images/saint-hyacinthe.jpg",
+    cardImgUrl: "../images/cities/saint-hyacinthe.jpg",
     mainTitle: "Service de débouchage à Saint-Hyacinthe",
     description:
       "Besoin d’un débouchage à Saint-Hyacinthe? Plombiers locaux disponibles 24h/7 pour drains, canalisations et urgences de plomberie. Service rapide et solutions durables. Contactez-nous!",
-    imgUrl: "../images/saint-hyacinthe.jpg",
+    imgUrl: "../images/cities/saint-hyacinthe.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions Fiables pour Vos Urgences à Saint-Constant",
     secondDescription:
@@ -231,11 +231,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Jean-sur-Richelieu. Plombiers locaux disponibles 24h/7 pour drains, lavabos, et canalisations bouchées. Interventions rapides et solutions fiables. Appelez-nous dès maintenant!",
     cardTitle: "Débouchage Saint-Jean-sur-Richelieu",
-    cardImgUrl: "../images/saint-jean.jpg",
+    cardImgUrl: "../images/cities/saint-jean.jpg",
     mainTitle: "Service d'urgence de Débouchage à Saint-Jean-sur-Richelieu",
     description:
       "À Saint-Jean-sur-Richelieu, nous offrons un service de débouchage rapide et fiable pour répondre à toutes vos urgences. Que ce soit pour un drain bloqué, une canalisation obstruée, ou des travaux de plomberie d’urgence, nos plombiers locaux sont disponibles 24h/7 pour intervenir avec professionnalisme et efficacité. Faites confiance à notre équipe pour des solutions durables adaptées à vos besoins.",
-    imgUrl: "../images/saint-jean.jpg",
+    imgUrl: "../images/cities/saint-jean.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Un Service Fiable et Rapide à Saint-Jean-sur-Richelieu",
     secondDescription:
@@ -269,11 +269,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Lambert. Plombiers locaux disponibles 24h/7 pour drains, canalisations et urgences de plomberie. Interventions rapides, fiables et adaptées à vos besoins. Appelez-nous dès maintenant!",
     cardTitle: "Débouchage Saint-Lambert",
-    cardImgUrl: "../images/saint-lambert.jpg",
+    cardImgUrl: "../images/cities/saint-lambert.jpg",
     mainTitle: "Service d'urgence de Débouchage à Saint-Lambert",
     description:
       "À Saint-Lambert, notre priorité est de vous offrir un service de débouchage rapide, efficace, et adapté à vos urgences. Que vous fassiez face à un drain bloqué, une canalisation bouchée, ou des problèmes de plomberie inattendus, nos plombiers locaux interviennent avec des solutions modernes et durables. Disponible 24h/7, notre équipe est prête à répondre à vos besoins à tout moment.",
-    imgUrl: "../images/saint-lambert.jpg",
+    imgUrl: "../images/cities/saint-lambert.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Un Service Rapide et Professionnel à Saint-Lambert",
     secondDescription:
@@ -306,11 +306,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Mathieu-de-Beloeil. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et fiables. Appelez dès maintenant!",
     cardTitle: "Débouchage Saint-Mathieu-de-Beloeil",
-    cardImgUrl: "../images/saint-mathieu.jpg",
+    cardImgUrl: "../images/cities/saint-mathieu.jpg",
     mainTitle: "Service d'urgence de Débouchage à Saint-Mathieu-de-Beloeil",
     description:
       "À Saint-Mathieu-de-Beloeil, notre équipe de plombiers locaux s’engage à offrir des solutions rapides et fiables pour tous vos besoins en débouchage. Que vous ayez un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous intervenons avec professionnalisme, des outils modernes, et une approche adaptée à vos besoins. Disponible 24h/7, notre service est conçu pour résoudre vos problèmes rapidement et efficacement.",
-    imgUrl: "../images/saint-mathieu.jpg",
+    imgUrl: "../images/cities/saint-mathieu.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle:
       "Des Services de Débouchage Fiables et Personnalisés à Saint-Mathieu-de-Beloeil",
@@ -345,11 +345,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Sainte-Catherine. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Solutions rapides et durables. Appelez dès maintenant!",
     cardTitle: "Débouchage Sainte-Catherine",
-    cardImgUrl: "../images/sainte-catherine.jpg",
+    cardImgUrl: "../images/cities/sainte-catherine.jpg",
     mainTitle: "Service d'urgence de Débouchage à Sainte-Catherine",
     description:
       "À Sainte-Catherine, nous offrons des services de débouchage rapides, fiables, et adaptés à vos besoins. Que ce soit pour un drain bloqué, une canalisation obstruée, ou une urgence de plomberie, nos plombiers locaux sont équipés pour intervenir à tout moment. Avec une disponibilité 24h/7 et des solutions modernes, nous garantissons un service professionnel pour remettre vos installations en parfait état.",
-    imgUrl: "../images/sainte-catherine.jpg",
+    imgUrl: "../images/cities/sainte-catherine.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Un Service Rapide et Fiable à Sainte-Catherine",
     secondDescription:
@@ -382,11 +382,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Saint-Julie. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et fiables. Appelez dès maintenant!",
     cardTitle: "Débouchage Sainte-Julie",
-    cardImgUrl: "../images/sainte-julie.jpg",
+    cardImgUrl: "../images/cities/sainte-julie.jpg",
     mainTitle: "Service d'urgence de Débouchage à Sainte-Julie",
     description:
       "À Saint-Julie, notre équipe de plombiers locaux offre des solutions rapides et fiables pour tous vos besoins en débouchage. Que vous ayez un drain bloqué, une canalisation bouchée, ou une urgence de plomberie, nous intervenons avec des outils modernes et une expertise reconnue. Disponible 24h/7, notre service garantit des résultats durables et une satisfaction totale. Appelez dès maintenant pour une intervention efficace.",
-    imgUrl: "../images/sainte-julie.jpg",
+    imgUrl: "../images/cities/sainte-julie.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Un Service de Débouchage Fiable à Saint-Julie",
     secondDescription:
@@ -419,11 +419,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Salaberry-de-Valleyfield. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions fiables. Contactez-nous dès maintenant!",
     cardTitle: "Débouchage Salaberry-de-Valleyfield",
-    cardImgUrl: "../images/valley-og.jpg",
+    cardImgUrl: "../images/cities/valley-og.jpg",
     mainTitle: "Service d'urgence de Débouchage à Salaberry-de-Valleyfield",
     description:
       "À Salaberry-de-Valleyfield, nous sommes spécialisés dans les interventions de débouchage rapides et professionnelles. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, notre équipe de plombiers locaux est équipée pour répondre à vos besoins. Disponible 24h/7, nous utilisons des techniques modernes pour offrir des résultats durables et garantir votre satisfaction. Contactez-nous dès maintenant pour une assistance immédiate.",
-    imgUrl: "../images/valley-og.jpg",
+    imgUrl: "../images/cities/valley-og.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Un Service de Débouchage Adapté à Salaberry-de-Valleyfield",
     secondDescription:
@@ -457,11 +457,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Varennes. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions fiables. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Varennes",
-    cardImgUrl: "../images/varennes.jpg",
+    cardImgUrl: "../images/cities/varennes.jpg",
     mainTitle: "Service d'urgence de Débouchage à Varennes",
     description:
       "À Varennes, notre équipe de plombiers expérimentés est spécialisée dans les interventions rapides et efficaces pour tous vos besoins en débouchage. Que ce soit pour un drain bloqué, une canalisation bouchée, ou une urgence de plomberie, nous utilisons des équipements modernes pour garantir des solutions durables. Disponible 24h/7, nous sommes prêts à intervenir à tout moment pour résoudre vos problèmes rapidement et efficacement.",
-    imgUrl: "../images/varennes.jpg",
+    imgUrl: "../images/cities/varennes.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Rapides et Fiables à Varennes",
     secondDescription:
@@ -495,11 +495,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Beloeil. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Solutions rapides, fiables et durables. Appelez dès maintenant!",
     cardTitle: "Débouchage Beloeil",
-    cardImgUrl: "../images/beloeil.jpg",
+    cardImgUrl: "../images/cities/beloeil.jpg",
     mainTitle: "Service d'urgence de Débouchage à Beloeil",
     description:
       "À Beloeil, notre équipe de plombiers qualifiés est prête à intervenir rapidement pour tous vos besoins en débouchage. Que ce soit pour un drain bloqué, une canalisation bouchée, ou une urgence de plomberie, nous utilisons des équipements modernes pour garantir des solutions durables et efficaces. Avec une disponibilité 24h/7, nous vous assurons une intervention rapide et professionnelle à tout moment.",
-    imgUrl: "../images/beloeil.jpg",
+    imgUrl: "../images/cities/beloeil.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions de Débouchage Rapides et Fiables à Beloeil",
     secondDescription:
@@ -532,11 +532,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Boucherville. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions sur mesure. Appelez dès maintenant!",
     cardTitle: "Débouchage Boucherville",
-    cardImgUrl: "../images/boucherville.jpg",
+    cardImgUrl: "../images/cities/boucherville.jpg",
     mainTitle: "Service d'urgence de Débouchage à Boucherville",
     description:
       "À Boucherville, une ville reconnue pour son cadre de vie exceptionnel et ses infrastructures résidentielles modernes, notre équipe de plombiers locaux intervient rapidement pour tous vos besoins en débouchage. Que vous ayez un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous offrons des solutions adaptées aux maisons et entreprises de la région. Disponible 24h/7, notre service garantit des résultats durables et une satisfaction totale.",
-    imgUrl: "../images/boucherville.jpg",
+    imgUrl: "../images/cities/boucherville.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Pensés pour Boucherville",
     secondDescription:
@@ -570,11 +570,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Brossard. Plombiers locaux disponibles 24h/7 pour urgences résidentielles et commerciales. Interventions rapides, efficaces et adaptées à vos besoins. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Brossard",
-    cardImgUrl: "../images/brossard.jpg",
+    cardImgUrl: "../images/cities/brossard.jpg",
     mainTitle: "Service d'urgence de Débouchage à Brossard",
     description:
       "À Brossard, une ville dynamique reconnue pour ses quartiers résidentiels et son centre commercial animé, notre équipe de plombiers locaux intervient rapidement pour tous vos besoins en débouchage. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous utilisons des techniques modernes pour garantir des résultats efficaces et durables. Avec une disponibilité 24h/7, nous sommes prêts à répondre à vos urgences, à tout moment.",
-    imgUrl: "../images/brossard.jpg",
+    imgUrl: "../images/cities/brossard.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle:
       "Un Service Fiable et Adapté aux Résidents et Commerçants de Brossard",
@@ -608,11 +608,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Candiac. Plombiers locaux disponibles 24h/7 pour urgences résidentielles et commerciales. Solutions rapides, fiables et adaptées à vos besoins. Appelez dès maintenant!",
     cardTitle: "Débouchage Candiac",
-    cardImgUrl: "../images/candiac.jpg",
+    cardImgUrl: "../images/cities/candiac.jpg",
     mainTitle: "Service d'urgence de Débouchage à Candiac",
     description:
       "À Candiac, une ville reconnue pour ses quartiers résidentiels paisibles et ses espaces verts, notre équipe de plombiers locaux expérimentés intervient rapidement pour tous vos besoins en débouchage. Que vous soyez confronté à un drain bloqué, une canalisation bouchée, ou une urgence de plomberie, nous utilisons des outils modernes pour garantir des résultats fiables et durables. Disponible 24h/7, nous sommes là pour répondre efficacement à vos urgences à tout moment.",
-    imgUrl: "../images/candiac.jpg",
+    imgUrl: "../images/cities/candiac.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Adaptés aux Besoins de Candiac",
     secondDescription:
@@ -646,11 +646,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Carignan. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, solutions durables et respectueuses de l’environnement. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Carignan",
-    cardImgUrl: "../images/carignan.jpg",
+    cardImgUrl: "../images/cities/carignan.jpg",
     mainTitle: "Service d'urgence de Débouchage à Carignan",
     description:
       "À Carignan, une ville où le charme résidentiel rencontre un environnement naturel paisible, notre équipe de plombiers locaux expérimentés intervient pour tous vos besoins en débouchage. Que ce soit un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous proposons des solutions fiables et durables, adaptées aux spécificités de la région. Disponible 24h/7, notre service garantit une intervention rapide et efficace à tout moment.",
-    imgUrl: "../images/carignan.jpg",
+    imgUrl: "../images/cities/carignan.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Pensés pour Carignan",
     secondDescription:
@@ -683,11 +683,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Chambly. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Chambly",
-    cardImgUrl: "../images/chambly.jpg",
+    cardImgUrl: "../images/cities/chambly.jpg",
     mainTitle: "Service d'urgence de Débouchage à Chambly",
     description:
       "À Chambly, une ville charmante connue pour son riche patrimoine et ses quartiers résidentiels paisibles, notre équipe de plombiers locaux qualifiés est là pour répondre à vos besoins en débouchage. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous utilisons des outils modernes pour garantir des solutions rapides et durables. Disponible 24h/7, notre service s’adapte à vos besoins, que ce soit pour votre maison ou votre entreprise.",
-    imgUrl: "../images/chambly.jpg",
+    imgUrl: "../images/cities/chambly.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle:
       "Des Services de Débouchage Fiables pour la Communauté de Chambly",
@@ -721,11 +721,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Châteauguay. Plombiers locaux disponibles 24h/7 pour drains et canalisations bouchées. Interventions rapides, fiables et adaptées aux résidents et entreprises. Contactez-nous dès maintenant!",
     cardTitle: "Débouchage Chateauguay",
-    cardImgUrl: "../images/chateauguay.jpg",
+    cardImgUrl: "../images/cities/chateauguay.jpg",
     mainTitle: "Service d'urgence de Débouchage à Chateauguay",
     description:
       "À Châteauguay, une ville dynamique avec un mélange de quartiers résidentiels et commerciaux, notre équipe de plombiers locaux expérimentés est disponible pour répondre à tous vos besoins en débouchage. Que ce soit un drain bloqué, une canalisation obstruée, ou une urgence de plomberie, nous offrons des solutions rapides et durables adaptées à votre situation. Disponible 24h/7, notre service garantit des résultats professionnels pour les résidents et les entreprises de Châteauguay.",
-    imgUrl: "../images/chateauguay.jpg",
+    imgUrl: "../images/cities/chateauguay.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Adaptés à Châteauguay",
     secondDescription:
@@ -759,11 +759,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Delson. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Delson",
-    cardImgUrl: "../images/delson.jpg",
+    cardImgUrl: "../images/cities/delson.jpg",
     mainTitle: "Service d'urgence de Débouchage à Delson",
     description:
       "À Delson, une ville reconnue pour sa communauté accueillante et ses quartiers résidentiels tranquilles, notre équipe de plombiers locaux expérimentés est prête à intervenir pour tous vos besoins en débouchage. Que ce soit un drain bloqué, une canalisation obstruée, ou une urgence de plomberie, nous utilisons des outils modernes pour garantir des solutions durables et efficaces. Disponible 24h/7, notre service s’adapte à vos besoins pour garantir votre tranquillité d’esprit.",
-    imgUrl: "../images/delson.jpg",
+    imgUrl: "../images/cities/delson.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions de Débouchage Fiables à Delson",
     secondDescription:
@@ -796,11 +796,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à La Prairie. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, solutions fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès maintenant!",
     cardTitle: "Débouchage La Prairie",
-    cardImgUrl: "../images/laprairie.jpg",
+    cardImgUrl: "../images/cities/laprairie.jpg",
     mainTitle: "Service d'urgence de Débouchage à La Prairie",
     description:
       "À La Prairie, une ville charmante mêlant histoire et modernité, notre équipe de plombiers locaux expérimentés est prête à répondre à tous vos besoins en débouchage. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous proposons des solutions rapides et durables adaptées aux résidents et aux entreprises locales. Disponible 24h/7, notre service assure des interventions efficaces pour garantir votre tranquillité d’esprit.",
-    imgUrl: "../images/laprairie.jpg",
+    imgUrl: "../images/cities/laprairie.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle:
       "Des Services de Débouchage Adaptés aux Résidents et Entreprises de La Prairie",
@@ -834,11 +834,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Longueuil. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Appelez dès maintenant!",
     cardTitle: "Débouchage Longueuil",
-    cardImgUrl: "../images/longueuil.jpg",
+    cardImgUrl: "../images/cities/longueuil.jpg",
     mainTitle: "Service d'urgence de Débouchage à Longueuil",
     description:
       "À Longueuil, une ville dynamique qui allie zones résidentielles, commerciales et culturelles, notre équipe de plombiers locaux expérimentés est prête à répondre à tous vos besoins en débouchage. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous proposons des solutions rapides et durables, adaptées aux besoins des résidents et des entreprises locales. Disponible 24h/7, notre service garantit des résultats fiables pour votre tranquillité d’esprit.",
-    imgUrl: "../images/longueuil.jpg",
+    imgUrl: "../images/cities/longueuil.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions de Débouchage Fiables pour Longueuil",
     secondDescription:
@@ -871,11 +871,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Marieville. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
     cardTitle: "Débouchage Marieville",
-    cardImgUrl: "../images/marieville.jpg",
+    cardImgUrl: "../images/cities/marieville.jpg",
     mainTitle: "Service d'urgence de Débouchage à Marieville",
     description:
       "À Marieville, une ville réputée pour son atmosphère conviviale et ses quartiers résidentiels paisibles, notre équipe de plombiers locaux expérimentés est prête à répondre à tous vos besoins en débouchage. Que ce soit pour un drain obstrué, une canalisation bouchée, ou une urgence de plomberie, nous offrons des solutions rapides et durables, adaptées aux résidents et entreprises locales. Disponible 24h/7, notre service garantit des interventions efficaces pour votre tranquillité d’esprit.",
-    imgUrl: "../images/marieville.jpg",
+    imgUrl: "../images/cities/marieville.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Solutions de Débouchage Conçues pour Marieville",
     secondDescription:
@@ -909,11 +909,11 @@ export const cityDetails = {
     metaDescription:
       "Service de débouchage à Mont-Saint-Hilaire. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux résidents et entreprises. Appelez dès maintenant!",
     cardTitle: "Débouchage Mont-Saint-Hilaire",
-    cardImgUrl: "../images/mont-saint-hilaire.jpg",
+    cardImgUrl: "../images/cities/mont-saint-hilaire.jpg",
     mainTitle: "Service d'urgence de Débouchage à Mont-Saint-Hilaire",
     description:
       "À Mont-Saint-Hilaire, une ville renommée pour sa beauté naturelle et ses quartiers résidentiels paisibles, notre équipe de plombiers locaux expérimentés est là pour répondre à tous vos besoins en débouchage. Que ce soit pour un drain bloqué, une canalisation obstruée, ou une urgence de plomberie, nous offrons des solutions rapides, fiables et adaptées à vos besoins spécifiques. Disponible 24h/7, notre service garantit des résultats durables et une intervention sans stress.",
-    imgUrl: "../images/mont-saint-hilaire.jpg",
+    imgUrl: "../images/cities/mont-saint-hilaire.jpg",
     secondSubTitle: "Engagement Local",
     secondTitle: "Des Services de Débouchage Fiables pour Mont-Saint-Hilaire",
     secondDescription:
