@@ -226,7 +226,7 @@ export const cityDetails = {
       "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
   },
   // Saint-Jean-sur-Richelieu
-  "saint-saint-sur-richelieu": {
+  "saint-sur-richelieu": {
     title: "Débouchage Saint-Jean-sur-Richelieu | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Jean-sur-Richelieu. Plombiers locaux disponibles 24h/7 pour drains, lavabos, et canalisations bouchées. Interventions rapides et solutions fiables. Appelez-nous dès maintenant!",
