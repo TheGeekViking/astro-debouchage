@@ -1,6 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import { cityDetails } from "../data/cityDetails";
+import { Image } from "astro:assets";
 import ServicesGrid from "../components/ServicesGrid.astro";
 import CTA from "../components/CTA.astro";
 import FAQ from "../components/FAQ.astro";
@@ -28,11 +29,22 @@ export async function getStaticPaths() {
   metaDescription={cityData.metaDescription}
 >
   <div class="relative isolate overflow-hidden pt-14">
-    <img
+    <!-- <img
       src={cityData.cardImgUrl}
       alt=""
       class="absolute inset-0 -z-10 h-full w-full object-cover"
+    /> -->
+    <Image
+      src={cityData.cardImgUrl}
+      alt="Image for {cityData.cardTitle}"
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+      format="webp"
+      width={1920}
+      height={600}
+      format="webp"
+      loading="lazy"
     />
+
     <div
       class="absolute inset-0 -z-10 bg-gradient-to-r from-blue-950 to-blue-700 opacity-90"
     >

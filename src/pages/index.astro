@@ -4,13 +4,20 @@ import Carousel from "../components/Carousel.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactForm from "../components/ContactForm.astro";
 import ServicesGrid from "../components/ServicesGrid.astro";
+import { Image } from "astro:assets";
+import heroImage from "../images/hero-img.webp";
 ---
 
 <MainLayout title="Débouchage Solutions | Urgence 24/7">
   <div class="relative isolate overflow-hidden pt-14">
-    <img
+    <!-- <img
       src="images/cities/hero-img.webp"
       alt="Photo d'accueil"
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+    /> -->
+    <Image
+      src={heroImage}
+      alt="A bird sitting on a nest of eggs."
       class="absolute inset-0 -z-10 h-full w-full object-cover"
     />
     <div
