@@ -7,6 +7,8 @@ import CTA from "../components/CTA.astro";
 import FAQ from "../components/FAQ.astro";
 import Carousel from "../components/Carousel.astro";
 import ContactForm from "../components/ContactForm.astro";
+import cartoon from "../images/cities/cartoon.webp";
+import cityPhoto from "../images/cities/cityPhoto.webp";
 
 const { city } = Astro.params;
 
@@ -126,12 +128,22 @@ export async function getStaticPaths() {
             </dl>
           </div>
         </div>
-        <img
+        <!-- <img
           src="../images/services/cartoon.jpg"
           alt="Product screenshot"
           class="w-[48rem] sm:w-[57rem] md:-ml-4 lg:-ml-0"
           width="2432"
           height="1442"
+        /> -->
+        <Image
+          src={cartoon}
+          alt="Image for {cityData.cardTitle}"
+          class="w-[48rem] sm:w-[57rem] md:-ml-4 lg:-ml-0"
+          format="webp"
+          width={800}
+          height={600}
+          format="webp"
+          loading="lazy"
         />
       </div>
     </div>
@@ -146,10 +158,20 @@ export async function getStaticPaths() {
           <div
             class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"
           >
-            <img
+            <!-- <img
               class="absolute inset-0 size-full object-cover brightness-125 saturate-0"
               src="../images/services/cityphoto.jpg"
               alt=""
+            /> -->
+            <Image
+              src={cityPhoto}
+              alt="Image for {cityData.cardTitle}"
+              class="absolute inset-0 size-full object-cover brightness-125 saturate-0"
+              format="webp"
+              width={800}
+              height={600}
+              format="webp"
+              loading="lazy"
             />
             <div class="absolute inset-0 bg-gray-400 mix-blend-multiply"></div>
           </div>

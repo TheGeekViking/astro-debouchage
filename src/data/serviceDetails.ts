@@ -1,3 +1,28 @@
+import drain1Img from "../images/services/drain1.webp";
+import drain2Img from "../images/services/drain2.webp";
+import drain3Img from "../images/services/drain3.webp";
+import toilet1Img from "../images/services/toilet1.webp";
+import toilet2Img from "../images/services/toilet2.webp";
+import toilet3Img from "../images/services/toilet3.webp";
+import sink1Img from "../images/services/sink1.webp";
+import sink2Img from "../images/services/sink2.webp";
+import sink3Img from "../images/services/sink3.webp";
+import bath1Img from "../images/services/bath1.webp";
+import bath2Img from "../images/services/bath2.webp";
+import bath3Img from "../images/services/bath3.webp";
+import lavabo1Img from "../images/services/lavabo1.webp";
+import lavabo2Img from "../images/services/lavabo2.webp";
+import lavabo3Img from "../images/services/lavabo3.webp";
+import hydro1Img from "../images/services/hydro1.webp";
+import hydro2Img from "../images/services/hydro2.webp";
+import hydro3Img from "../images/services/hydro3.webp";
+import garage1Img from "../images/services/garage1.webp";
+import garage2Img from "../images/services/garage2.webp";
+import garage3Img from "../images/services/garage3.webp";
+import camera1Img from "../images/services/camera1.webp";
+import camera2Img from "../images/services/camera2.webp";
+import camera3Img from "../images/services/camera3.webp";
+
 // src/data/serviceDetails.ts
 export const serviceDetails = {
   // Debouchage drain
@@ -8,9 +33,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de drain",
     firstDescription:
       "Lorsqu’un drain est bouché, chaque minute compte. C’est pourquoi nos plombiers vous offrent un service d’urgence de débouchage de drain abordable, rapide et disponible 24h/7.",
-    imgUrl1: "/images/services/drain1.jpg",
-    imgUrl2: "/images/services/drain2.jpg",
-    imgUrl3: "/images/services/drain3.jpg",
+    imgUrl1: drain1Img,
+    imgUrl2: drain2Img,
+    imgUrl3: drain3Img,
     secondTitle: "Des solutions efficaces pour vos drains bouchés",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
@@ -45,9 +70,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de toilette",
     firstDescription:
       "Une toilette bloquée peut devenir rapidement une situation d'urgence. Grâce à nos plombiers expérimentés, l'intervention sera rapide et efficace, tout en offrant un service 24h/7.",
-    imgUrl1: "/images/services/toilet1.jpg",
-    imgUrl2: "/images/services/toilet2.jpg",
-    imgUrl3: "/images/services/toilet3.jpg",
+    imgUrl1: toilet1Img,
+    imgUrl2: toilet2Img,
+    imgUrl3: toilet3Img,
     secondTitle: "Intervention rapide pour votre toilette bouchée",
     secondSubTitle: "Fiabilité",
     secondDescription:
@@ -82,9 +107,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence pour débouchage d'évier de cuisine",
     firstDescription:
       "Besoin d'une intervention immédiate pour votre évier de cuisine bloqué? Heureusement, notre équipe de plombier est disponible 24h/7 pour sauver votre journée.",
-    imgUrl1: "/images/services/sink1.jpg",
-    imgUrl2: "/images/services/sink2.jpg",
-    imgUrl3: "/images/services/sink3.jpg",
+    imgUrl1: sink1Img,
+    imgUrl2: sink2Img,
+    imgUrl3: sink3Img,
     secondTitle: "Comment allons nous déboucher votre évier de cuisine?",
     secondSubTitle: "Efficacité",
     secondDescription:
@@ -120,9 +145,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de bain et douche",
     firstDescription:
       "Votre baignoire ou douche est bouché? Ne tardez pas à nous contacter pour une intervention d'urgence rapide, grâce à une équipe de plombiers disponibles 24h/7.",
-    imgUrl1: "/images/services/bath1.jpg",
-    imgUrl2: "/images/services/bath2.jpg",
-    imgUrl3: "/images/services/bath3.jpg",
+    imgUrl1: bath1Img,
+    imgUrl2: bath2Img,
+    imgUrl3: bath3Img,
     secondTitle: "Comment on s'y prend pour déboucher votre bain ou douche?",
     secondSubTitle: "Rapidité",
     secondDescription:
@@ -157,9 +182,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de lavabo",
     firstDescription:
       "Votre lavabo est bloqué? Pas de soucis. Avec notre service de débouchage de lavabo, disponible 24h/7, nos plombiers sont prêts à intervenir avec des solutions efficaces pour restaurer votre confort rapidement.",
-    imgUrl1: "/images/services/lavabo1.jpg",
-    imgUrl2: "/images/services/lavabo2.jpg",
-    imgUrl3: "/images/services/lavabo3.jpg",
+    imgUrl1: lavabo1Img,
+    imgUrl2: lavabo2Img,
+    imgUrl3: lavabo3Img,
     secondTitle: "Ce qui est inclus dans notre service de débouchage de lavabo",
     secondSubTitle: "Expertise",
     secondDescription:
@@ -194,9 +219,9 @@ export const serviceDetails = {
     MainTitle: "Service de nettoyage à hydro-pression",
     firstDescription:
       "Notre service de nettoyage à hydro-pression offre des solutions rapides et efficaces pour vos besoins résidentiels et commerciaux. Que ce soit pour des drains obstrués ou un entretien préventif, nos plombiers qualifiés interviennent avec des équipements modernes pour garantir des résultats durables. Disponible 24h/7, nous assurons des interventions professionnelles adaptées à chaque situation, pour une plomberie en parfait état.",
-    imgUrl1: "/images/services/hydro1.jpg",
-    imgUrl2: "/images/services/hydro2.jpg",
-    imgUrl3: "/images/services/hydro3.jpg",
+    imgUrl1: hydro1Img,
+    imgUrl2: hydro2Img,
+    imgUrl3: hydro3Img,
     secondTitle: "Les Avantages du Nettoyage à Hydro-Pression",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
@@ -232,9 +257,9 @@ export const serviceDetails = {
     MainTitle: "Service de nettoyage de drain de garage",
     firstDescription:
       "Un drain de garage obstrué peut rapidement devenir un problème majeur. C’est pourquoi notre équipe de plombiers qualifiés propose un service rapide et efficace pour le nettoyage de vos drains. Que ce soit pour une urgence ou un entretien préventif, nous utilisons des équipements modernes pour garantir des résultats durables. Disponible 24h/7, notre service s’adapte aux besoins des propriétaires résidentiels, offrant des solutions fiables et personnalisées.",
-    imgUrl1: "/images/services/garage1.jpeg",
-    imgUrl2: "/images/services/garage2.jpeg",
-    imgUrl3: "/images/services/garage3.jpeg",
+    imgUrl1: garage1Img,
+    imgUrl2: garage2Img,
+    imgUrl3: garage3Img,
     secondTitle:
       "Les Avantages de Notre Service de Nettoyage de Drain de Garage",
     secondSubTitle: "Tranquilité d'esprit",
@@ -270,9 +295,9 @@ export const serviceDetails = {
     MainTitle: "Service d'inspection par caméra",
     firstDescription:
       "Notre service d’inspection par caméra est la solution idéale pour diagnostiquer rapidement et précisément les canalisations bouchées ou effectuer un entretien préventif des drains. Grâce à des équipements modernes, nos plombiers qualifiés interviennent pour offrir le meilleur service d’inspection pour plomberie, que ce soit pour un problème urgent ou une maintenance planifiée. Disponible 24h/7, nous vous garantissons des résultats fiables et un excellent rapport qualité-prix pour vos besoins en plomberie.",
-    imgUrl1: "/images/services/camera1.jpg",
-    imgUrl2: "/images/services/camera2.jpg",
-    imgUrl3: "/images/services/camera3.jpg",
+    imgUrl1: camera1Img,
+    imgUrl2: camera2Img,
+    imgUrl3: camera3Img,
     secondTitle: "Les Avantages de Notre Service d’Inspection par Caméra",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
