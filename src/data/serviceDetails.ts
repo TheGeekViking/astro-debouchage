@@ -36,6 +36,10 @@ export const serviceDetails = {
     imgUrl1: drain1Img,
     imgUrl2: drain2Img,
     imgUrl3: drain3Img,
+    atlText1:
+      "Image animée montrant une canalisation en train d’être débouchée.",
+    atlText2: "Des cheveux retirés d’un drain obstrué par un plombier.",
+    atlText3: "Un drain propre et fonctionnel.",
     secondTitle: "Des solutions efficaces pour vos drains bouchés",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
@@ -73,6 +77,10 @@ export const serviceDetails = {
     imgUrl1: toilet1Img,
     imgUrl2: toilet2Img,
     imgUrl3: toilet3Img,
+    atlText1: "Un plombier tenant un siphon devant une toilette.",
+    atlText2: "Un plombier en train de réparer la chaîne d’une toilette.",
+    atlText3:
+      "Un plombier utilisant un déboucheur à pression pour déboucher une toilette.",
     secondTitle: "Intervention rapide pour votre toilette bouchée",
     secondSubTitle: "Fiabilité",
     secondDescription:
@@ -110,6 +118,12 @@ export const serviceDetails = {
     imgUrl1: sink1Img,
     imgUrl2: sink2Img,
     imgUrl3: sink3Img,
+    atlText1:
+      "Un plombier utilisant un déboucheur à pression pour déboucher un évier de cuisine.",
+    atlText2:
+      "Un plombier inspectant et réparant la tuyauterie sous un évier de cuisine.",
+    atlText3:
+      "Un plombier vérifiant un robinet de cuisine avec un dossier et des outils à proximité.",
     secondTitle: "Comment allons nous déboucher votre évier de cuisine?",
     secondSubTitle: "Efficacité",
     secondDescription:
@@ -148,6 +162,9 @@ export const serviceDetails = {
     imgUrl1: bath1Img,
     imgUrl2: bath2Img,
     imgUrl3: bath3Img,
+    atlText1: "",
+    atlText2: "",
+    atlText3: "",
     secondTitle: "Comment on s'y prend pour déboucher votre bain ou douche?",
     secondSubTitle: "Rapidité",
     secondDescription:
@@ -185,6 +202,9 @@ export const serviceDetails = {
     imgUrl1: lavabo1Img,
     imgUrl2: lavabo2Img,
     imgUrl3: lavabo3Img,
+    atlText1: "",
+    atlText2: "",
+    atlText3: "",
     secondTitle: "Ce qui est inclus dans notre service de débouchage de lavabo",
     secondSubTitle: "Expertise",
     secondDescription:
@@ -222,6 +242,9 @@ export const serviceDetails = {
     imgUrl1: hydro1Img,
     imgUrl2: hydro2Img,
     imgUrl3: hydro3Img,
+    atlText1: "",
+    atlText2: "",
+    atlText3: "",
     secondTitle: "Les Avantages du Nettoyage à Hydro-Pression",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
@@ -260,6 +283,9 @@ export const serviceDetails = {
     imgUrl1: garage1Img,
     imgUrl2: garage2Img,
     imgUrl3: garage3Img,
+    atlText1: "",
+    atlText2: "",
+    atlText3: "",
     secondTitle:
       "Les Avantages de Notre Service de Nettoyage de Drain de Garage",
     secondSubTitle: "Tranquilité d'esprit",
@@ -298,6 +324,9 @@ export const serviceDetails = {
     imgUrl1: camera1Img,
     imgUrl2: camera2Img,
     imgUrl3: camera3Img,
+    atlText1: "",
+    atlText2: "",
+    atlText3: "",
     secondTitle: "Les Avantages de Notre Service d’Inspection par Caméra",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
