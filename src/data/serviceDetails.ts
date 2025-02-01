@@ -162,9 +162,10 @@ export const serviceDetails = {
     imgUrl1: bath1Img,
     imgUrl2: bath2Img,
     imgUrl3: bath3Img,
-    atlText1: "",
-    atlText2: "",
-    atlText3: "",
+    atlText1: "Un plombier en train de déboucher une baignoire.",
+    atlText2: "Un plombier utilisant un furet pour déboucher une douche.",
+    atlText3:
+      "Un drain de douche propre avec des carreaux noirs et une pomme de douche au sol.",
     secondTitle: "Comment on s'y prend pour déboucher votre bain ou douche?",
     secondSubTitle: "Rapidité",
     secondDescription:
@@ -202,9 +203,11 @@ export const serviceDetails = {
     imgUrl1: lavabo1Img,
     imgUrl2: lavabo2Img,
     imgUrl3: lavabo3Img,
-    atlText1: "",
-    atlText2: "",
-    atlText3: "",
+    atlText1:
+      "Un plombier serrant un tuyau en métal avec une clé à molette rouge.",
+    atlText2: "Un plombier réparant un tuyau sous un lavabo avec une clé.",
+    atlText3:
+      "Un plombier prenant des notes sur un clipboard devant un lavabo dans une salle de bain.",
     secondTitle: "Ce qui est inclus dans notre service de débouchage de lavabo",
     secondSubTitle: "Expertise",
     secondDescription:
@@ -242,9 +245,12 @@ export const serviceDetails = {
     imgUrl1: hydro1Img,
     imgUrl2: hydro2Img,
     imgUrl3: hydro3Img,
-    atlText1: "",
-    atlText2: "",
-    atlText3: "",
+    atlText1:
+      "Illustration d'une buse d'hydro-pression nettoyant un tuyau obstrué avec des jets d'eau puissants.",
+    atlText2:
+      "Un plombier nettoyant un drain de sol obstrué dans une salle de bain avec un tuyau haute pression.",
+    atlText3:
+      "Un plombier utilisant un tuyau haute pression pour déboucher une toilette.",
     secondTitle: "Les Avantages du Nettoyage à Hydro-Pression",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
@@ -283,9 +289,11 @@ export const serviceDetails = {
     imgUrl1: garage1Img,
     imgUrl2: garage2Img,
     imgUrl3: garage3Img,
-    atlText1: "",
-    atlText2: "",
-    atlText3: "",
+    atlText1: "Un drain de garage propre avec de l'eau stagnante sur le sol.",
+    atlText2:
+      "Un plombier inspectant et nettoyant un drain de garage avec des outils spécialisés.",
+    atlText3:
+      "Un garage moderne et bien organisé avec une voiture garée et un drain de sol central.",
     secondTitle:
       "Les Avantages de Notre Service de Nettoyage de Drain de Garage",
     secondSubTitle: "Tranquilité d'esprit",
@@ -324,9 +332,12 @@ export const serviceDetails = {
     imgUrl1: camera1Img,
     imgUrl2: camera2Img,
     imgUrl3: camera3Img,
-    atlText1: "",
-    atlText2: "",
-    atlText3: "",
+    atlText1:
+      "Caméra d'inspection pour plomberie avec un câble flexible et un écran intégré.",
+    atlText2:
+      "Un plombier inspectant l’intérieur d’un tuyau à l’aide d’une caméra d’inspection affichée sur un écran.",
+    atlText3:
+      "Caméra d’inspection de tuyaux équipée d’un câble orange insérée dans un trou pour une analyse.",
     secondTitle: "Les Avantages de Notre Service d’Inspection par Caméra",
     secondSubTitle: "Tranquilité d'esprit",
     secondDescription:
