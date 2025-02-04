@@ -5,6 +5,7 @@ import FAQ from "../components/FAQ.astro";
 import ContactForm from "../components/ContactForm.astro";
 import Process from "../components/process.astro";
 import ServicesGrid from "../components/ServicesGrid.astro";
+import CTA from "../components/CTA.astro";
 import { Image } from "astro:assets";
 import heroImage from "../images/hero-img.webp";
 ---
@@ -68,8 +69,9 @@ import heroImage from "../images/hero-img.webp";
   </div>
 
   <ServicesGrid />
+  <CTA />
   <FAQ />
   <Carousel />
-  <!-- <Process /> -->
+  <Process />
   <ContactForm />
 </MainLayout>
