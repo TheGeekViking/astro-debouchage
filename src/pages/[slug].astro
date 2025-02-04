@@ -4,6 +4,7 @@ import { serviceDetails } from "../data/serviceDetails";
 import { Image } from "astro:assets";
 import Carousel from "../components/Carousel.astro";
 import FAQ from "../components/FAQ.astro";
+import Process from "../components/process.astro";
 import ServicesGrid from "../components/ServicesGrid.astro";
 import CTA from "../components/CTA.astro";
 import ContactForm from "../components/ContactForm.astro";
@@ -156,6 +157,9 @@ export async function getStaticPaths() {
       </div>
     </div>
   </div>
+
+  <Process />
+
   <!-- Third Section -->
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
