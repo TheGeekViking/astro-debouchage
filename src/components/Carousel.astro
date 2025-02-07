@@ -830,61 +830,91 @@ import varennesImg from "../images/cities/varennes.webp";
         </div>
       </div>
     </div>
+    <!-- Arrows -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <!-- Dots Pagination -->
     <div
-      class="absolute flex justify-center items-center m-auto left-0 right-0 w-fit bottom-12"
+      class="swiper-pagination absolute bottom-5 left-0 right-0 flex justify-center"
     >
-      <button
-        id="slider-button-left"
-        class="swiper-button-prev group !p-2 flex justify-center items-center !w-12 !h-12 transition-all duration-500 rounded-full !-translate-x-16"
-        data-carousel-prev></button>
-      <button
-        id="slider-button-right"
-        class="swiper-button-next group !p-2 flex justify-center items-center !w-12 !h-12 transition-all duration-500 rounded-full !translate-x-16"
-        data-carousel-next></button>
     </div>
   </div>
-
-  <style>
-    .swiper-wrapper {
-      height: max-content !important;
-      -webkit-transition-timing-function: linear !important;
-      transition-timing-function: linear !important;
-      position: relative;
-    }
-  </style>
-
-  <script
-    is:inline
-    src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Splide JS Initialization -->
-  <script is:inline>
-    var swiper = new Swiper(".multiple-slide-carousel", {
-      loop: true,
-      slidesPerView: 3,
-      spaceBetween: 20,
-      navigation: {
-        nextEl: ".multiple-slide-carousel .swiper-button-next",
-        prevEl: ".multiple-slide-carousel .swiper-button-prev",
-      },
-      breakpoints: {
-        1920: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1028: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        500: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-        },
-        250: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-        },
-      },
-    });
-  </script>
 </div>
+
+<style>
+  .swiper-wrapper {
+    height: max-content !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 45%; /* Center vertically */
+    z-index: 10;
+    transform: translateY(-50%);
+    width: 40px; /* Button size */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-prev {
+    left: 10px; /* Position on the left */
+  }
+
+  .swiper-button-next {
+    right: 10px; /* Position on the right */
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 3.5rem; /* Optional: Adjust arrow size */
+    color: ##36c3fa; /* Arrow color */
+  }
+</style>
+
+<script
+  is:inline
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Splide JS Initialization -->
+<script is:inline>
+  var swiper = new Swiper(".multiple-slide-carousel", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 4000, // Adjust delay in milliseconds (3000ms = 3s)
+      disableOnInteraction: false, // Keep autoplay running after user interaction
+    },
+    navigation: {
+      nextEl: ".multiple-slide-carousel .swiper-button-next",
+      prevEl: ".multiple-slide-carousel .swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true, // Allows users to click on dots to navigate
+    },
+    breakpoints: {
+      1920: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1028: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      500: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      250: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+    },
+  });
+</script>
