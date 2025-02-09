@@ -8,6 +8,7 @@ import ServicesGrid from "../components/ServicesGrid.astro";
 import CTA from "../components/CTA.astro";
 import { Image } from "astro:assets";
 import heroImage from "../images/hero-img.webp";
+import Reviews from "../components/reviews.astro";
 ---
 
 <MainLayout title="Débouchage Solutions | Urgence 24/7">
@@ -69,9 +70,10 @@ import heroImage from "../images/hero-img.webp";
   </div>
 
   <ServicesGrid />
+  <Process />
+  <Reviews />
   <CTA />
   <FAQ />
   <Carousel />
-  <Process />
   <ContactForm />
 </MainLayout>

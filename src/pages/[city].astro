@@ -8,6 +8,7 @@ import FAQ from "../components/FAQ.astro";
 import Process from "../components/process.astro";
 import Carousel from "../components/Carousel.astro";
 import ContactForm from "../components/ContactForm.astro";
+import Reviews from "../components/reviews.astro";
 import cartoon from "../images/cities/cartoon.webp";
 import cityPhoto from "../images/cities/cityPhoto.webp";
 
@@ -84,6 +85,7 @@ export async function getStaticPaths() {
     </div>
   </div>
   <ServicesGrid />
+  <Process />
   <div class="overflow-hidden bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
@@ -150,7 +152,7 @@ export async function getStaticPaths() {
     </div>
   </div>
 
-  <Process />
+  <Reviews />
 
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
