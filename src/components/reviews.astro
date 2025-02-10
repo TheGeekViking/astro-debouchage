@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import Anne from "../images/reviews/anne.png";
 import Nadia from "../images/reviews/nadia.png";
+import FiveStar from "../images/reviews/5-star.svg";
 ---
 
 <section class="bg-white py-24 sm:py-32">
@@ -14,22 +15,14 @@ import Nadia from "../images/reviews/nadia.png";
     <div class="absolute inset-0 flex items-center" aria-hidden="true">
       <div class="w-full border-t border-gray-300"></div>
     </div>
-    <div class="relative flex justify-center">
-      <!-- <span class="bg-white px-2 text-sm text-gray-500">Continue</span> -->
-    </div>
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2"
     >
       <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-        <!-- <img
-          class="h-12 self-start"
-          src="https://tailwindui.com/plus-assets/img/logos/tuple-logo-gray-900.svg"
-          alt=""
-        /> -->
-
-        <figure class="mt-10 flex flex-auto flex-col justify-between">
+        <Image class="h-36 self-start" src={FiveStar} alt="Five Star" />
+        <figure class="flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
             <p>
               “Il est venu faire un travail qu'un autre plombier avait échoué de
@@ -39,11 +32,6 @@ import Nadia from "../images/reviews/nadia.png";
             </p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
-            <!-- <img
-              class="size-14 rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            /> -->
             <Image alt="" src={Anne} class="size-14 rounded-full bg-gray-50" />
             <div class="text-base">
               <div class="font-semibold text-gray-900">Anne Tchiniaev</div>
@@ -55,23 +43,14 @@ import Nadia from "../images/reviews/nadia.png";
       <div
         class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20"
       >
-        <!-- <img
-          class="h-12 self-start"
-          src="https://tailwindui.com/plus-assets/img/logos/reform-logo-gray-900.svg"
-          alt=""
-        /> -->
-        <figure class="mt-10 flex flex-auto flex-col justify-between">
+        <Image class="h-36 self-start" src={FiveStar} alt="Five Star" />
+        <figure class="flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
             <p>
               “Service impeccable! Courtois, ponctuel et travaille proprement.”
             </p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
-            <!-- <img
-              class="size-14 rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            /> -->
             <Image alt="" src={Nadia} class="size-14 rounded-full bg-gray-50" />
             <div class="text-base">
               <div class="font-semibold text-gray-900">Nadia Boucher</div>
