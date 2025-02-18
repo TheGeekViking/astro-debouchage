@@ -219,4 +219,17 @@ export async function getStaticPaths() {
   <CTA />
   <Carousel />
   <ContactForm />
+  <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mb-10">
+    <div class="relative w-full h-0 pb-[56.25%]">
+      <iframe
+        class="absolute top-0 left-0 w-full h-full rounded-lg"
+        src={cityData.mapUrl}
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
 </MainLayout>
