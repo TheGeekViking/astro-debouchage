@@ -3,9 +3,10 @@ interface Props {
   title: string;
   metaTitle?: string;
   metaDescription?: string;
+  canonical?: string;
 }
 
-const { title, metaTitle, metaDescription } = Astro.props;
+const { title, metaTitle, metaDescription, canonical } = Astro.props;
 import "@fontsource/roboto";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
@@ -36,6 +37,7 @@ import Navbar from "../components/Navbar.astro";
     </script>
     <!-- End Google Tag Manager -->
     <link rel="icon" type="image/png" href="/favicon.png" />
+    {canonical && <link rel="canonical" href={canonical} />}
     <meta name="generator" content={Astro.generator} />
     <title>{metaTitle || title}</title>
     <slot name="head" />
