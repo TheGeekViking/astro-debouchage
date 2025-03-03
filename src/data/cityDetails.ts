@@ -234,7 +234,7 @@ export const cityDetails = {
   "saint-hyacinthe": {
     title: "Débouchage Saint-Hyacinthe | Urgence 24/7",
     metaDescription:
-      "Service de débouchage à Saint-Hyacinthe. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
+      "Service de débouchage à Saint-Hyacinthe. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations, toilettes bouchées ? Appelez dès aujourd’hui!",
     cardTitle: "Débouchage Saint-Hyacinthe",
     cardImgUrl: sainthyacintheImg,
     altText:
