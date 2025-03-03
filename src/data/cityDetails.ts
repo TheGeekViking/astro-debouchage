@@ -232,7 +232,7 @@ export const cityDetails = {
   },
   // Saint-Hyacinthe
   "saint-hyacinthe": {
-    title: "Débouchage Hyacinthe | Urgence 24/7",
+    title: "Débouchage Saint-Hyacinthe | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Constant. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
     cardTitle: "Débouchage Saint-Hyacinthe",
