@@ -248,7 +248,7 @@ export const cityDetails = {
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89269.71848238131!2d-73.01857862316585!3d45.6371904607471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc84dd740cd62cb%3A0x5040cadae4d4290!2sSaint-Hyacinthe%2C%20QC!5e0!3m2!1sen!2sca!4v1739836893311!5m2!1sen!2sca",
     secondDescription:
-      "À Saint-Constant, nous comprenons l’importance d’une intervention rapide et adaptée. Nos plombiers locaux offrent des solutions personnalisées pour répondre efficacement à tous vos besoins en débouchage. Avec une approche axée sur la qualité et des équipements de pointe, nous garantissons des résultats qui durent.",
+      "À Saint-Hyacinthe, nous comprenons l’importance d’une intervention rapide et adaptée. Nos plombiers locaux offrent des solutions personnalisées pour répondre efficacement à tous vos besoins en débouchage. Avec une approche axée sur la qualité et des équipements de pointe, nous garantissons des résultats qui durent.",
     details: [
       {
         title: "Solutions Sur-Mesure",
@@ -258,7 +258,7 @@ export const cityDetails = {
       {
         title: "Expertise Locale Inégalée",
         description:
-          "Basés à Saint-Constant, nos plombiers connaissent parfaitement les infrastructures locales, vous garantissant un service rapide et précis.",
+          "Basés à Saint-Hyacinthe, nos plombiers connaissent parfaitement les infrastructures locales, vous garantissant un service rapide et précis.",
       },
       {
         title: "Engagement pour Votre Satisfaction",
@@ -268,9 +268,9 @@ export const cityDetails = {
     ],
     thirdSubTitle: "Expertise",
     thirdTitle:
-      "Votre Partenaire de Confiance à Saint-Constant pour un Service de Qualité",
+      "Votre Partenaire de Confiance à Saint-Hyacinthe pour un Service de Qualité",
     thirdDescription:
-      "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
+      "À Saint-Hyacinthe, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
   },
   // Saint-Jean-sur-Richelieu
   "saint-jean-sur-richelieu": {
