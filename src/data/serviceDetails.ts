@@ -1,27 +1,12 @@
-import drain1Img from "../images/services/drain1.webp";
-import drain2Img from "../images/services/drain2.webp";
-import drain3Img from "../images/services/drain3.webp";
-import toilet1Img from "../images/services/toilet1.webp";
-import toilet2Img from "../images/services/toilet2.webp";
-import toilet3Img from "../images/services/toilet3.webp";
-import sink1Img from "../images/services/sink1.webp";
-import sink2Img from "../images/services/sink2.webp";
-import sink3Img from "../images/services/sink3.webp";
-import bath1Img from "../images/services/bath1.webp";
-import bath2Img from "../images/services/bath2.webp";
-import bath3Img from "../images/services/bath3.webp";
-import lavabo1Img from "../images/services/lavabo1.webp";
-import lavabo2Img from "../images/services/lavabo2.webp";
-import lavabo3Img from "../images/services/lavabo3.webp";
-import hydro1Img from "../images/services/hydro1.webp";
-import hydro2Img from "../images/services/hydro2.webp";
-import hydro3Img from "../images/services/hydro3.webp";
-import garage1Img from "../images/services/garage1.webp";
-import garage2Img from "../images/services/garage2.webp";
-import garage3Img from "../images/services/garage3.webp";
-import camera1Img from "../images/services/camera1.webp";
-import camera2Img from "../images/services/camera2.webp";
-import camera3Img from "../images/services/camera3.webp";
+type ImageModule = { default: string };
+
+const images = import.meta.glob("../images/services/*.webp", {
+  eager: true,
+}) as Record<string, ImageModule>;
+
+function getImage(fileName: string): string {
+  return images[`../images/services/${fileName}`]?.default;
+}
 
 // src/data/serviceDetails.ts
 export const serviceDetails = {
@@ -33,9 +18,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de drain",
     firstDescription:
       "Lorsqu’un drain est bouché, chaque minute compte. C’est pourquoi nos plombiers vous offrent un service d’urgence de débouchage de drain abordable, rapide et disponible 24h/7.",
-    imgUrl1: drain1Img,
-    imgUrl2: drain2Img,
-    imgUrl3: drain3Img,
+    imgUrl1: getImage("drain1.webp"),
+    imgUrl2: getImage("drain2.webp"),
+    imgUrl3: getImage("drain3.webp"),
     atlText1:
       "Image animée montrant une canalisation en train d’être débouchée.",
     atlText2: "Des cheveux retirés d’un drain obstrué par un plombier.",
@@ -65,6 +50,23 @@ export const serviceDetails = {
     thirdSubTitle: "Confiance",
     thirdDescription:
       "Chez Débouchage Solutions, nous voulons rendre le processus simple et efficace. Avec un service disponible 24h/7, vous n'avez qu'à nous appeler afin de prendre rendez-nous. Une fois que nos experts auront inspectés vos problèmes de drain, ils pourront procéder au débouchage grâce à des outils professionnels et finir le travaille avec des conseils afin que vous puissiez prévenir de futur problèmes de drain.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   //debouchage toilette
   "debouchage-toilette": {
@@ -74,9 +76,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de toilette",
     firstDescription:
       "Une toilette bloquée peut devenir rapidement une situation d'urgence. Grâce à nos plombiers expérimentés, l'intervention sera rapide et efficace, tout en offrant un service 24h/7.",
-    imgUrl1: toilet1Img,
-    imgUrl2: toilet2Img,
-    imgUrl3: toilet3Img,
+    imgUrl1: getImage("toilet1.webp"),
+    imgUrl2: getImage("toilet2.webp"),
+    imgUrl3: getImage("toilet3.webp"),
     atlText1: "Un plombier tenant un siphon devant une toilette.",
     atlText2: "Un plombier en train de réparer la chaîne d’une toilette.",
     atlText3:
@@ -106,6 +108,23 @@ export const serviceDetails = {
     thirdSubTitle: "Courtoisie",
     thirdDescription:
       "Chez Débouchage Solutions, nous sommes au courant qu'une toilette bouchée peut être une grande source de stresse. C'est pourquoi nos experts mettent un point d'honneur à intervenir avec courtoisie et respect, même dans des situations urgentes. Prenez rendez-vous dès maintenant, pour que nous puissions rétablir votre confort.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   //debouchage evier de cuisine
   "debouchage-evier-cuisine": {
@@ -115,9 +134,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence pour débouchage d'évier de cuisine",
     firstDescription:
       "Besoin d'une intervention immédiate pour votre évier de cuisine bloqué? Heureusement, notre équipe de plombier est disponible 24h/7 pour sauver votre journée.",
-    imgUrl1: sink1Img,
-    imgUrl2: sink2Img,
-    imgUrl3: sink3Img,
+    imgUrl1: getImage("sink1.webp"),
+    imgUrl2: getImage("sink2.webp"),
+    imgUrl3: getImage("sink3.webp"),
     atlText1:
       "Un plombier utilisant un déboucheur à pression pour déboucher un évier de cuisine.",
     atlText2:
@@ -150,6 +169,23 @@ export const serviceDetails = {
     thirdSubTitle: "Professionnalisme",
     thirdDescription:
       "Nous savons parfaitement qu'un évier bouché peut perturber votre quotidien, et c'est pourquoi résoudre votre problème d'évier est notre priorité. Avec un service 24h/7, nous offrons des interventions réalisées avec soin, professionnalisme et le souci de résoudre durablement vos problème d'évier bloqué.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   // debouchage bain et douche
   "debouchage-bain-douche": {
@@ -159,9 +195,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de bain et douche",
     firstDescription:
       "Votre baignoire ou douche est bouché? Ne tardez pas à nous contacter pour une intervention d'urgence rapide, grâce à une équipe de plombiers disponibles 24h/7.",
-    imgUrl1: bath1Img,
-    imgUrl2: bath2Img,
-    imgUrl3: bath3Img,
+    imgUrl1: getImage("bath1.webp"),
+    imgUrl2: getImage("bath2.webp"),
+    imgUrl3: getImage("bath3.webp"),
     atlText1: "Un plombier en train de déboucher une baignoire.",
     atlText2: "Un plombier utilisant un furet pour déboucher une douche.",
     atlText3:
@@ -191,6 +227,23 @@ export const serviceDetails = {
     thirdSubTitle: "Satisfaction",
     thirdDescription:
       "Chez Débouchage Solutions Inc, votre satisfaction est notre priorité. Avec notre service rapide 24h/7 de débouchage de bain et douche, chaque urgence est traité avec le soucis de votre sécurité et bien-être.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   // debouchage lavabo
   "debouchage-lavabo": {
@@ -200,9 +253,9 @@ export const serviceDetails = {
     MainTitle: "Service d'urgence de débouchage de lavabo",
     firstDescription:
       "Votre lavabo est bloqué? Pas de soucis. Avec notre service de débouchage de lavabo, disponible 24h/7, nos plombiers sont prêts à intervenir avec des solutions efficaces pour restaurer votre confort rapidement.",
-    imgUrl1: lavabo1Img,
-    imgUrl2: lavabo2Img,
-    imgUrl3: lavabo3Img,
+    imgUrl1: getImage("lavabo1.webp"),
+    imgUrl2: getImage("lavabo2.webp"),
+    imgUrl3: getImage("lavabo3.webp"),
     atlText1:
       "Un plombier serrant un tuyau en métal avec une clé à molette rouge.",
     atlText2: "Un plombier réparant un tuyau sous un lavabo avec une clé.",
@@ -233,6 +286,23 @@ export const serviceDetails = {
     thirdSubTitle: "Transparence",
     thirdDescription:
       "Choisir notre équipe pour un débouchage de lavabo, c'est opter pour une équipe de plombiers dévouée à votre satisfaction. Nous intervenons rapidement et efficacements, en prenant soin de vos installations et en vous offrant des conseils pratiques pour prévenir des futurs blocages.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   // nettoyage drain hydro pression
   "nettoyage-drain-hydro-pression": {
@@ -242,9 +312,9 @@ export const serviceDetails = {
     MainTitle: "Service de nettoyage à hydro-pression",
     firstDescription:
       "Notre service de nettoyage à hydro-pression offre des solutions rapides et efficaces pour vos besoins résidentiels et commerciaux. Que ce soit pour des drains obstrués ou un entretien préventif, nos plombiers qualifiés interviennent avec des équipements modernes pour garantir des résultats durables. Disponible 24h/7, nous assurons des interventions professionnelles adaptées à chaque situation, pour une plomberie en parfait état.",
-    imgUrl1: hydro1Img,
-    imgUrl2: hydro2Img,
-    imgUrl3: hydro3Img,
+    imgUrl1: getImage("hydro1.webp"),
+    imgUrl2: getImage("hydro2.webp"),
+    imgUrl3: getImage("hydro3.webp"),
     atlText1:
       "Illustration d'une buse d'hydro-pression nettoyant un tuyau obstrué avec des jets d'eau puissants.",
     atlText2:
@@ -277,6 +347,23 @@ export const serviceDetails = {
     thirdSubTitle: "Durabilité",
     thirdDescription:
       "Nos années d’expérience et notre expertise en nettoyage à hydro-pression nous permettent de fournir des résultats rapides, précis et durables. Nous utilisons des équipements modernes et des méthodes écoresponsables pour assurer la sécurité de vos installations tout en répondant à vos besoins spécifiques. Disponible 24h/7, notre équipe s’engage à offrir un service professionnel et personnalisé, que ce soit pour une urgence ou un entretien préventif. Faites confiance à des plombiers qualifiés qui mettent votre satisfaction au cœur de chaque intervention.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   // nettoyage drain de garage
   "nettoyage-drain-garage": {
@@ -286,9 +373,9 @@ export const serviceDetails = {
     MainTitle: "Service de nettoyage de drain de garage",
     firstDescription:
       "Un drain de garage obstrué peut rapidement devenir un problème majeur. C’est pourquoi notre équipe de plombiers qualifiés propose un service rapide et efficace pour le nettoyage de vos drains. Que ce soit pour une urgence ou un entretien préventif, nous utilisons des équipements modernes pour garantir des résultats durables. Disponible 24h/7, notre service s’adapte aux besoins des propriétaires résidentiels, offrant des solutions fiables et personnalisées.",
-    imgUrl1: garage1Img,
-    imgUrl2: garage2Img,
-    imgUrl3: garage3Img,
+    imgUrl1: getImage("garage1.webp"),
+    imgUrl2: getImage("garage2.webp"),
+    imgUrl3: getImage("garage3.webp"),
     atlText1: "Un drain de garage propre avec de l'eau stagnante sur le sol.",
     atlText2:
       "Un plombier inspectant et nettoyant un drain de garage avec des outils spécialisés.",
@@ -320,6 +407,23 @@ export const serviceDetails = {
     thirdSubTitle: "Fiabilité",
     thirdDescription:
       "Nous comprenons l’importance d’un drain de garage fonctionnel pour éviter les inondations et préserver vos espaces. Avec des années d’expérience et des équipements de pointe, notre équipe s’engage à fournir un service rapide, fiable et adapté à vos besoins. Disponible 24h/7, nous intervenons pour les urgences comme pour l’entretien préventif, afin de garantir votre tranquillité d’esprit. Faites confiance à des plombiers qualifiés qui priorisent votre satisfaction et la durabilité de vos installations.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
   // inpsection camera
   "inspection-camera": {
@@ -329,9 +433,9 @@ export const serviceDetails = {
     MainTitle: "Service d'inspection par caméra",
     firstDescription:
       "Notre service d’inspection par caméra est la solution idéale pour diagnostiquer rapidement et précisément les canalisations bouchées ou effectuer un entretien préventif des drains. Grâce à des équipements modernes, nos plombiers qualifiés interviennent pour offrir le meilleur service d’inspection pour plomberie, que ce soit pour un problème urgent ou une maintenance planifiée. Disponible 24h/7, nous vous garantissons des résultats fiables et un excellent rapport qualité-prix pour vos besoins en plomberie.",
-    imgUrl1: camera1Img,
-    imgUrl2: camera2Img,
-    imgUrl3: camera3Img,
+    imgUrl1: getImage("camera1.webp"),
+    imgUrl2: getImage("camera2.webp"),
+    imgUrl3: getImage("camera3.webp"),
     atlText1:
       "Caméra d'inspection pour plomberie avec un câble flexible et un écran intégré.",
     atlText2:
@@ -364,5 +468,22 @@ export const serviceDetails = {
     thirdSubTitle: "Fiabilité",
     thirdDescription:
       "Chez nous, l’expertise rencontre la technologie pour offrir un service d’inspection par caméra fiable et efficace. Nos plombiers qualifiés s’appuient sur des équipements de pointe pour diagnostiquer rapidement et avec précision vos canalisations bouchées. Que ce soit pour une urgence ou un entretien préventif, nous priorisons votre satisfaction et la protection de vos installations. Avec notre disponibilité 24h/7, vous bénéficiez d’une assistance rapide et adaptée à vos besoins, à chaque intervention.",
+    faq: [
+      {
+        question: "Quels villes désservons-nous?",
+        answer:
+          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
+      },
+      {
+        question: "Quels sont les signes que ma canalisation est bouchée?",
+        answer:
+          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+      },
+      {
+        question: "Offrez-vous des services de maintenance préventive?",
+        answer:
+          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+      },
+    ],
   },
 };
