@@ -9,7 +9,7 @@ import Process from "../components/process.astro";
 import Carousel from "../components/Carousel.astro";
 import ContactForm from "../components/ContactForm.astro";
 import Reviews from "../components/reviews.astro";
-import cartoon from "../images/cities/cartoon.webp";
+import cityMain from "../images/cities/city-main.webp";
 import cityPhoto from "../images/cities/cityPhoto.webp";
 
 const { city } = Astro.params;
@@ -55,7 +55,7 @@ export async function getStaticPaths() {
     >
     </div>
 
-    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 max-[440px]:px-6">
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32 max-[440px]:px-6">
       <div class="hidden sm:mb-8 sm:flex sm:justify-center">
         <div class="relative px-3 py-1 text-2xl leading-6 text-blue-100">
           Besoin d'une intervention immédiate?
@@ -140,7 +140,7 @@ export async function getStaticPaths() {
           height="1442"
         /> -->
         <Image
-          src={cartoon}
+          src={cityMain}
           alt="Illustration d’un plombier cartoon souriant tenant une ventouse et levant le pouce."
           class="w-[48rem] sm:w-[57rem] md:-ml-4 lg:-ml-0"
           format="webp"
