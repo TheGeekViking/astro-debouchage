@@ -48,11 +48,6 @@ export const cityDetails = {
       "Chez Débouchage Solution, chaque urgence est prise au sérieux. Nous savons à quel point un problème de plomberie peut être une source de stresse et c'est pour cela que nous offrons le service de débouchage le plus rapide partout sur l'île de Montréal.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -104,11 +99,6 @@ export const cityDetails = {
     thirdDescription:
       "Chez Débouchage Solutions, nous mettons votre satisfaction au cœur de nos priorités. Nos plombiers spécialisés à Richelieu sont à votre porté et disponibles 24h/7 pour intervenir rapidement, avec des solutions fiables et adaptées à chaque situation. Choisissez un service qui garantit confort et tranquillité d’esprit.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -165,11 +155,6 @@ export const cityDetails = {
       "À Saint-Basile-le-Grand, nous sommes votre solution de confiance pour tous vos besoins de débouchage. Que ce soit pour un lavabo bouché, des canalisations obstruées, ou un nettoyage à hydro-pression, notre équipe intervient rapidement pour résoudre vos urgences. Disponibles 24h/7, nos plombiers spécialisés utilisent des équipements modernes pour garantir des résultats fiables et durables, tout en offrant des solutions économiques adaptées à votre budget.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -223,11 +208,6 @@ export const cityDetails = {
       "À Saint-Bruno-de-Montarville, nous sommes plus qu’un simple service de débouchage – nous sommes vos partenaires de confiance pour résoudre vos urgences de plomberie. Avec une équipe de plombiers expérimentés, une disponibilité 24h/7, et un engagement envers des solutions fiables et rapides, nous veillons à ce que chaque intervention soit une expérience sans stress. Faites le choix de la qualité et de la tranquillité d’esprit pour vos besoins en débouchage.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -280,11 +260,6 @@ export const cityDetails = {
     thirdDescription:
       "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -340,11 +315,6 @@ export const cityDetails = {
       "À Saint-Hyacinthe, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -398,11 +368,6 @@ export const cityDetails = {
       "Chez Débouchage Solutions, nous comprenons que chaque urgence de plomberie est stressante. C’est pourquoi nous mettons l’accent sur un service client exceptionnel et des interventions rapides. Avec des plombiers expérimentés et des outils modernes, nous offrons un débouchage efficace et des solutions durables. Faites confiance à notre équipe locale pour résoudre vos problèmes de manière professionnelle et sans tracas.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -454,11 +419,6 @@ export const cityDetails = {
     thirdDescription:
       "À Saint-Lambert, nous ne nous contentons pas de résoudre vos urgences de plomberie – nous offrons un service complet, centré sur la qualité et la satisfaction. Avec une équipe de plombiers locaux expérimentés, des équipements modernes, et une disponibilité 24h/7, nous assurons des interventions rapides, efficaces et adaptées à vos besoins. Faites-nous confiance pour un débouchage professionnel, réalisé avec soin et précision.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -515,11 +475,6 @@ export const cityDetails = {
       "À Saint-Mathieu-de-Beloeil, nous mettons un point d’honneur à offrir des interventions rapides et efficaces, tout en priorisant votre satisfaction. Nos plombiers locaux expérimentés utilisent des techniques modernes pour résoudre vos urgences avec précision et professionnalisme. En choisissant nos services, vous bénéficiez d’une expertise fiable, d’une disponibilité 24h/7, et de solutions conçues pour prévenir de futurs problèmes. Faites confiance à notre équipe pour des résultats durables et une tranquillité d’esprit garantie.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -572,11 +527,6 @@ export const cityDetails = {
       "À Sainte-Catherine, nous nous engageons à offrir un service de débouchage qui va au-delà des attentes. Avec une équipe de plombiers locaux expérimentés, nous intervenons rapidement pour résoudre vos urgences de plomberie avec précision et efficacité. Notre priorité est de garantir votre satisfaction en fournissant des solutions durables, adaptées à vos besoins spécifiques. Faites confiance à nos experts pour un service professionnel et sans compromis.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -628,11 +578,6 @@ export const cityDetails = {
     thirdDescription:
       "À Saint-Julie, nous nous engageons à fournir un service de débouchage qui allie rapidité, professionnalisme, et résultats durables. Nos plombiers locaux expérimentés interviennent avec des outils modernes et une approche axée sur votre satisfaction. Que vous fassiez face à une urgence de plomberie ou que vous cherchiez des solutions préventives, nous sommes là pour répondre à vos besoins avec précision et efficacité. Faites confiance à notre équipe pour des interventions fiables et sans tracas.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -687,11 +632,6 @@ export const cityDetails = {
       "Chez Débouchage Solutions, nous combinons expertise locale et professionnalisme pour offrir un service de débouchage exceptionnel à Salaberry-de-Valleyfield. Nos plombiers expérimentés sont disponibles 24h/7 pour intervenir rapidement et efficacement. Avec des outils modernes et une approche centrée sur votre satisfaction, nous nous engageons à résoudre vos problèmes de plomberie tout en garantissant des solutions durables et adaptées. Faites confiance à notre équipe pour une intervention sans stress et un résultat impeccable.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -744,11 +684,6 @@ export const cityDetails = {
     thirdDescription:
       "À Varennes, nous nous engageons à offrir bien plus qu’un simple service de débouchage. Nos plombiers locaux expérimentés interviennent rapidement et utilisent des techniques modernes pour garantir des résultats fiables et durables. Que vous soyez confronté à une urgence ou à un besoin d’entretien préventif, notre priorité est votre satisfaction. Faites confiance à notre expertise et profitez d’un service professionnel, adapté à vos besoins, et sans tracas.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -803,11 +738,6 @@ export const cityDetails = {
       "À Beloeil, notre priorité est de résoudre vos urgences de plomberie rapidement et efficacement. Avec des plombiers locaux qualifiés et des outils à la pointe de la technologie, nous assurons des interventions fiables et adaptées. Que vous ayez besoin d’un dépannage urgent ou d’une solution durable, notre équipe s’engage à offrir un service sans compromis et une tranquillité d’esprit totale.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -860,11 +790,6 @@ export const cityDetails = {
     thirdDescription:
       "À Boucherville, nous comprenons l’importance d’un service rapide et fiable pour maintenir le confort des résidents et le bon fonctionnement des entreprises locales. Nos plombiers expérimentés, basés dans la région, interviennent avec précision et professionnalisme pour répondre à toutes vos urgences de débouchage. Avec une disponibilité 24h/7 et une approche centrée sur vos besoins, nous garantissons des solutions durables adaptées à la qualité de vie unique de Boucherville.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -919,11 +844,6 @@ export const cityDetails = {
       "À Brossard, nous comprenons l’importance d’un service rapide et fiable, que ce soit pour vos urgences résidentielles ou commerciales. Nos plombiers locaux expérimentés interviennent avec des techniques modernes pour garantir des résultats précis et durables. Nous sommes fiers de soutenir la communauté dynamique de Brossard avec un service de débouchage adapté, disponible 24h/7 pour répondre à tous vos besoins. Faites confiance à notre équipe pour une expérience sans stress et des solutions sur mesure.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -976,11 +896,6 @@ export const cityDetails = {
     thirdDescription:
       "À Candiac, nous comprenons que chaque urgence de plomberie peut perturber votre quotidien ou vos activités. Nos plombiers locaux expérimentés sont fiers de servir la communauté avec des solutions rapides, fiables, et adaptées à vos besoins spécifiques. Disponible 24h/7, notre équipe s’engage à offrir un service professionnel qui allie expertise et satisfaction client. Faites confiance à notre savoir-faire pour un débouchage sans stress et des résultats durables.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -1035,11 +950,6 @@ export const cityDetails = {
       "À Carignan, nous comprenons que chaque problème de plomberie peut affecter le confort et la sérénité de votre foyer. Nos plombiers locaux qualifiés sont fiers de servir la communauté avec des solutions sur mesure et une expertise fiable. Que vous ayez une urgence ou que vous cherchiez des options préventives, notre service est disponible 24h/7 pour vous offrir des interventions rapides, précises et respectueuses de vos besoins. Faites confiance à une équipe dédiée à la satisfaction des résidents de Carignan.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -1092,11 +1002,6 @@ export const cityDetails = {
     thirdDescription:
       "À Chambly, nous sommes fiers de fournir un service de débouchage qui allie expertise locale, rapidité, et fiabilité. Nos plombiers qualifiés connaissent les spécificités de la région et interviennent avec des solutions adaptées, qu’il s’agisse d’une urgence ou d’un entretien préventif. Disponible 24h/7, nous nous engageons à offrir des interventions précises et respectueuses de vos besoins, afin de garantir votre confort et votre tranquillité d’esprit. Faites confiance à notre équipe pour des résultats durables.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -1151,11 +1056,6 @@ export const cityDetails = {
       "À Châteauguay, nous sommes fiers de servir la communauté avec des solutions de débouchage rapides, fiables, et adaptées. Nos plombiers locaux expérimentés comprennent les besoins spécifiques des résidents et des entreprises de la région. Disponible 24h/7, notre équipe utilise des techniques modernes pour garantir des résultats durables et une satisfaction totale. Faites confiance à notre expertise pour des interventions sans stress, que ce soit pour une urgence ou un entretien préventif.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -1207,11 +1107,6 @@ export const cityDetails = {
     thirdDescription:
       "À Delson, nous sommes fiers de fournir un service de débouchage qui allie expertise locale, rapidité, et fiabilité. Nos plombiers qualifiés connaissent les infrastructures résidentielles et commerciales de la région, offrant des solutions adaptées et durables. Disponible 24h/7, notre équipe s’engage à répondre à vos besoins avec précision et professionnalisme, que ce soit pour une urgence ou un entretien préventif. Faites confiance à notre savoir-faire pour des résultats sans stress et une satisfaction totale.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -1266,11 +1161,6 @@ export const cityDetails = {
       "À La Prairie, nous nous engageons à fournir un service de débouchage qui allie expertise locale, rapidité, et solutions durables. Nos plombiers qualifiés, bien implantés dans la région, comprennent les besoins spécifiques des résidents et des entreprises locales. Disponible 24h/7, nous offrons des interventions précises et respectueuses, adaptées à vos infrastructures. Faites confiance à une équipe qui place votre satisfaction et votre tranquillité d’esprit au cœur de chaque intervention.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -1322,11 +1212,6 @@ export const cityDetails = {
     thirdDescription:
       "À Longueuil, notre mission est de fournir des solutions de débouchage qui allient rapidité, expertise et satisfaction client. Nos plombiers locaux qualifiés comprennent les infrastructures variées de la région, des maisons résidentielles aux locaux commerciaux. Disponible 24h/7, notre équipe offre des interventions précises et respectueuses, adaptées à vos besoins spécifiques. Faites confiance à une équipe qui place votre tranquillité d’esprit et des résultats durables au cœur de chaque intervention.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
@@ -1381,11 +1266,6 @@ export const cityDetails = {
       "À Marieville, nous mettons notre expertise et notre engagement au service des résidents et des entreprises locales. Nos plombiers qualifiés, basés dans la région, interviennent avec précision et rapidité pour garantir des résultats fiables et durables. Que ce soit pour une urgence ou un entretien préventif, nous offrons des solutions adaptées à vos besoins et respectueuses de vos infrastructures. Disponible 24h/7, notre priorité est votre satisfaction et votre tranquillité d’esprit.",
     faq: [
       {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
-      {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:
           "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
@@ -1437,11 +1317,6 @@ export const cityDetails = {
     thirdDescription:
       "À Mont-Saint-Hilaire, nous sommes fiers de fournir des services de débouchage rapides, fiables et adaptés aux besoins de la communauté locale. Nos plombiers qualifiés, bien implantés dans la région, comprennent les infrastructures uniques des maisons et entreprises locales. Disponible 24h/7, notre équipe s’engage à offrir des solutions efficaces qui assurent votre tranquillité d’esprit et des résultats durables. Faites confiance à notre expertise pour un service sans égal.",
     faq: [
-      {
-        question: "Quels villes désservons-nous?",
-        answer:
-          "Voici les villes que nous désservons: Montréal, Richelieu, Saint-Basile-le-Grand, Saint-Bruno de Montarville, Saint-Constant, Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Lambert, Saint-Mathieu-de-Beloeil, Sainte-Catherine, Sainte-Julie, Salaberry-de-Valleyfield, Varennes, Beloeil, Boucherville, Brossard, Candiac, Carigan, Chambly, Chateauguay, Delson, La Prairie, Longueuil, Marieville, Mont Saint-Hilaire.",
-      },
       {
         question: "Quels sont les signes que ma canalisation est bouchée?",
         answer:

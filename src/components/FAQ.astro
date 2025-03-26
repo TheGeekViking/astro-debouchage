@@ -20,6 +20,96 @@ const { faq = [] } = Astro.props as Props;
         Foire Aux Questions
       </h2>
       <dl class="mt-10 space-y-6 divide-y divide-white/10">
+        <div class="question pt-6">
+          <dt>
+            <!-- Expand/collapse question button -->
+            <button
+              type="button"
+              class="expand flex w-full items-start justify-between text-left text-white"
+              aria-controls="faq-0"
+              aria-expanded="false"
+              id="faqBtn1"
+            >
+              <span class="text-lg font-semibold leading-7"
+                >Quels villes désservons-nous?</span
+              >
+              <span class="ml-6 flex h-7 items-center">
+                <!--
+                  Icon when question is collapsed.
+
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg
+                  class="plus h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  id="plus1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v12m6-6H6"></path>
+                </svg>
+                <!--
+                  Icon when question is expanded.
+
+                  Item expanded: "", Item collapsed: "hidden"
+                -->
+                <svg
+                  class="minus hidden h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  id="minus1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M18 12H6"></path>
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd class="response hidden mt-2 pr-12" id="faq-1">
+            <p class="text-base leading-7 text-gray-300">
+              <strong>Voici les villes que nous désservons:</strong>
+              <a href="/montreal/">Montréal</a>, <a href="/richelieu/"
+                >Richelieu</a
+              >,
+              <a href="/saint-basile-le-grand/">Saint-Basile-le-Grand</a>,
+              <a href="/saint-bruno-de-montarville/"
+                >Saint-Bruno-de-Montarville</a
+              >, <a href="/saint-constant/">Saint-Constant</a>,
+              <a href="/saint-hyacinthe/">Saint-Hyacinthe</a>,
+              <a href="/saint-jean-sur-richelieu/">Saint-Jean-sur-Richelieu</a>,
+              <a href="/saint-lambert/">Saint-Lambert</a>,
+              <a href="/saint-mathieu-de-beloeil/">Saint-Mathieu-de-Beloeil</a>, <a
+                href="/sainte-catherine/">Sainte-Catherine</a
+              >,
+              <a href="/sainte-julie/">Sainte-Julie</a>,
+              <a href="/salaberry-de-valleyfield/">Salaberry-de-Valleyfield</a>, <a
+                href="/varennes/">Varennes</a
+              >, <a href="/beloeil/">Beloeil</a>, <a href="/boucherville/"
+                >Boucherville</a
+              >, <a href="/brossard/">Brossard</a>, <a href="/candiac/"
+                >Candiac</a
+              >, <a href="/carignan/">Carigan</a>, <a href="/chambly/"
+                >Chambly</a
+              >, <a href="/chateauguay/">Chateauguay</a>, <a href="/delson/"
+                >Delson</a
+              >, <a href="/laprairie/">La Prairie</a>, <a href="/longueuil/"
+                >Longueuil</a
+              >, <a href="/marieville/">Marieville</a>, <a
+                href="/mont-saint-hilaire/">Mont-Saint-Hilaire</a
+              >.
+            </p>
+          </dd>
+        </div>
         {
           faq.map((item, index) => (
             <div class="question pt-6">
