@@ -52,14 +52,22 @@ export const serviceDetails = {
       "Chez Débouchage Solutions, nous voulons rendre le processus simple et efficace. Avec un service disponible 24h/7, vous n'avez qu'à nous appeler afin de prendre rendez-nous. Une fois que nos experts auront inspectés vos problèmes de drain, ils pourront procéder au débouchage grâce à des outils professionnels et finir le travaille avec des conseils afin que vous puissiez prévenir de futur problèmes de drain.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quels sont les signes indiquant que je dois immédiatement appeler un plombier pour un débouchage de drain?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les signes les plus fréquents incluent un écoulement lent ou stagnant de l’eau, des remontées d’eau ou de mauvaises odeurs provenant des drains, ainsi que des gargouillements inhabituels dans vos canalisations. Si vous remarquez un de ces symptômes, contactez-nous immédiatement afin d’éviter des dommages supplémentaires à votre système de drainage.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Combien de temps dure généralement une intervention pour un drain bloqué?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "La durée d’intervention pour déboucher un drain varie selon la gravité et l'emplacement du blocage, mais en général, nos techniciens résolvent le problème en 1 à 2 heures maximum. Nous assurons un débouchage rapide et efficace.",
+      },
+      {
+        question:
+          "Offrez-vous un service d’urgence les soirs et les fins de semaine?",
+        answer:
+          "Oui, absolument! Notre service de débouchage de drain est disponible 24h/7, incluant les soirées, les weekends et même les jours fériés. Quelle que soit l'heure ou le jour, nous sommes prêts à intervenir rapidement pour vos problèmes de drainage.",
       },
     ],
   },

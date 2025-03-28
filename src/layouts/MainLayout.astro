@@ -55,10 +55,31 @@ import Navbar from "../components/Navbar.astro";
     <Navbar />
     <section id="home">
       <slot />
+      <!-- Floating Call Button -->
+      <div class="fixed bottom-4 right-4">
+        <a href="tel:4505420991">
+          <button
+            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-2 rounded-full shadow-lg"
+          >
+            <svg
+              width="40pt"
+              height="40pt"
+              version="1.1"
+              viewBox="0 0 1200 1200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m193.18 348.56c-3.3281-47.344-4.7344-43.828 29.953-82.312 92.484-102.47 146.72-108.52 185.9-51.656 0.375 0.5625 0.70312 0.98438 1.125 1.5 140.44 174.47 132.42 145.22 19.078 323.58-5.0625 7.9688-5.3906 17.391-0.84375 25.688 60 109.36 109.83 159.19 219.14 219.14 8.2969 4.5469 17.719 4.2656 25.688-0.84375 178.36-113.34 149.11-121.36 323.58 19.078 0.51562 0.42188 0.98438 0.75 1.5 1.125 56.859 39.188 50.812 93.469-51.656 185.9-38.484 34.688-34.969 33.328-82.312 29.953-298.4-21.094-650.06-372.74-671.16-671.16z"
+                fill="#fff"
+                fill-rule="evenodd"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+      <Footer />
+      <script>
+        import "../scripts/menu.js";
+      </script>
     </section>
-    <Footer />
-    <script>
-      import "../scripts/menu.js";
-    </script>
   </body>
 </html>
