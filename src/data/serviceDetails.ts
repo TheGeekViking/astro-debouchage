@@ -113,14 +113,20 @@ export const serviceDetails = {
       "Chez Débouchage Solutions, nous sommes au courant qu'une toilette bouchée peut être une grande source de stresse. C'est pourquoi nos experts mettent un point d'honneur à intervenir avec courtoisie et respect, même dans des situations urgentes. Prenez rendez-vous dès maintenant, pour que nous puissions rétablir votre confort.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question: "Quelle est la cause fréquente d'une toilette bouchée?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Une toilette bouchée est généralement causée par l’accumulation excessive de papier, des lingettes humides, des objets tombés accidentellement ou encore par un problème dans la canalisation. Nos techniciens expérimentés interviennent rapidement afin d'identifier clairement la cause et régler efficacement le problème.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Votre service d'intervention pour toilette bouchée inclut-il une garantie?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Absolument! Tous nos services de débouchage sont entièrement garantis. Votre satisfaction est notre priorité, et nos techniciens prennent toujours le temps de s'assurer que tout fonctionne parfaitement avant de quitter les lieux.",
+      },
+      {
+        question: "Sommes-nous disponibles pour une intervention le jour même?",
+        answer:
+          "Oui, bien sûr! Nous sommes conscients qu’une toilette bouchée nécessite souvent une intervention immédiate. C’est pourquoi nos techniciens sont toujours prêts à intervenir le jour même, 24h/7, partout à Montréal et ses environs. N’hésitez pas à nous contacter, il nous fera plaisir de vous aider dans les plus brefs délais!",
       },
     ],
   },
@@ -169,14 +175,21 @@ export const serviceDetails = {
       "Nous savons parfaitement qu'un évier bouché peut perturber votre quotidien, et c'est pourquoi résoudre votre problème d'évier est notre priorité. Avec un service 24h/7, nous offrons des interventions réalisées avec soin, professionnalisme et le souci de résoudre durablement vos problème d'évier bloqué.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Est-ce que je peux déboucher mon évier moi-même ou dois-je faire appel à un professionnel?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Dans certains cas simples, comme un léger bouchon de graisse ou de résidus alimentaires, il est possible de tenter un débouchage maison à l’aide d’eau bouillante, d’une ventouse ou de produits naturels. Toutefois, si le problème persiste ou si l’eau ne s’écoule plus du tout, il est fortement recommandé de faire appel à un professionnel. Nos spécialistes disposent des outils et de l’expertise nécessaires pour déboucher votre évier de cuisine rapidement, sans endommager vos installations.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question: "Le débouchage d’évier inclut-il une garantie?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, absolument! Toutes nos interventions de débouchage, y compris pour les éviers de cuisine, sont couvertes par une garantie. Nous avons à cœur votre tranquillité d’esprit et nous nous assurons que le problème soit réglé de manière durable dès la première visite.",
+      },
+      {
+        question:
+          "Votre service couvre-t-il les urgences les soirs et les fins de semaine?",
+        answer:
+          "Oui, notre service d’urgence est disponible 24h/7, y compris les soirs, les fins de semaine et les jours fériés. Si votre évier de cuisine est bouché et nécessite une intervention immédiate, vous pouvez compter sur nous à tout moment. Nous sommes prêts à intervenir rapidement, peu importe l’heure et la journée.",
       },
     ],
   },
