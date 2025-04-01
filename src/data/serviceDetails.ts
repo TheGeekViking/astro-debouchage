@@ -115,7 +115,7 @@ export const serviceDetails = {
       {
         question: "Quelle est la cause fréquente d'une toilette bouchée?",
         answer:
-          "Une toilette bouchée est généralement causée par l’accumulation excessive de papier, des lingettes humides, des objets tombés accidentellement ou encore par un problème dans la canalisation. Nos techniciens expérimentés interviennent rapidement afin d'identifier clairement la cause et régler efficacement le problème.",
+          "Une toilette bouchée est généralement causée par l’accumulation excessive de papier, des lingettes humides, des objets tombés accidentellement ou encore par un problème dans la canalisation. Nos techniciens expérimentés pourront identifier clairement la cause et régler efficacement le problème.",
       },
       {
         question:
@@ -235,14 +235,22 @@ export const serviceDetails = {
       "Chez Débouchage Solutions Inc, votre satisfaction est notre priorité. Avec notre service rapide 24h/7 de débouchage de bain et douche, chaque urgence est traité avec le soucis de votre sécurité et bien-être.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Intervenez-vous en urgence pour un bain ou une douche bouchés?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Oui, tout à fait ! Nous offrons un service de dépannage d'urgence pour une baignoire ou une douche bouchées, disponible 24 heures sur 24, 7 jours sur 7. Nos techniciens sont prêts à intervenir rapidement partout à Montréal et sur la Rive-Sud, afin de régler le problème efficacement, sans délai.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Est-il sécuritaire d'utiliser des produits chimiques pour déboucher ma baignoire?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "L'utilisation fréquente de produits chimiques peut endommager vos canalisations et présenter des risques pour l'environnement. Il est préférable d'opter pour des méthodes mécaniques, comme l'utilisation d'une ventouse ou d'un furet, ou de faire appel à un professionnel pour un débouchage efficace et sécuritaire.",
+      },
+      {
+        question:
+          "Est-ce qu’un problème de drainage dans la douche peut provenir du drain principal?",
+        answer:
+          "Oui, il arrive que le bouchon ne soit pas localisé directement sous la douche, mais plus loin dans la canalisation principale. Dans ce cas, une simple tentative de débouchage local ne suffit pas. Une inspection en profondeur permet d’identifier précisément la source du problème, et une intervention immédiate pour bain ou douche bouché est nécessaire.",
       },
     ],
   },
