@@ -297,14 +297,20 @@ export const serviceDetails = {
       "Choisir notre équipe pour un débouchage de lavabo, c'est opter pour une équipe de plombiers dévouée à votre satisfaction. Nous intervenons rapidement et efficacements, en prenant soin de vos installations et en vous offrant des conseils pratiques pour prévenir des futurs blocages.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Offrez-vous un service d'urgence 24h/7 pour le débouchage de lavabos?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Oui, bien sûr! Nous savons qu'un lavabo bouché peut vite devenir un problème désagréable. C’est pourquoi notre équipe est disponible pour les urgences 24h/7, afin d’intervenir rapidement partout dans la région de Montréal et ses environs. N'hésitez pas à nous contacter, nous sommes toujours prêts à vous aider avec le sourire!",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question: "Quelles sont les causes fréquentes d'un lavabo bouché?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Votre lavabo peut facilement se boucher à cause de l'accumulation de cheveux, de savon, de dentifrice ou d'autres petits résidus qui finissent par obstruer les canalisations avec le temps. Pas d’inquiétude, nos techniciens sont là pour résoudre rapidement ce problème désagréable!",
+      },
+      {
+        question: "Est-ce que je peux déboucher mon lavabo moi-même?",
+        answer:
+          "Absolument! Vous pouvez essayer avec une ventouse ou un mélange naturel (bicarbonate de soude et vinaigre). Cependant, si le bouchon persiste, évitez les produits chimiques qui risquent d'endommager vos tuyaux, et faites plutôt appel à nos plombiers pour une intervention rapide et sécuritaire.",
       },
     ],
   },
