@@ -12,7 +12,7 @@ export const cityDetails = {
     title: "Débouchage Montreal | Urgence 24/7",
     metaDescription:
       "Service d'urgence de débouchage à Montréal: drains, lavabos, toilettes et plus. Intervention rapide 24h/7 avec des plombiers qualifiés. Satisfaction garantie!",
-    cardTitle: "Débouchage Montreal",
+    cardTitle: "Montreal",
     cardImgUrl: getCityImage("montreal.webp"),
     altText: "Vue panoramique de la ville de Montréal.",
     mainTitle: "Service de débouchage à Montréal",
@@ -64,7 +64,7 @@ export const cityDetails = {
     title: "Débouchage Richelieu | Urgence 24/7",
     metaDescription:
       "Besoin d’un débouchage à Richelieu? Nos plombiers qualifiés interviennent rapidement 24h/7 pour résoudre vos urgences de drains et canalisations bouchés. Appelez dès maintenant!",
-    cardTitle: "Débouchage Richelieu",
+    cardTitle: "Richelieu",
     cardImgUrl: getCityImage("richelieu.webp"),
     altText: "Vue panoramique sur la rivère Richelieu",
     mainTitle: "Service de débouchage à Richelieu",
@@ -116,7 +116,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Basile-le-Grand | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Basile-le-Grand. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Contactez-nous dès maintenant!",
-    cardTitle: "Débouchage Saint-Basile-le-Grand",
+    cardTitle: "Saint-Basile-le-Grand",
     cardImgUrl: getCityImage("saint-basile.webp"),
     altText: "La station de train à Saint-Basile-le-Grand.",
     mainTitle: "Service de débouchage à Saint-Basile-le-Grand",
@@ -171,7 +171,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Bruno-de-Montarville | Urgence 24/7",
     metaDescription:
       "Débouchage professionnel à Saint-Bruno-de-Montarville. Plombiers d’urgence disponibles 24h/7 pour drains, lavabos, et canalisations bouchés. Service rapide, durable et adapté à vos besoins!",
-    cardTitle: "Débouchage Saint-Bruno-de-Montarville",
+    cardTitle: "Saint-Bruno-de-Montarville",
     cardImgUrl: getCityImage("saint-bruno.webp"),
     altText: "L'édifice Irda à Saint-Bruno-de-Montarville.",
     mainTitle: "Service de débouchage à Saint-Bruno-de-Montarville",
@@ -224,7 +224,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Constant | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Constant. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations bouchées ? Appelez dès aujourd’hui!",
-    cardTitle: "Débouchage Saint-Constant",
+    cardTitle: "Saint-Constant",
     cardImgUrl: getCityImage("saint-constant.webp"),
     altText: "L'hôtel de ville de Saint-Constant.",
     mainTitle: "Service de débouchage à Saint-Constant",
@@ -277,7 +277,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Hyacinthe | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Hyacinthe. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations, toilettes bouchées ? Appelez dès aujourd’hui!",
-    cardTitle: "Débouchage Saint-Hyacinthe",
+    cardTitle: "Saint-Hyacinthe",
     cardImgUrl: getCityImage("saint-hyacinthe.webp"),
     altText:
       "Entrée de bibliothèque et de la salle Marcelle-Gingras à Saint-Hyacinthe",
@@ -331,7 +331,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Jean-sur-Richelieu | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Jean-sur-Richelieu. Plombiers locaux disponibles 24h/7 pour drains, lavabos, et canalisations bouchées. Interventions rapides et solutions fiables. Appelez-nous dès maintenant!",
-    cardTitle: "Débouchage Saint-Jean-sur-Richelieu",
+    cardTitle: "Saint-Jean-sur-Richelieu",
     cardImgUrl: getCityImage("saint-jean.webp"),
     altText: "Place public dans le centre-ville de Saint-Jean-sur-Richelieu",
     mainTitle: "Service d'urgence de Débouchage à Saint-Jean-sur-Richelieu",
@@ -384,7 +384,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Lambert | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Lambert. Plombiers locaux disponibles 24h/7 pour drains, canalisations et urgences de plomberie. Interventions rapides, fiables et adaptées à vos besoins. Appelez-nous dès maintenant!",
-    cardTitle: "Débouchage Saint-Lambert",
+    cardTitle: "Saint-Lambert",
     cardImgUrl: getCityImage("saint-lambert.webp"),
     altText: "L'anneau de pierre situé au centre-ville de Saint-Lambert.",
     mainTitle: "Service d'urgence de Débouchage à Saint-Lambert",
@@ -436,7 +436,7 @@ export const cityDetails = {
     title: "Débouchage Saint-Mathieu-de-Beloeil | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Mathieu-de-Beloeil. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et fiables. Appelez dès maintenant!",
-    cardTitle: "Débouchage Saint-Mathieu-de-Beloeil",
+    cardTitle: "Saint-Mathieu-de-Beloeil",
     cardImgUrl: getCityImage("saint-mathieu.webp"),
     altText:
       "Centre communautaire André-Guy Trudeau à Saint-Mathieu-de-Beloeil.",
@@ -491,7 +491,7 @@ export const cityDetails = {
     title: "Débouchage Sainte-Catherine | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Sainte-Catherine. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Solutions rapides et durables. Appelez dès maintenant!",
-    cardTitle: "Débouchage Sainte-Catherine",
+    cardTitle: "Sainte-Catherine",
     cardImgUrl: getCityImage("sainte-catherine.webp"),
     altText: "Vue panoramique de Sainte-Catherine",
     mainTitle: "Service d'urgence de Débouchage à Sainte-Catherine",
@@ -543,7 +543,7 @@ export const cityDetails = {
     title: "Débouchage Sainte-Julie | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Saint-Julie. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et fiables. Appelez dès maintenant!",
-    cardTitle: "Débouchage Sainte-Julie",
+    cardTitle: "Sainte-Julie",
     cardImgUrl: getCityImage("saint-julie.webp"),
     altText: "Église et parc de coin de rue à Sainte-Julie",
     mainTitle: "Service d'urgence de Débouchage à Sainte-Julie",
@@ -595,7 +595,7 @@ export const cityDetails = {
     title: "Débouchage Salaberry-de-Valleyfield | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Salaberry-de-Valleyfield. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions fiables. Contactez-nous dès maintenant!",
-    cardTitle: "Débouchage Salaberry-de-Valleyfield",
+    cardTitle: "Salaberry-de-Valleyfield",
     cardImgUrl: getCityImage("valley-og.webp"),
     altText: "Terrasses et marina à Salaberry-de-Valleyfield.",
     mainTitle: "Service d'urgence de Débouchage à Salaberry-de-Valleyfield",
@@ -648,7 +648,7 @@ export const cityDetails = {
     title: "Débouchage Varennes | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Varennes. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions fiables. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Varennes",
+    cardTitle: "Varennes",
     cardImgUrl: getCityImage("varennes.webp"),
     altText: "Entrée de la ville de Varennes sur la route 132.",
     mainTitle: "Service d'urgence de Débouchage à Varennes",
@@ -701,7 +701,7 @@ export const cityDetails = {
     title: "Débouchage Beloeil | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Beloeil. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Solutions rapides, fiables et durables. Appelez dès maintenant!",
-    cardTitle: "Débouchage Beloeil",
+    cardTitle: "Beloeil",
     cardImgUrl: getCityImage("beloeil.webp"),
     altText:
       "Centre-ville historique de Belœil au Québec vu de Mont-Saint-Hilaire.",
@@ -754,7 +754,7 @@ export const cityDetails = {
     title: "Débouchage Boucherville | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Boucherville. Plombiers locaux disponibles 24h/7 pour drains, canalisations, et urgences de plomberie. Interventions rapides et solutions sur mesure. Appelez dès maintenant!",
-    cardTitle: "Débouchage Boucherville",
+    cardTitle: "Boucherville",
     cardImgUrl: getCityImage("boucherville.webp"),
     altText: "La Résidence Des Berges à Boucherville.",
     mainTitle: "Service d'urgence de Débouchage à Boucherville",
@@ -807,7 +807,7 @@ export const cityDetails = {
     title: "Débouchage Brossard | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Brossard. Plombiers locaux disponibles 24h/7 pour urgences résidentielles et commerciales. Interventions rapides, efficaces et adaptées à vos besoins. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Brossard",
+    cardTitle: "Brossard",
     cardImgUrl: getCityImage("brossard.webp"),
     altText: "Hôtel Alt situé dans le Quartier Dix30 à Brossard.",
     mainTitle: "Service d'urgence de Débouchage à Brossard",
@@ -860,7 +860,7 @@ export const cityDetails = {
     title: "Débouchage Candiac | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Candiac. Plombiers locaux disponibles 24h/7 pour urgences résidentielles et commerciales. Solutions rapides, fiables et adaptées à vos besoins. Appelez dès maintenant!",
-    cardTitle: "Débouchage Candiac",
+    cardTitle: "Candiac",
     cardImgUrl: getCityImage("candiac.webp"),
     altText: "L'Hôtel de ville à Candiac",
     mainTitle: "Service d'urgence de Débouchage à Candiac",
@@ -913,7 +913,7 @@ export const cityDetails = {
     title: "Débouchage Carignan | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Carignan. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, solutions durables et respectueuses de l’environnement. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Carignan",
+    cardTitle: "Carignan",
     cardImgUrl: getCityImage("carignan.webp"),
     altText:
       "Panneau d'accueil sur la route 116, à l'entrée ouest de la ville de Carignan.",
@@ -966,7 +966,7 @@ export const cityDetails = {
     title: "Débouchage Chambly | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Chambly. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Chambly",
+    cardTitle: "Chambly",
     cardImgUrl: getCityImage("chambly.webp"),
     altText: "L'Église Saint-Joseph à Chambly",
     mainTitle: "Service d'urgence de Débouchage à Chambly",
@@ -1019,7 +1019,7 @@ export const cityDetails = {
     title: "Débouchage Chateauguay | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Châteauguay. Plombiers locaux disponibles 24h/7 pour drains et canalisations bouchées. Interventions rapides, fiables et adaptées aux résidents et entreprises. Contactez-nous dès maintenant!",
-    cardTitle: "Débouchage Chateauguay",
+    cardTitle: "Chateauguay",
     cardImgUrl: getCityImage("chateauguay.webp"),
     altText: "Église à Chateauguay",
     mainTitle: "Service d'urgence de Débouchage à Chateauguay",
@@ -1072,7 +1072,7 @@ export const cityDetails = {
     title: "Débouchage Delson | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Delson. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Delson",
+    cardTitle: "Delson",
     cardImgUrl: getCityImage("delson.webp"),
     altText: "Ville de Delson",
     mainTitle: "Service d'urgence de Débouchage à Delson",
@@ -1124,7 +1124,7 @@ export const cityDetails = {
     title: "Débouchage La Prairie | Urgence 24/7",
     metaDescription:
       "Service de débouchage à La Prairie. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, solutions fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès maintenant!",
-    cardTitle: "Débouchage La Prairie",
+    cardTitle: "La Prairie",
     cardImgUrl: getCityImage("laprairie.webp"),
     altText: "Vieux La Prairie, Chemin Saint-Jean.",
     mainTitle: "Service d'urgence de Débouchage à La Prairie",
@@ -1177,7 +1177,7 @@ export const cityDetails = {
     title: "Débouchage Longueuil | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Longueuil. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Appelez dès maintenant!",
-    cardTitle: "Débouchage Longueuil",
+    cardTitle: "Longueuil",
     cardImgUrl: getCityImage("longueuil.webp"),
     altText: "L'Hôtel de ville à Longueuil",
     mainTitle: "Service d'urgence de Débouchage à Longueuil",
@@ -1229,7 +1229,7 @@ export const cityDetails = {
     title: "Débouchage Marieville | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Marieville. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Contactez-nous dès aujourd’hui!",
-    cardTitle: "Débouchage Marieville",
+    cardTitle: "Marieville",
     cardImgUrl: getCityImage("marieville.webp"),
     altText: "Résidence Sainte-Croix de Marieville",
     mainTitle: "Service d'urgence de Débouchage à Marieville",
@@ -1282,7 +1282,7 @@ export const cityDetails = {
     title: "Débouchage Mont-Saint-Hilaire | Urgence 24/7",
     metaDescription:
       "Service de débouchage à Mont-Saint-Hilaire. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux résidents et entreprises. Appelez dès maintenant!",
-    cardTitle: "Débouchage Mont-Saint-Hilaire",
+    cardTitle: "Mont-Saint-Hilaire",
     cardImgUrl: getCityImage("mont-saint-hilaire.webp"),
     altText: "Vue du Mont-Saint-Hilaire",
     mainTitle: "Service d'urgence de Débouchage à Mont-Saint-Hilaire",
