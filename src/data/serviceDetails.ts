@@ -414,14 +414,22 @@ export const serviceDetails = {
       "Nous comprenons l’importance d’un drain de garage fonctionnel pour éviter les inondations et préserver vos espaces. Avec des années d’expérience et des équipements de pointe, notre équipe s’engage à fournir un service rapide, fiable et adapté à vos besoins. Disponible 24h/7, nous intervenons pour les urgences comme pour l’entretien préventif, afin de garantir votre tranquillité d’esprit. Faites confiance à des plombiers qualifiés qui priorisent votre satisfaction et la durabilité de vos installations.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "À quelle fréquence devrais-je faire nettoyer le drain de mon garage?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Il est recommandé de nettoyer le drain de votre garage au moins une fois par an pour prévenir les obstructions et assurer un drainage efficace. Un entretien régulier peut éviter des problèmes plus graves à l'avenir.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Le nettoyage du drain de garage inclut-il une inspection des canalisations?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, nos services de nettoyage de drain de garage incluent une inspection complète des canalisations pour identifier tout problème potentiel et assurer un fonctionnement optimal.",
+      },
+      {
+        question:
+          "Offrez-vous des services d'urgence pour le nettoyage des drains de garage?",
+        answer:
+          "Bien que le nettoyage de drain de garage soit généralement un service préventif, nous comprenons que des situations urgentes peuvent survenir. Nous offrons donc des interventions rapides pour répondre à vos besoins.",
       },
     ],
   },
