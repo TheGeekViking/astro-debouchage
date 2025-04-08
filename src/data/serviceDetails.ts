@@ -478,14 +478,22 @@ export const serviceDetails = {
       "Chez nous, l’expertise rencontre la technologie pour offrir un service d’inspection par caméra fiable et efficace. Nos plombiers qualifiés s’appuient sur des équipements de pointe pour diagnostiquer rapidement et avec précision vos canalisations bouchées. Que ce soit pour une urgence ou un entretien préventif, nous priorisons votre satisfaction et la protection de vos installations. Avec notre disponibilité 24h/7, vous bénéficiez d’une assistance rapide et adaptée à vos besoins, à chaque intervention.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "À quelle fréquence devrais-je faire inspecter mes canalisations par caméra?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Il est recommandé de procéder à une inspection tous les 2 à 3 ans, ou dès que vous suspectez un problème, afin de maintenir un système de plomberie en bon état.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quels problèmes peuvent être détectés grâce à une inspection par caméra?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Cette méthode peut révéler des obstructions, des fissures, des racines infiltrées, des joints mal alignés et d'autres anomalies structurelles affectant les canalisations.",
+      },
+      {
+        question:
+          "Une inspection par caméra est-elle nécessaire avant l'achat d'une propriété?",
+        answer:
+          "Oui, elle peut révéler des problèmes cachés dans le système de plomberie, vous aidant à prendre une décision éclairée et à éviter des dépenses imprévues après l'achat.",
       },
     ],
   },
