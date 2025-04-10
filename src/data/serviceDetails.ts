@@ -359,14 +359,22 @@ export const serviceDetails = {
       "Nos années d’expérience et notre expertise en nettoyage à hydro-pression nous permettent de fournir des résultats rapides, précis et durables. Nous utilisons des équipements modernes et des méthodes écoresponsables pour assurer la sécurité de vos installations tout en répondant à vos besoins spécifiques. Disponible 24h/7, notre équipe s’engage à offrir un service professionnel et personnalisé, que ce soit pour une urgence ou un entretien préventif. Faites confiance à des plombiers qualifiés qui mettent votre satisfaction au cœur de chaque intervention.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Ce type de nettoyage peut-il endommager les tuyaux ou les canalisations?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Non, le nettoyage à hydro-pression est une méthode sécuritaire et très efficace lorsqu’elle est réalisée par des professionnels. Nos techniciens utilisent des équipements spécialisés qui ajustent précisément la pression pour éliminer les blocages sans risque d’endommager vos tuyaux ou vos canalisations.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Proposez-vous ce service pour les clients résidentiels et commerciaux?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, absolument! Notre service professionnel de nettoyage à hydro-pression est parfaitement adapté aux besoins résidentiels comme commerciaux. Que ce soit pour un simple entretien préventif à domicile ou pour déboucher efficacement les systèmes de drainage commerciaux complexes, nos techniciens expérimentés vous offrent une solution rapide, efficace et durable.",
+      },
+      {
+        question:
+          "Le nettoyage à hydro-pression est-il efficace contre les racines infiltrées dans les drains?",
+        answer:
+          "Certainement! Le nettoyage à hydro-pression est particulièrement efficace pour éliminer les racines infiltrées dans les drains. Grâce à sa puissance ajustable, il permet de déloger complètement les racines et autres blocages tenaces sans endommager vos canalisations, tout en restaurant un écoulement optimal et durable.",
       },
     ],
   },
