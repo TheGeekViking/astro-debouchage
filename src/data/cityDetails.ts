@@ -48,14 +48,21 @@ export const cityDetails = {
       "Chez Débouchage Solution, chaque urgence est prise au sérieux. Nous savons à quel point un problème de plomberie peut être une source de stresse et c'est pour cela que nous offrons le service de débouchage le plus rapide partout sur l'île de Montréal.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quelle est la rapidité de votre service de débouchage à Montréal?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Notre service est conçu pour intervenir rapidement partout à Montréal, une ville où les variations de température et les infrastructures vieillissantes peuvent entraîner des problèmes de drainage fréquents, notamment dans les quartiers plus anciens comme Villeray, Rosemont ou le Plateau-Mont-Royal. En cas d'urgence, nous faisons tout notre possible pour intervenir dans les 24 heures suivant votre appel, afin de limiter les désagréments et prévenir tout dégât d’eau.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question: "Offrez-vous des services d’entretien préventif des drains?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, tout à fait. Montréal est connue pour ses hivers rigoureux et ses transitions de gel/dégel qui fragilisent les canalisations. C’est pourquoi nous proposons des services d’entretien préventif pour les résidences et les commerces de Montréal. Ces services permettent d’éviter l’accumulation de débris, l’ocre ferreux et les obstructions fréquentes dans les systèmes de drainage.",
+      },
+      {
+        question:
+          "Comment puis-je savoir si mon problème de drain nécessite une inspection par caméra?",
+        answer:
+          "Si vous vivez à Montréal, particulièrement dans des quartiers où les réseaux d’égouts sont anciens ou souvent affectés par des racines (comme Outremont, NDG ou Verdun), une inspection par caméra est fortement recommandée dès les premiers signes de drainage lent, d’odeurs ou de refoulements répétés. Cette technologie nous permet de localiser précisément les problèmes dans vos canalisations sans travaux invasifs, pour une intervention rapide et ciblée.",
       },
     ],
   },
@@ -100,14 +107,22 @@ export const cityDetails = {
       "Chez Débouchage Solutions, nous mettons votre satisfaction au cœur de nos priorités. Nos plombiers spécialisés à Richelieu sont à votre porté et disponibles 24h/7 pour intervenir rapidement, avec des solutions fiables et adaptées à chaque situation. Choisissez un service qui garantit confort et tranquillité d’esprit.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Les inondations printanières dans la région de Richelieu peuvent-elles affecter mes drains?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Oui, les crues printanières du bassin de la rivière Richelieu peuvent provoquer des refoulements d'égout et des obstructions de drains, en particulier dans les zones basses ou près des berges. Une inspection régulière et un entretien préventif sont recommandés pour minimiser ces risques.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quelle est la durée moyenne d'une intervention de débouchage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "La durée d'une intervention varie en fonction de la complexité du bouchon. En général, un débouchage standard prend entre 30 minutes et 2 heures.",
+      },
+      {
+        question:
+          "Comment puis-je éviter les obstructions de drains dans ma maison à Richelieu?",
+        answer:
+          "Évitez de jeter des graisses, des huiles et des objets non biodégradables dans les éviers et toilettes, et utilisez des crépines pour retenir les débris.​",
       },
     ],
   },
