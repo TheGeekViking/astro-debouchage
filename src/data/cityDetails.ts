@@ -170,14 +170,22 @@ export const cityDetails = {
       "À Saint-Basile-le-Grand, nous sommes votre solution de confiance pour tous vos besoins de débouchage. Que ce soit pour un lavabo bouché, des canalisations obstruées, ou un nettoyage à hydro-pression, notre équipe intervient rapidement pour résoudre vos urgences. Disponibles 24h/7, nos plombiers spécialisés utilisent des équipements modernes pour garantir des résultats fiables et durables, tout en offrant des solutions économiques adaptées à votre budget.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Les variations climatiques à Saint-Basile-le-Grand peuvent-elles affecter mes drains?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Tout à fait. les cycles de gel et de dégel fréquents dans la région peuvent provoquer des fissures ou des déplacements dans les conduites, entraînant des obstructions ou des fuites.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Les racines d'arbres sont-elles une cause fréquente d'obstruction des drains?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, dans les quartiers verdoyants de Saint-Basile-le-Grand, les racines d'arbres peuvent infiltrer les conduites souterraines, provoquant des blocages. Une inspection régulière et un entretien préventif sont recommandés pour minimiser ces risques.",
+      },
+      {
+        question:
+          "Pouvez-vous intervenir dans les 48 heures suivant mon appel?",
+        answer:
+          "Dans la majorité des cas, nous pouvons intervenir dans les 48 heures suivant votre appel à Saint-Basile-le-Grand. Que ce soit pour un débouchage de drain, de toilette, de lavabo, d'évier ou de baignoire, notre équipe s'engage à intervenir dans les plus brefs délais afin de minimiser les désagréments.",
       },
     ],
   },
@@ -223,14 +231,22 @@ export const cityDetails = {
       "À Saint-Bruno-de-Montarville, nous sommes plus qu’un simple service de débouchage – nous sommes vos partenaires de confiance pour résoudre vos urgences de plomberie. Avec une équipe de plombiers expérimentés, une disponibilité 24h/7, et un engagement envers des solutions fiables et rapides, nous veillons à ce que chaque intervention soit une expérience sans stress. Faites le choix de la qualité et de la tranquillité d’esprit pour vos besoins en débouchage.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Le gel hivernal affecte-t-il le besoin de nettoyage de drain à Saint-Bruno-de-Montarville?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les hivers rigoureux de Saint-Bruno-de-Montarville peuvent entraîner le gel des canalisations, provoquant des blocages ou des dommages. Un entretien régulier, notamment un nettoyage de drain préventif, est essentiel pour assurer le bon fonctionnement de votre système de drainage durant la saison froide.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quelle est la fréquence recommandée pour le nettoyage de drain dans cette municipalité?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Il est conseillé de procéder à un nettoyage de drain tous les 1 à 2 ans, en fonction de l'utilisation et de l'âge de vos installations. Un entretien régulier permet de prévenir les obstructions et d'assurer une évacuation efficace des eaux usées.",
+      },
+      {
+        question:
+          "Quels sont les délais d'intervention après un appel d'urgence?",
+        answer:
+          "Nous comprenons l'urgence que représente un drain bouché. À Saint-Bruno-de-Montarville, notre équipe s'efforce d'intervenir dans les plus brefs délais, souvent le jour même, pour résoudre efficacement vos problèmes de drainage.",
       },
     ],
   },
@@ -276,14 +292,22 @@ export const cityDetails = {
       "À Saint-Constant, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Les hivers à Saint-Constant peuvent-ils affecter mes drains?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Effectivement, les cycles de gel et de dégel typiques de Saint-Constant peuvent provoquer des fissures ou des déplacements dans les conduites, entraînant des obstructions ou des fuites.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quels sont les délais d'intervention après un appel d'urgence à Saint-Constant?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "À Saint-Constant, nous comprenons l'importance d'une intervention rapide en cas d'urgence de plomberie. Notre équipe locale s'efforce d'intervenir dans les plus brefs délais, souvent le jour même, pour résoudre efficacement vos problèmes de débouchage de drain.",
+      },
+      {
+        question:
+          "Les racines d'arbres peuvent-elles causer des obstructions dans les drains?",
+        answer:
+          "Oui, les racines d'arbres sont une cause fréquente d'obstruction des drains à Saint-Constant. Attirées par l'humidité, elles peuvent infiltrer les conduites souterraines, provoquant des blocages nécessitant un nettoyage de drain professionnel.",
       },
     ],
   },
@@ -330,14 +354,21 @@ export const cityDetails = {
       "À Saint-Hyacinthe, nous ne nous contentons pas de déboucher vos canalisations – nous offrons une expérience client exceptionnelle. Grâce à notre équipe de plombiers locaux, à des outils modernes, et à une approche centrée sur vos besoins, nous garantissons des résultats fiables et une intervention rapide, à chaque fois. Faites confiance à notre expertise pour un service professionnel, adapté et sans compromis.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question: "Quels sont les signes d'un drain bouché dans ma maison?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "À Saint-Hyacinthe, un drain bouché peut se manifester par des écoulements lents, des odeurs désagréables ou des bruits inhabituels dans vos canalisations. Si vous observez ces signes, il est recommandé de faire appel à un professionnel pour un débouchage de drain efficace.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Les hivers à Saint-Hyacinthe peuvent-ils affecter mes drains?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Effectivement, les hivers rigoureux de Saint-Hyacinthe peuvent entraîner le gel des canalisations, provoquant des fissures ou des obstructions. Un entretien régulier, notamment un nettoyage de drain préventif, est essentiel pour assurer le bon fonctionnement de votre système de drainage durant la saison froide.",
+      },
+      {
+        question:
+          "Les racines d'arbres peuvent-elles causer des obstructions dans les drains à Saint-Hyacinthe?",
+        answer:
+          "Oui, les racines d'arbres peuvent infiltrer les conduites souterraines, provoquant des blocages nécessitant un nettoyage de drain. Il est conseillé de surveiller la croissance des arbres à proximité de vos canalisations et de faire inspecter régulièrement votre système de drainage.",
       },
     ],
   },
