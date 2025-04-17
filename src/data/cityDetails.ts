@@ -299,7 +299,7 @@ export const cityDetails = {
       },
       {
         question:
-          "Quels sont les délais d'intervention après un appel d'urgence à Saint-Constant?",
+          "En cas d'urgence à Saint-Constant, combien de temps faut-il attendre pour une intervention de débouchage?",
         answer:
           "À Saint-Constant, nous comprenons l'importance d'une intervention rapide en cas d'urgence de plomberie. Notre équipe locale s'efforce d'intervenir dans les plus brefs délais, souvent le jour même, pour résoudre efficacement vos problèmes de débouchage de drain.",
       },
@@ -359,10 +359,9 @@ export const cityDetails = {
           "À Saint-Hyacinthe, un drain bouché peut se manifester par des écoulements lents, des odeurs désagréables ou des bruits inhabituels dans vos canalisations. Si vous observez ces signes, il est recommandé de faire appel à un professionnel pour un débouchage de drain efficace.",
       },
       {
-        question:
-          "Les hivers à Saint-Hyacinthe peuvent-ils affecter mes drains?",
+        question: "Le froid à Saint-Hyacinthe peut-il endommager mes drains?",
         answer:
-          "Effectivement, les hivers rigoureux de Saint-Hyacinthe peuvent entraîner le gel des canalisations, provoquant des fissures ou des obstructions. Un entretien régulier, notamment un nettoyage de drain préventif, est essentiel pour assurer le bon fonctionnement de votre système de drainage durant la saison froide.",
+          "Effectivement, les hivers rigoureux de Saint-Hyacinthe peuvent entraîner le gel des canalisations, provoquant des fissures ou des obstructions. Un entretien préventif, est essentiel pour assurer le bon fonctionnement de votre système de drainage pendant la saison froide.",
       },
       {
         question:
@@ -414,14 +413,22 @@ export const cityDetails = {
       "Chez Débouchage Solutions, nous comprenons que chaque urgence de plomberie est stressante. C’est pourquoi nous mettons l’accent sur un service client exceptionnel et des interventions rapides. Avec des plombiers expérimentés et des outils modernes, nous offrons un débouchage efficace et des solutions durables. Faites confiance à notre équipe locale pour résoudre vos problèmes de manière professionnelle et sans tracas.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quelle est la fréquence recommandée pour le nettoyage de drain dans cette municipalité?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "À Saint-Jean-sur-Richelieu, il est recommandé de procéder à un nettoyage de drain préventif tous les 1 à 2 ans, selon l'utilisation et l'âge de vos installations. Un entretien régulier permet de prévenir les obstructions et d'assurer une évacuation efficace des eaux usées.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "En situation d'urgence, quel est le délai d'attente pour une intervention de débouchage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Nous comprenons l'urgence que représente un drain bouché. À Saint-Jean-sur-Richelieu, notre équipe s'efforce d'intervenir le plus vite possible, souvent la journée même, pour résoudre efficacement vos problèmes de drain bouché.",
+      },
+      {
+        question:
+          "Offrez-vous des services de débouchage pour les entreprises à Saint-Jean-sur-Richelieu?",
+        answer:
+          "Absolument, nous proposons des services adaptés aux besoins des entreprises locales. Que ce soit pour des restaurants, des commerces ou des bâtiments industriels, notre équipe est équipée pour gérer tous les types de débouchage de drain.",
       },
     ],
   },
@@ -466,14 +473,22 @@ export const cityDetails = {
       "À Saint-Lambert, nous ne nous contentons pas de résoudre vos urgences de plomberie – nous offrons un service complet, centré sur la qualité et la satisfaction. Avec une équipe de plombiers locaux expérimentés, des équipements modernes, et une disponibilité 24h/7, nous assurons des interventions rapides, efficaces et adaptées à vos besoins. Faites-nous confiance pour un débouchage professionnel, réalisé avec soin et précision.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quels signes indiquent un problème de drain dans une maison à Saint-Lambert?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les signes courants sont des remontées d'eau dans la douche, une toilette qui fait des bulles, ou des flaques d'eau au sous-sol. Ce sont tous des symptômes indiquant que votre drain est probablement obstrué.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Combien de temps faut-il attendre pour une situation d'urgence de débouchage à Saint-Lambert?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "En cas d'urgence, nous faisons tout notre possible pour intervenir le jour même de votre appel. Tout dépend de la circulation et du moment de la journée, mais nous ne vous laissons jamais attendre bien longtemps.",
+      },
+      {
+        question:
+          "Mon système de drainage est-il vulnérable durant l'hiver à Saint-Lambert?",
+        answer:
+          "Oui. Comme un peu partout sur la Rive-Sud, le froid peut ralentir l’écoulement de l’eau et causer des dommages. Il est essentiel de protéger vos drains contre le gel, surtout dans les maisons plus anciennes.",
       },
     ],
   },
@@ -521,14 +536,21 @@ export const cityDetails = {
       "À Saint-Mathieu-de-Beloeil, nous mettons un point d’honneur à offrir des interventions rapides et efficaces, tout en priorisant votre satisfaction. Nos plombiers locaux expérimentés utilisent des techniques modernes pour résoudre vos urgences avec précision et professionnalisme. En choisissant nos services, vous bénéficiez d’une expertise fiable, d’une disponibilité 24h/7, et de solutions conçues pour prévenir de futurs problèmes. Faites confiance à notre équipe pour des résultats durables et une tranquillité d’esprit garantie.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Est-ce que les hivers peuvent être durs pour mes drains à Saint-Mathieu-de-Beloeil?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Oui, les hivers qu’on connaît à Saint-Mathieu-de-Beloeil peuvent nuire à vos drains, surtout si vos canalisations sont mal isolées ou exposées. Le gel peut bloquer l’écoulement ou provoquer des fissures, particulièrement dans les propriétés plus anciennes.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "En cas d’urgence pour un drain bloqué, pouvez-vous intervenir dans les 48 heures?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Absolument! Lors d’une urgence, nous faisons tout notre possible pour intervenir rapidement, généralement dans la même journée. Les délais peuvent varier selon certains facteurs, mais nous priorisons toujours les situations urgentes afin que votre problème soit réglé le plus vite possible.",
+      },
+      {
+        question: "Comment déterminer si un drain est obstrué ou restreint?",
+        answer:
+          "Une évacuation lente, des bruits de gargouillement dans les tuyaux ou des odeurs désagréables sont souvent des signes d’un drain bouché. Si vous habitez à Saint-Mathieu-de-Beloeil et remarquez ce genre de symptômes, il vaut mieux agir rapidement pour éviter un refoulement.",
       },
     ],
   },
@@ -573,14 +595,22 @@ export const cityDetails = {
       "À Sainte-Catherine, nous nous engageons à offrir un service de débouchage qui va au-delà des attentes. Avec une équipe de plombiers locaux expérimentés, nous intervenons rapidement pour résoudre vos urgences de plomberie avec précision et efficacité. Notre priorité est de garantir votre satisfaction en fournissant des solutions durables, adaptées à vos besoins spécifiques. Faites confiance à nos experts pour un service professionnel et sans compromis.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Comment les hivers peuvent-ils endommager mes drains à Sainte-Catherine?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les hivers rigoureux à Sainte-Catherine peuvent provoquer des fissures ou bloquer l'écoulement en raison du gel, surtout si vos canalisations sont peu isolées ou exposées. Les maisons plus anciennes peuvent également être affectées.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quel est un exemple de délai d'intervention pour une urgence de drain bouché?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Un exemple typique peut être une intervention le jour même. Dans tous les cas possibles, nous souhaitons résoudre vos problèmes de drain obstrué dans les 48 heures suivant votre appel. Votre retour à la normale est notre priorité.",
+      },
+      {
+        question:
+          "Quelle indication confirme qu'un drain est bouché ou restreint?",
+        answer:
+          "Les signes fréquents d'un drain bouché sont souvent une évacuation lente, des bruits de gargouillement dans les canalisations ou des odeurs fortes et désagréables. À Sainte-Catherine, il est préférable d'agir rapidement pour éviter tout refoulement.",
       },
     ],
   },
