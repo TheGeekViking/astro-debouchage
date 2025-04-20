@@ -655,14 +655,21 @@ export const cityDetails = {
       "À Saint-Julie, nous nous engageons à fournir un service de débouchage qui allie rapidité, professionnalisme, et résultats durables. Nos plombiers locaux expérimentés interviennent avec des outils modernes et une approche axée sur votre satisfaction. Que vous fassiez face à une urgence de plomberie ou que vous cherchiez des solutions préventives, nous sommes là pour répondre à vos besoins avec précision et efficacité. Faites confiance à notre équipe pour des interventions fiables et sans tracas.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Combien de fois par an faut-il entretenir et inspecter mon système de drainage à Sainte-Julie?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Pour les maisons de Sainte-Julie, il est recommandé d’entretenir et d’inspecter les drains au minimum une fois par an. Évidemment, si votre maison a plus de 20 ans ou est entourée d’arbres, une vérification plus fréquente peut prévenir des blocages coûteux.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Est-ce que les changements de saisons peuvent être difficiles pour les systèmes de drainage à Sainte-Julie?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, les variations de gel et de dégel peuvent être dures pour les systèmes de drainage, surtout si les canalisations sont exposées au froid. Une bonne préparation hivernale peut réduire les risques de blocage ou de fissures.",
+      },
+      {
+        question: "Êtes-vous disponibles pour des urgences même les week-ends?",
+        answer:
+          "Absolument! Nos services de débouchage à Sainte-Julie sont disponibles 7 jours sur 7, y compris les week-ends. Que ce soit pour une urgence un samedi ou un simple entretien le dimanche matin, notre équipe est prête à intervenir efficacement.",
       },
     ],
   },
@@ -708,14 +715,22 @@ export const cityDetails = {
       "Chez Débouchage Solutions, nous combinons expertise locale et professionnalisme pour offrir un service de débouchage exceptionnel à Salaberry-de-Valleyfield. Nos plombiers expérimentés sont disponibles 24h/7 pour intervenir rapidement et efficacement. Avec des outils modernes et une approche centrée sur votre satisfaction, nous nous engageons à résoudre vos problèmes de plomberie tout en garantissant des solutions durables et adaptées. Faites confiance à notre équipe pour une intervention sans stress et un résultat impeccable.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Dans la ville de Salaberry-de-Valleyfield, mon système de drainage a-t-il besoin d’un entretien régulier?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les infiltrations d’eau dans les sous-sols sont fréquentes à Salaberry-de-Valleyfield. Nous recommandons d’inspecter et d’entretenir votre système de drainage chaque année. Si vous avez une maison ancienne entourée d’arbres, des vérifications plus fréquentes peuvent prévenir des blocages coûteux.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Les changements de saisons ont-ils un impact sur les systèmes de drainage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, les variations de température, comme le gel et le dégel, peuvent être néfastes pour les systèmes de drainage, surtout lorsque les canalisations sont mal isolées. Une bonne préparation hivernale peut réduire les risques de blocages ou de fissures.",
+      },
+      {
+        question:
+          "Quel est le temps d’attente pour une intervention d’urgence ou de maintenance?",
+        answer:
+          "En général, nous faisons tout notre possible pour intervenir dans les 48 heures ou moins. Nous sommes conscients que ces situations d’urgence sont très désagréables et doivent être réglées rapidement. Pour une maintenance, vous pouvez fixer un rendez-vous selon vos disponibilités.",
       },
     ],
   },
@@ -761,14 +776,22 @@ export const cityDetails = {
       "À Varennes, nous nous engageons à offrir bien plus qu’un simple service de débouchage. Nos plombiers locaux expérimentés interviennent rapidement et utilisent des techniques modernes pour garantir des résultats fiables et durables. Que vous soyez confronté à une urgence ou à un besoin d’entretien préventif, notre priorité est votre satisfaction. Faites confiance à notre expertise et profitez d’un service professionnel, adapté à vos besoins, et sans tracas.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Est-il nécessaire d'entretenir mon système de drainage régulièrement?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "À Varennes, les variations saisonnières du niveau du fleuve Saint-Laurent et les sols argileux peuvent augmenter les risques d’infiltrations d’eau. Il est conseillé d’inspecter et d’entretenir votre système de drainage au moins une fois par année. Une inspection plus fréquente est recommandée si votre maison est ancienne ou entourée d’arbres.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "À quel point les variations de température peuvent-elles affecter le bon fonctionnement de mon système de drainage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Les variations de température, comme le gel et le dégel, peuvent provoquer des blocages ou des fissures, surtout si les canalisations sont mal isolées. Il est fortement recommandé de procéder à une inspection avant l’hiver afin de réduire les risques.",
+      },
+      {
+        question:
+          "Quels sont les signes fréquents qui indiquent un drain bloqué ou qui ne fonctionne pas adéquatement?",
+        answer:
+          "Un drain bouché se manifeste fréquemment par des odeurs inhabituelles, un écoulement lent des eaux et des bruits de gargouillement. Si vous remarquez un ou plusieurs de ces signes à Varennes, mieux vaut intervenir sans tarder pour éviter un dégât d’eau.",
       },
     ],
   },
