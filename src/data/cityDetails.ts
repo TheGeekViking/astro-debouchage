@@ -837,14 +837,22 @@ export const cityDetails = {
       "À Beloeil, notre priorité est de résoudre vos urgences de plomberie rapidement et efficacement. Avec des plombiers locaux qualifiés et des outils à la pointe de la technologie, nous assurons des interventions fiables et adaptées. Que vous ayez besoin d’un dépannage urgent ou d’une solution durable, notre équipe s’engage à offrir un service sans compromis et une tranquillité d’esprit totale.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Dois-je planifier des inspections régulières de mon système de drainage à Beloeil?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "En raison des sols argileux et des fluctuations du niveau de la rivière Richelieu, les risques d’infiltration d’eau peuvent augmenter considérablement. Il est donc recommandé de procéder à une inspection annuelle, avec une fréquence accrue pour les maisons plus anciennes ou celles entourées d’arbres.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Les conditions climatiques variantes à Beloeil peuvent-elles nuire au bon fonctionnement de mon système de drainage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Les cycles de gel et de dégel à Beloeil peuvent provoquer l’expansion et la contraction du sol, créant ainsi une pression sur les canalisations. Grâce à une isolation adéquate et une inspection pré-hivernale, ces problèmes peuvent être évités.",
+      },
+      {
+        question:
+          "Dans le cas d'une intervention pour les services de plomberie, urgents ou planifiés, quels sont les délais moyens?",
+        answer:
+          "À Beloeil, nous prenons les urgences au sérieux et les traitons en priorité. Nous faisons tout notre possible pour intervenir dans les 48 heures, voire plus rapidement. Pour les entretiens et les maintenances, nous pouvons fixer un rendez-vous selon vos disponibilités. Nous sommes là pour vous, 7 jours sur 7.",
       },
     ],
   },
@@ -890,14 +898,22 @@ export const cityDetails = {
       "À Boucherville, nous comprenons l’importance d’un service rapide et fiable pour maintenir le confort des résidents et le bon fonctionnement des entreprises locales. Nos plombiers expérimentés, basés dans la région, interviennent avec précision et professionnalisme pour répondre à toutes vos urgences de débouchage. Avec une disponibilité 24h/7 et une approche centrée sur vos besoins, nous garantissons des solutions durables adaptées à la qualité de vie unique de Boucherville.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Est-ce qu’il y a des avantages à planifier un entretien préventif de mon système de drainage à Boucherville?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "En raison des sols argileux, de la proximité du fleuve Saint-Laurent et d’autres conditions climatiques, un entretien annuel est essentiel. Une inspection régulière peut également permettre de détecter et de prévenir des problèmes potentiels comme les infiltrations d’eau, surtout pour les habitations situées près du fleuve ou dans des zones boisées.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Comment savoir si mon système de drainage a besoin d’une intervention ou d’une maintenance à Boucherville?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Les signes courants sont souvent des refoulements fréquents dans vos éviers, douches ou toilettes, surtout après de fortes pluies. À Boucherville, il est souvent recommandé de procéder à une intervention préventive pour éviter les inondations ou les dommages structurels.",
+      },
+      {
+        question:
+          "Quels sont les délais d’attente pour une intervention d’urgence ou un entretien préventif?",
+        answer:
+          "À Boucherville, nous sommes conscients qu’un problème de drainage ou de plomberie représente une situation d’urgence qui doit être réglée dans les 48 heures suivant votre appel. Pour les entretiens préventifs, nous pouvons planifier une visite selon vos disponibilités. Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, y compris les week-ends.",
       },
     ],
   },
@@ -943,14 +959,22 @@ export const cityDetails = {
       "À Brossard, nous comprenons l’importance d’un service rapide et fiable, que ce soit pour vos urgences résidentielles ou commerciales. Nos plombiers locaux expérimentés interviennent avec des techniques modernes pour garantir des résultats précis et durables. Nous sommes fiers de soutenir la communauté dynamique de Brossard avec un service de débouchage adapté, disponible 24h/7 pour répondre à tous vos besoins. Faites confiance à notre équipe pour une expérience sans stress et des solutions sur mesure.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Dois-je planifier une inspection annuelle pour mon système de drainage à Brossard?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Oui! En raison des conditions climatiques et du type de sol à Brossard, une inspection et un entretien annuels du système de drainage sont nécessaires. Cela permet de détecter et de prévenir les problèmes potentiels, notamment pour les résidences situées près du fleuve ou dans des zones boisées.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quels sont les effets des variations climatiques sur mon système de drainage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Les variations de température à Brossard provoquent souvent l’expansion et la contraction du sol, ce qui exerce une pression sur les canalisations. Cela entraîne fréquemment des fissures ou des ruptures, pouvant affecter l’évacuation des eaux dans le système de drainage. Nous conseillons de faire inspecter votre système avant l’hiver pour prévenir ces problèmes.",
+      },
+      {
+        question:
+          "Quels sont les délais habituels pour un entretien préventif ou une intervention d’urgence?",
+        answer:
+          "Nos délais d’intervention varient selon la gravité de la situation. Pour les urgences, nous faisons tout notre possible pour intervenir le jour même ou, au plus tard, dans les 48 heures. Pour un entretien préventif, nous planifions la visite selon vos disponibilités, que ce soit en semaine ou le week-end.",
       },
     ],
   },
@@ -996,14 +1020,22 @@ export const cityDetails = {
       "À Candiac, nous comprenons que chaque urgence de plomberie peut perturber votre quotidien ou vos activités. Nos plombiers locaux expérimentés sont fiers de servir la communauté avec des solutions rapides, fiables, et adaptées à vos besoins spécifiques. Disponible 24h/7, notre équipe s’engage à offrir un service professionnel qui allie expertise et satisfaction client. Faites confiance à notre savoir-faire pour un débouchage sans stress et des résultats durables.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quels sont les signes qu’un drain français ne fonctionne pas adéquatement?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les signes fréquents d’un drain français défectueux incluent des infiltrations d’eau intermittentes, surtout après de fortes pluies, ainsi que la présence de moisissures sur les murs du sous-sol. À Candiac, ces problèmes sont souvent causés par une accumulation de sédiments ou de racines dans le drain, ce qui nécessite généralement un nettoyage ou une inspection professionnelle.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "La saison hivernale de Candiac a-t-elle un effet sur les systèmes de drainage des résidences?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, le gel peut provoquer la formation de glace dans les canalisations, bloquant ainsi l’écoulement de l’eau. À Candiac, où les hivers peuvent être rigoureux, il est essentiel de s’assurer que les drains sont dégagés et que les conduites sont bien isolées afin de prévenir ces blocages.",
+      },
+      {
+        question:
+          "Quels sont les délais d’attente pour les interventions d’urgence ou une inspection régulière à Candiac?",
+        answer:
+          "Comme vous le savez, notre équipe de plombiers est disponible immédiatement pour intervenir dans les plus brefs délais, souvent le jour même. Pour les inspections préventives, nous pouvons fixer un rendez-vous selon vos disponibilités, en semaine comme le week-end.",
       },
     ],
   },
@@ -1049,14 +1081,22 @@ export const cityDetails = {
       "À Carignan, nous comprenons que chaque problème de plomberie peut affecter le confort et la sérénité de votre foyer. Nos plombiers locaux qualifiés sont fiers de servir la communauté avec des solutions sur mesure et une expertise fiable. Que vous ayez une urgence ou que vous cherchiez des options préventives, notre service est disponible 24h/7 pour vous offrir des interventions rapides, précises et respectueuses de vos besoins. Faites confiance à une équipe dédiée à la satisfaction des résidents de Carignan.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Mon drain français est-il bouché? Quels signes dois-je surveiller?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les signes fréquents d’un drain français bouché incluent la présence d’eau autour des fondations, des odeurs désagréables au sous-sol et des bruits inhabituels dans les canalisations. À Candiac, ces symptômes peuvent indiquer une obstruction due à l’accumulation de sédiments ou de racines. Il est recommandé de faire inspecter votre système de drainage pour prévenir des infiltrations d’eau majeures.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quelles précautions prendre pour mon système de drainage en hiver?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Pour protéger votre système de drainage durant l’hiver à Candiac, il est conseillé d’inspecter les drains, de dégager les sorties et d’isoler les conduites afin de prévenir le gel et les obstructions. Ces mesures permettent d’assurer le bon fonctionnement de votre système malgré les conditions climatiques rigoureuses.",
+      },
+      {
+        question:
+          "Quel est le temps de réponse pour une urgence ou un entretien préventif à Candiac?",
+        answer:
+          "En cas d’urgence à Candiac, notre équipe intervient rapidement, souvent le jour même, et au plus tard dans les 48 heures suivant votre appel. Pour les inspections préventives, nous planifions les rendez-vous selon vos disponibilités, en semaine comme le week-end.",
       },
     ],
   },
@@ -1102,14 +1142,22 @@ export const cityDetails = {
       "À Chambly, nous sommes fiers de fournir un service de débouchage qui allie expertise locale, rapidité, et fiabilité. Nos plombiers qualifiés connaissent les spécificités de la région et interviennent avec des solutions adaptées, qu’il s’agisse d’une urgence ou d’un entretien préventif. Disponible 24h/7, nous nous engageons à offrir des interventions précises et respectueuses de vos besoins, afin de garantir votre confort et votre tranquillité d’esprit. Faites confiance à notre équipe pour des résultats durables.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Comment procède-t-on lors d'une inspection de drain français à Chambly?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Lors d’une inspection de drain français à Chambly, la première étape consiste à insérer une caméra spécialisée à l’intérieur du système de drainage. Cette caméra permet de détecter la présence d’obstructions, de fissures ou d’accumulations de racines. Les résultats de cette inspection guideront ensuite les recommandations pour un nettoyage ou une réparation, si nécessaire.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Est-ce que l’hiver chamblyen peut affecter le bon fonctionnement de mon système de drainage?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui! Les basses températures à Chambly peuvent provoquer le gel de l’eau stagnante dans les drains, ce qui peut entraîner des obstructions. De plus, les précipitations hivernales augmentent la pression sur le système de drainage, d’où l’importance d’un entretien régulier pour prévenir les blocages.",
+      },
+      {
+        question:
+          "Quel est le délai moyen pour une urgence ou un entretien saisonnier?",
+        answer:
+          "Les interventions d’urgence sont prises très au sérieux et sont généralement effectuées le jour même de votre appel. Pour les inspections saisonnières, nous pouvons fixer un rendez-vous dans un délai de 24 à 48 heures, selon vos disponibilités.",
       },
     ],
   },
@@ -1155,14 +1203,22 @@ export const cityDetails = {
       "À Châteauguay, nous sommes fiers de servir la communauté avec des solutions de débouchage rapides, fiables, et adaptées. Nos plombiers locaux expérimentés comprennent les besoins spécifiques des résidents et des entreprises de la région. Disponible 24h/7, notre équipe utilise des techniques modernes pour garantir des résultats durables et une satisfaction totale. Faites confiance à notre expertise pour des interventions sans stress, que ce soit pour une urgence ou un entretien préventif.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quelle est la procédure pour inspecter un drain français à Châteauguay?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "L'inspection d'un drain français à Châteauguay commence par l'insertion d'une caméra spécialisée dans le système de drainage. Cette méthode permet de visualiser l'intérieur du drain afin de détecter d'éventuelles obstructions, fissures ou affaissements. À l'issue de l'inspection, un rapport détaillé est fourni, incluant des recommandations pour le nettoyage ou les réparations nécessaires.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quand est-il temps d'inspecter et de nettoyer mon drain français à Châteauguay?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Si vous n'avez pas effectué de nettoyage de votre drain français depuis 3 à 5 ans, ou si vous observez des signes d'obstruction tels que des infiltrations d'eau ou des odeurs d'humidité, il est recommandé de planifier une inspection et un entretien. Une maintenance régulière permet de prévenir les problèmes majeurs et d'assurer le bon fonctionnement de votre système de drainage.",
+      },
+      {
+        question:
+          "Quel est le délai moyen pour une intervention d'urgence ou un entretien saisonnier à Châteauguay?",
+        answer:
+          "Les interventions d'urgence, telles que le débouchage de drains, toilettes ou éviers, sont généralement traitées le jour même de votre appel. Pour les entretiens préventifs ou saisonniers, les rendez-vous peuvent être planifiés dans un délai de 24 à 48 heures, en fonction de vos disponibilités.",
       },
     ],
   },
@@ -1207,14 +1263,21 @@ export const cityDetails = {
       "À Delson, nous sommes fiers de fournir un service de débouchage qui allie expertise locale, rapidité, et fiabilité. Nos plombiers qualifiés connaissent les infrastructures résidentielles et commerciales de la région, offrant des solutions adaptées et durables. Disponible 24h/7, notre équipe s’engage à répondre à vos besoins avec précision et professionnalisme, que ce soit pour une urgence ou un entretien préventif. Faites confiance à notre savoir-faire pour des résultats sans stress et une satisfaction totale.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question: "Comment reconnaître un drain français obstrué à Delson?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Les signes d’un drain français bouché peuvent inclure des infiltrations d’eau, une humidité excessive au sous-sol, des taches de moisissure sur les murs et des odeurs désagréables. Ces symptômes indiquent que le système de drainage ne parvient plus à évacuer l’eau de façon efficace.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quel est l’intervalle recommandé pour faire inspecter et nettoyer mon drain français?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Il est généralement conseillé de faire inspecter et nettoyer votre drain français tous les 3 à 5 ans afin d’en assurer l’efficacité. Toutefois, des facteurs comme la présence d’arbres autour de la maison ou un sol riche en fer peuvent nécessiter un entretien plus fréquent.",
+      },
+      {
+        question:
+          "Quelle est la procédure d’inspection et d’entretien d’un drain français?",
+        answer:
+          "L’inspection consiste à insérer une caméra spécialisée à l’intérieur du drain pour en observer l’état général. Cette méthode permet de détecter tout type de problème — obstruction, fissure ou affaissement — sans creuser. Elle offre un diagnostic rapide et précis, accompagné de recommandations claires pour l’entretien ou la réparation si nécessaire.",
       },
     ],
   },
