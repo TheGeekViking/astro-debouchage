@@ -1323,14 +1323,21 @@ export const cityDetails = {
       "À La Prairie, nous nous engageons à fournir un service de débouchage qui allie expertise locale, rapidité, et solutions durables. Nos plombiers qualifiés, bien implantés dans la région, comprennent les besoins spécifiques des résidents et des entreprises locales. Disponible 24h/7, nous offrons des interventions précises et respectueuses, adaptées à vos infrastructures. Faites confiance à une équipe qui place votre satisfaction et votre tranquillité d’esprit au cœur de chaque intervention.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quels problèmes peuvent être causés par un drain français bouché?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Un drain français obstrué peut entraîner plusieurs problèmes, notamment des infiltrations d'eau au sous-sol, une humidité excessive, la formation de moisissures et des fissures dans les fondations. Ces signes indiquent que le système de drainage ne fonctionne plus correctement. Il est recommandé de faire appel à un professionnel pour une évaluation approfondie si vous observez un ou plusieurs de ces symptômes.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question: "Quand devrais-je faire inspecter mon drain français?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Il est conseillé de faire inspecter votre drain français tous les 3 à 5 ans, ou dès l'apparition de signes tels que l'humidité, des odeurs de moisi ou des infiltrations d'eau. Une inspection régulière permet de détecter les problèmes potentiels avant qu'ils ne deviennent majeurs, évitant ainsi des réparations coûteuses à long terme.",
+      },
+      {
+        question:
+          "Le climat hivernal de La Prairie peut-il affecter le fonctionnement de mon drain français?",
+        answer:
+          "Oui, les hivers rigoureux de La Prairie peuvent avoir un impact sur votre système de drainage. Le gel peut provoquer l'obstruction des drains en raison de l'eau stagnante qui gèle, et les cycles de gel et de dégel peuvent entraîner des fissures dans les tuyaux, compromettant l'efficacité du système. Il est donc essentiel de s'assurer que votre drain est bien entretenu et adapté aux conditions climatiques locales.",
       },
     ],
   },
@@ -1375,14 +1382,22 @@ export const cityDetails = {
       "À Longueuil, notre mission est de fournir des solutions de débouchage qui allient rapidité, expertise et satisfaction client. Nos plombiers locaux qualifiés comprennent les infrastructures variées de la région, des maisons résidentielles aux locaux commerciaux. Disponible 24h/7, notre équipe offre des interventions précises et respectueuses, adaptées à vos besoins spécifiques. Faites confiance à une équipe qui place votre tranquillité d’esprit et des résultats durables au cœur de chaque intervention.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Quels sont les délais habituels pour une intervention d'urgence ou une inspection régulière à Longueuil?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "En cas d'urgence, comme un débouchage de drain ou une infiltration d'eau, une intervention peut généralement être réalisée dans les heures suivant votre appel. Pour une inspection régulière, les rendez-vous sont habituellement planifiés dans un délai de 1 à 2 jours ouvrables, selon la disponibilité des techniciens.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Les précipitations hivernales à Longueuil affectent-elles le drainage autour de ma maison?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, les précipitations hivernales, combinées au gel, peuvent entraîner des accumulations d'eau autour de votre maison. Cela peut provoquer des infiltrations d'eau si le système de drainage n'est pas bien entretenu. Il est donc essentiel de s'assurer que les drains sont dégagés et fonctionnels avant l'arrivée de l'hiver.",
+      },
+      {
+        question:
+          "Le nettoyage périodique du drain français est-il important à Longueuil?",
+        answer:
+          "Oui, un nettoyage périodique de votre drain français est essentiel pour prévenir les obstructions et maintenir l'efficacité du système. Il est généralement recommandé de procéder à un nettoyage tous les 3 à 5 ans. Cependant, si votre propriété est entourée d'arbres ou si le sol est riche en fer, des entretiens plus fréquents peuvent être nécessaires pour prévenir les obstructions et les problèmes liés à l'ocre ferreuse.",
       },
     ],
   },
@@ -1428,14 +1443,22 @@ export const cityDetails = {
       "À Marieville, nous mettons notre expertise et notre engagement au service des résidents et des entreprises locales. Nos plombiers qualifiés, basés dans la région, interviennent avec précision et rapidité pour garantir des résultats fiables et durables. Que ce soit pour une urgence ou un entretien préventif, nous offrons des solutions adaptées à vos besoins et respectueuses de vos infrastructures. Disponible 24h/7, notre priorité est votre satisfaction et votre tranquillité d’esprit.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Comment savoir si mon drain français est bouché à Marieville?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Si vous remarquez une humidité constante au sous-sol, des taches de moisissure ou une odeur désagréable, cela peut indiquer que votre drain français est obstrué. Une inspection par caméra peut confirmer ce diagnostic.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Mon système de drainage est-il vulnérable aux conditions hivernales à Marieville?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Oui, les conditions hivernales à Marieville peuvent affecter le bon fonctionnement de votre système de drainage. Le gel peut provoquer des blocages, et les cycles de gel-dégel peuvent endommager les tuyaux. Un entretien préventif est recommandé pour éviter ces problèmes.",
+      },
+      {
+        question:
+          "Quelles sont les étapes d'une inspection de drain français à Marieville?",
+        answer:
+          "La procédure comprend l'accès au drain, l'insertion d'une caméra pour inspecter l'intérieur, l'identification des problèmes potentiels comme l'ocre ferreuse ou les racines, et la génération d'un rapport avec des images et des recommandations.",
       },
     ],
   },
@@ -1480,14 +1503,22 @@ export const cityDetails = {
       "À Mont-Saint-Hilaire, nous sommes fiers de fournir des services de débouchage rapides, fiables et adaptés aux besoins de la communauté locale. Nos plombiers qualifiés, bien implantés dans la région, comprennent les infrastructures uniques des maisons et entreprises locales. Disponible 24h/7, notre équipe s’engage à offrir des solutions efficaces qui assurent votre tranquillité d’esprit et des résultats durables. Faites confiance à notre expertise pour un service sans égal.",
     faq: [
       {
-        question: "Quels sont les signes que ma canalisation est bouchée?",
+        question:
+          "Le nettoyage annuel du drain français est-il nécessaire à Mont-Saint-Hilaire?",
         answer:
-          "Les signes incluent un écoulement lent, des gargouillis, des odeurs désagréables, ...",
+          "Un nettoyage annuel n'est pas toujours indispensable. En règle générale, un entretien tous les 3 à 5 ans est suffisant pour assurer le bon fonctionnement de votre drain français. Cependant, certaines conditions particulières peuvent nécessiter des nettoyages plus fréquents, telles que la présence d'ocre ferreuse, la proximité d'arbres, ou l'ancienneté du système.",
       },
       {
-        question: "Offrez-vous des services de maintenance préventive?",
+        question:
+          "Quels sont les risques pour mon système de drainage pendant l'hiver à Mont-Saint-Hilaire?",
         answer:
-          "Absolument! Nous fournissons des services réguliers de nettoyage et d’inspection pour prévenir les blocages.",
+          "Les principaux risques incluent le gel des conduites, les obstructions dues à l'ocre ferreuse et les dommages structurels causés par les cycles de gel et de dégel. Une inspection préventive est recommandée.",
+      },
+      {
+        question:
+          "Comment savoir si mon drain français est bouché à Mont-Saint-Hilaire?",
+        answer:
+          "Des signes tels que des infiltrations d'eau au sous-sol, des taches d'humidité sur les murs, des odeurs de moisi persistantes et des flaques d'eau près des fondations peuvent indiquer un drain français obstrué. Ces problèmes sont souvent dus à l'accumulation de sédiments, de racines ou d'ocre ferreuse dans le système de drainage.",
       },
     ],
   },
