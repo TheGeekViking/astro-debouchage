@@ -12,8 +12,29 @@ import Reviews from "../components/reviews.astro";
 
 <MainLayout
   title="Débouchage Solutions | Urgence 24/7"
+  metaTitle="Débouchage Solutions | Urgence 24/7"
+  metaDescription="Faites confiance à nos plombiers qualifiés pour tous vos besoins en débouchage et nettoyage de drain. Service rapide et fiable, disponible 24h/7 pour répondre à vos urgences."
   canonical="https://debouchagesolutions.ca"
 >
+  <!-- ✅ OG meta tags only on home page -->
+  <Fragment slot="head">
+    <meta
+      property="og:title"
+      content="Débouchage Drain Montréal Rive-Sud | Service 24/7"
+    />
+    <meta
+      property="og:description"
+      content="Service professionnel de débouchage 24/7 dans la région de Montréal. Intervention rapide pour drains bouchés, toilettes, éviers. Devis gratuit."
+    />
+    <meta
+      property="og:image"
+      content="https://debouchagesolutions.ca/images/hero-img.webp"
+    />
+    <meta property="og:url" content="https://debouchagesolutions.ca/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+  </Fragment>
+
   <div class="relative isolate overflow-hidden pt-14">
     <!-- <img
       src="images/cities/hero-img.webp"

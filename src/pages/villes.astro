@@ -6,8 +6,27 @@ import { Image } from "astro:assets";
 
 <MainLayout
   title="Débouchage Solutions | Villes desservies | Urgence 24/7"
+  metaTitle="Débouchage Solutions | Villes desservies | Urgence 24/7"
+  metaDescription="Découvrez toutes les villes desservies par Débouchage Solutions. Service d'urgence 24/7 dans la région de Montréal et ses environs."
   canonical="https://debouchagesolutions.ca/villes/"
 >
+  <Fragment slot="head">
+    <meta
+      property="og:title"
+      content="Débouchage Solutions | Villes desservies | Urgence 24/7"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez toutes les villes desservies par Débouchage Solutions. Service d'urgence 24/7 dans la région de Montréal et ses environs."
+    />
+    <meta
+      property="og:image"
+      content="https://debouchagesolutions.ca/images/montreal.webp"
+    />
+    <meta property="og:url" content="https://debouchagesolutions.ca/villes/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+  </Fragment>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl">
       <h1

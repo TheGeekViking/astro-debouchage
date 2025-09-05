@@ -14,6 +14,18 @@ const { slug } = Astro.params;
 
 const service = serviceDetails[slug as keyof typeof serviceDetails];
 
+// Mapping for Open Graph images (using public folder)
+const ogImageMap: Record<string, string> = {
+  "debouchage-drain": "drain1.webp",
+  "debouchage-toilette": "toilet1.webp",
+  "debouchage-evier-cuisine": "sink1.webp",
+  "debouchage-bain-douche": "bath1.webp",
+  "debouchage-lavabo": "lavabo1.webp",
+  "nettoyage-drain-hydro-pression": "hydro1.webp",
+  "nettoyage-drain-garage": "garage1.webp",
+  "inspection-camera": "camera1.webp",
+};
+
 if (!service) {
   // Redirect to 404 if service doesn't exist
   return Astro.redirect("/404");
@@ -30,6 +42,20 @@ export async function getStaticPaths() {
   metaDescription={service.metaDescription}
   canonical={`https://debouchagesolutions.ca/${slug}/`}
 >
+  <Fragment slot="head">
+    <meta property="og:title" content={service.title} />
+    <meta property="og:description" content={service.metaDescription} />
+    <meta
+      property="og:image"
+      content={`https://debouchagesolutions.ca/images/services/${ogImageMap[slug] || "drain1.webp"}`}
+    />
+    <meta
+      property="og:url"
+      content={`https://debouchagesolutions.ca/${slug}/`}
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+  </Fragment>
   <div class="bg-blue-50">
     <div
       class="relative isolate overflow-hidden bg-gradient-to-b from-blue-100/20 pt-14"

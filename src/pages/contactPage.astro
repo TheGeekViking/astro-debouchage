@@ -4,8 +4,27 @@ import MainLayout from "../layouts/MainLayout.astro";
 
 <MainLayout
   title="Contactez-nous | Urgence 24/7"
+  metaTitle="Contactez-nous | Urgence 24/7"
+  metaDescription="Contactez Débouchage Solutions pour une intervention rapide 24/7. Obtenez une estimation gratuite et bénéficiez d'une réduction de 15% sur votre prestation."
   canonical="https://debouchagesolutions.ca/contactpage/"
 >
+  <Fragment slot="head">
+    <meta property="og:title" content="Contactez-nous | Urgence 24/7" />
+    <meta
+      property="og:description"
+      content="Contactez Débouchage Solutions pour une intervention rapide 24/7. Obtenez une estimation gratuite et bénéficiez d'une réduction de 15% sur votre prestation."
+    />
+    <meta
+      property="og:image"
+      content="https://debouchagesolutions.ca/images/logo.svg"
+    />
+    <meta
+      property="og:url"
+      content="https://debouchagesolutions.ca/contactpage/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+  </Fragment>
   <div class="relative isolate bg-white">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
       <div

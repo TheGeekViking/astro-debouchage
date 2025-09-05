@@ -17,6 +17,35 @@ const { city } = Astro.params;
 // Get city details from the cityDetails object
 const cityData = cityDetails[city as keyof typeof cityDetails];
 
+// Mapping for Open Graph images (using public folder)
+const cityOgImageMap: Record<string, string> = {
+  montreal: "montreal.webp",
+  richelieu: "richelieu.webp",
+  varennes: "varennes.webp",
+  beloeil: "beloeil.webp",
+  boucherville: "boucherville.webp",
+  brossard: "brossard.webp",
+  candiac: "candiac.webp",
+  carignan: "carignan.webp",
+  chambly: "chambly.webp",
+  chateauguay: "chateauguay.webp",
+  delson: "delson.webp",
+  laprairie: "laprairie.webp",
+  longueuil: "longueuil.webp",
+  marieville: "marieville.webp",
+  "mont-saint-hilaire": "mont-saint-hilaire.webp",
+  "saint-basile-le-grand": "saint-basile.webp",
+  "saint-bruno-de-montarville": "saint-bruno.webp",
+  "saint-constant": "saint-constant.webp",
+  "saint-hyacinthe": "saint-hyacinthe.webp",
+  "saint-jean-sur-richelieu": "saint-jean.webp",
+  "saint-lambert": "saint-lambert.webp",
+  "saint-mathieu-de-beloeil": "saint-mathieu.webp",
+  "sainte-catherine": "sainte-catherine.webp",
+  "sainte-julie": "saint-julie.webp",
+  "salaberry-de-valleyfield": "valley-og.webp",
+};
+
 if (!cityData) {
   // Redirect to 404 if the city does not exist
   return Astro.redirect("/404");
@@ -33,6 +62,20 @@ export async function getStaticPaths() {
   metaDescription={cityData.metaDescription}
   canonical={`https://debouchagesolutions.ca/${city}/`}
 >
+  <Fragment slot="head">
+    <meta property="og:title" content={cityData.title} />
+    <meta property="og:description" content={cityData.metaDescription} />
+    <meta
+      property="og:image"
+      content={`https://debouchagesolutions.ca/images/cities/${cityOgImageMap[city] || "montreal.webp"}`}
+    />
+    <meta
+      property="og:url"
+      content={`https://debouchagesolutions.ca/${city}/`}
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+  </Fragment>
   <div class="relative isolate overflow-hidden pt-14">
     <!-- <img
       src={cityData.cardImgUrl}
