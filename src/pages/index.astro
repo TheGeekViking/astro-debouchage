@@ -33,6 +33,100 @@ import Reviews from "../components/reviews.astro";
     <meta property="og:url" content="https://debouchagesolutions.ca/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_CA" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "Débouchage Solutions",
+        "image": "https://debouchagesolutions.ca/images/logo.svg",
+        "logo": "https://debouchagesolutions.ca/images/logo.svg",
+        "telephone": "+1-450-542-0991",
+        "email": "drainagesolution01@gmail.com",
+        "url": "https://debouchagesolutions.ca/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Saint-Jean-sur-Richelieu",
+          "addressRegion": "QC",
+          "addressCountry": "CA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 45.3075,
+          "longitude": -73.2625
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        ],
+        "priceRange": "$$",
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.3075,
+            "longitude": -73.2625
+          },
+          "geoRadius": 50000
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services de Débouchage",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Débouchage de drain",
+                "description": "Service professionnel de débouchage de drains résidentiels et commerciaux"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Débouchage de toilette",
+                "description": "Intervention rapide pour débouchage de toilettes"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Débouchage d'évier de cuisine",
+                "description": "Élimination des blocages de graisse, résidus alimentaires et dépôts dans vos éviers de cuisine"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Débouchage de bain et de douche",
+                "description": "Débouchage de baignoires et douches obstruées causées par cheveux, savon ou dépôts minéraux"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Débouchage de lavabo",
+                "description": "Service professionnel pour déboucher vos lavabos de salle de bain et assurer un écoulement fluide"
+              }
+            }
+          ]
+        }
+      }
+    </script>
   </Fragment>
 
   <div class="relative isolate overflow-hidden pt-14">
