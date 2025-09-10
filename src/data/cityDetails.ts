@@ -313,9 +313,9 @@ export const cityDetails = {
   },
   // Saint-Hyacinthe
   "saint-hyacinthe": {
-    title: "Débouchage Saint-Hyacinthe | Urgence 24/7",
+    title: "Plombier Saint-Hyacinthe | Débouchage Drain Urgence 24/7",
     metaDescription:
-      "Service de débouchage à Saint-Hyacinthe. Plombiers locaux disponibles 24h/7 pour des interventions rapides et fiables. Drains, lavabos, canalisations, toilettes bouchées ? Appelez dès aujourd’hui!",
+      "Plombier Saint-Hyacinthe | Débouchage urgence 24/7 🚰 Drain, toilette, évier bouché. Intervention rapide secteur industriel ☎️ 450-542-0991",
     cardTitle: "Saint-Hyacinthe",
     cardImgUrl: getCityImage("saint-hyacinthe.webp"),
     altText:
@@ -919,9 +919,9 @@ export const cityDetails = {
   },
   // Brossard
   brossard: {
-    title: "Débouchage Brossard | Urgence 24/7",
+    title: "Plombier Brossard | Débouchage Drain Urgence 24/7 DIX30",
     metaDescription:
-      "Service de débouchage à Brossard. Plombiers locaux disponibles 24h/7 pour urgences résidentielles et commerciales. Interventions rapides, efficaces et adaptées à vos besoins. Contactez-nous dès aujourd’hui!",
+      "Débouchage drain Brossard | Plombier local 24/7 🔧 Urgence toilette, évier, canalisation. Secteur DIX30. Devis gratuit ☎️ 450-542-0991",
     cardTitle: "Brossard",
     cardImgUrl: getCityImage("brossard.webp"),
     altText: "Hôtel Alt situé dans le Quartier Dix30 à Brossard.",
@@ -1343,9 +1343,9 @@ export const cityDetails = {
   },
   // Longueuil
   longueuil: {
-    title: "Débouchage Longueuil | Urgence 24/7",
+    title: "Plombier Débouchage Longueuil | Service Urgence 24/7 Rive-Sud",
     metaDescription:
-      "Service de débouchage à Longueuil. Plombiers locaux disponibles 24h/7 pour urgences de drains et canalisations. Interventions rapides, fiables et adaptées aux besoins des résidents et entreprises. Appelez dès maintenant!",
+      "Plombier débouchage Longueuil ⚡ Service 24/7 pour drains bouchés, toilettes, éviers. Intervention rapide tous secteurs. Prix compétitifs ☎️ 450-542-0991",
     cardTitle: "Longueuil",
     cardImgUrl: getCityImage("longueuil.webp"),
     altText: "L'Hôtel de ville à Longueuil",
