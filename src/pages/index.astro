@@ -5,7 +5,7 @@ import ContactForm from "../components/ContactForm.astro";
 import Process from "../components/process.astro";
 import ServicesGrid from "../components/ServicesGrid.astro";
 import CTA from "../components/CTA.astro";
-import { Image } from "astro:assets";
+import { Image } from "@astrojs/image";
 import heroImage from "../images/hero-img.webp";
 import Reviews from "../components/reviews.astro";
 ---
@@ -17,7 +17,7 @@ import Reviews from "../components/reviews.astro";
   canonical="https://debouchagesolutions.ca"
 >
   <!-- ✅ OG meta tags only on home page -->
-  <Fragment slot="head">
+  <head slot="head">
     <meta
       property="og:title"
       content="Débouchage Drain Montréal Rive-Sud | Service 24/7"
@@ -127,7 +127,7 @@ import Reviews from "../components/reviews.astro";
         }
       },
     </script>
-  </Fragment>
+  </head>
 
   <div class="relative isolate overflow-hidden pt-14">
     <!-- <img
